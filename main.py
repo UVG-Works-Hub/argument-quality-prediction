@@ -2,18 +2,18 @@ import streamlit as st
 from app.pages import home, metrics
 
 def main():
-    st.set_page_config(page_title="Modelo de Clasificación", layout="wide")
+    st.set_page_config(page_title="Classification Model", layout="wide")
 
-    # Barra lateral de navegación
-    st.sidebar.title("Navegación")
-    page = st.sidebar.radio("Ir a", ["Inicio", "Métricas", "Predicciones"])
+    # Sidebar navigation
+    st.sidebar.title("Navigation")
+    page = st.sidebar.radio("Go to", ["Home", "Metrics", "Predictions"])
 
-    # Páginas
-    if page == "Inicio":
+    # Pages
+    if page == "Home":
         home.show()
-    elif page == "Métricas":
+    elif page == "Metrics":
         metrics.show()
-    # elif page == "Predicciones":
+    # elif page == "Predictions":
     #     prediction.show()
 
 if __name__ == "__main__":

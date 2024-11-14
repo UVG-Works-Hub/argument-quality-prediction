@@ -1,16 +1,16 @@
 import streamlit as st
 
 def show():
-    st.title("Bienvenido al Sistema de Predicción de Efectividad del Discurso")
+    st.title("Welcome to the Speech Effectiveness Prediction System")
     st.write("""
-        Esta aplicación permite cargar nuevos datos de texto y predecir la efectividad del discurso utilizando diferentes modelos de machine learning,
-        tales como regresión logística, XGBoost, redes neuronales con Keras y PyTorch.
+        This application allows you to upload new text data and predict the effectiveness of speech using different machine learning models,
+        such as logistic regression, XGBoost, and neural networks with Keras and PyTorch.
     """)
-    st.write("### Modelos disponibles:")
+    st.write("### Available Models:")
     st.write("""
-        1. Regresión Logística
+        1. Logistic Regression
         2. XGBoost
-        3. Red Neuronal Keras
-        4. Red Neuronal PyTorch
+        3. Keras Neural Network
+        4. PyTorch Neural Network
     """)
-    st.write("Utilice las secciones de 'Métricas' y 'Predicciones' para explorar el desempeño y probar los modelos con nuevos datos.")
+    st.write("Use the 'Metrics' and 'Predictions' sections to explore model performance and test the models with new data.")

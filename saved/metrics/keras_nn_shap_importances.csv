@@ -1,4 +1,5008 @@
 feature,shap_importance_class_Adequate,shap_importance_class_Effective,shap_importance_class_Ineffective
+text_length,0.1170058297957128,0.13297931340837038,0.04020327939112141
+discourse_type_Evidence,0.044232108443975446,0.11594544064253569,0.10615650184452533
+aliens,0.01689298955084354,0.009722552431501209,0.01848928539419628
+check,0.010160738307346364,0.005963520990689538,0.013554678878387984
+problems,0.008528857597717028,0.01144030722344129,0.017112468599029186
+discourse_type_Position,0.007452841040212661,0.00993078513070941,0.005875159885035828
+real world,0.006554125053760816,0.015067505903941703,0.008843328981392649
+sources,0.006245309995587981,0.010492205382264102,0.007006450183563546
+think keep,0.006232269421011791,0.008698151802729306,0.0026100283894369045
+table,0.006027680270158808,0.006761739145052559,0.0009571588847309437
+keep,0.0059610825690976,0.009774562599023335,0.004009886499254327
+crucial,0.005554037418981502,0.009139215159564486,0.005409800658737745
+got,0.005444284284552685,0.0032606651180430053,0.005992489219651777
+night,0.005349679932192382,0.0070041305445532635,0.01212738654866751
+maybe,0.005238811486589717,0.002760471739982855,0.005735089275319738
+get,0.005192208170588743,0.005478121295093831,0.0014828222870795493
+would better,0.005083036221367187,0.0075369794477660205,0.002682034392295716
+could,0.005045733725704689,0.00346880230322417,0.002402523848429756
+student,0.004955365255585323,0.0033751862627605044,0.008271287152302017
+dont,0.00492969649341851,0.002970864641152382,0.005699951086679754
+mars,0.0049260139462873505,0.002445977060454567,0.0053646088412223035
+ship,0.0048700812528658126,0.004429268011391109,0.006283600665209761
+teenager,0.0048498242269167085,0.00879606835486434,0.008163370610846796
+cases,0.004761290788450006,0.007392901219366099,0.00998875047535315
+real,0.004621867091466342,0.009763005134805366,0.005250840189820218
+advice,0.0044769770712973864,0.008775372645421043,0.00466765162332077
+think,0.004430808579939535,0.008030760897937906,0.005007540229116291
+home,0.004198899405106284,0.005809839251985015,0.0016109371055200807
+many things,0.004092975610644989,0.004812714570059818,0.0009301441132057561
+lots,0.004081608827830226,0.004930628225525474,0.0008490184488554768
+would get,0.0040566133552990356,0.005008048836809298,0.0012023826976357839
+sitting,0.003968426425197525,0.0038304298417119868,0.00022421202930886312
+helping,0.003918129477408845,0.010959878181203423,0.009510838659360652
+therefore,0.003889020853083655,0.007945510852486676,0.006173829137203883
+keep electoral,0.0037140988089836187,0.0008527367792613802,0.003195567407669434
+provided,0.0036499397931850823,0.005926313257751463,0.0026956826503000742
+reasons,0.003636651409473577,0.005605019322989927,0.0034313420335162262
+world,0.003624783506891401,0.0037300239963228496,0.0008696565198119269
+distract,0.003623678081514723,0.0027610013280216037,0.0009175608597265887
+believe,0.0036120896344753925,0.002147328705192845,0.0017875459833428691
+heart,0.003559377192165573,0.0014406286774633883,0.0030765652094946875
+young,0.0035436613984174857,0.005601255977641262,0.0035042149338138763
+vote people,0.003450917032465187,0.005332769431130322,0.0022426247919214294
+provide,0.0032758215407332294,0.005405880455546307,0.002521724890967652
+mess,0.003246401014644536,0.005227867410326324,0.002334292963852293
+modern,0.003229718481847115,0.005026899727409784,0.0021916346315212017
+gaining,0.003181190972905644,0.0058067725893479905,0.0035289505304951846
+emotional,0.0031109328707223266,0.006022920155277489,0.003637741505278387
+prepare,0.0030172602287469735,0.006886208786046777,0.004341331766051755
+easily,0.002994352564554042,0.007011828268541462,0.004391269796113091
+classes,0.002940305098672905,0.0034389785088863346,0.0006090891745792156
+things could,0.0029283060330759923,0.0035691367328327768,0.0007814312562475967
+first reason,0.002858167025069814,0.004226762870246793,0.0015466732592753448
+blame,0.0027803817930682497,0.0009213532087187584,0.0036389591896743775
+reason,0.0027675129125242426,0.004572221683377151,0.0022181269081086134
+shot,0.0027549826100280684,0.001977630690257631,0.001974066016783793
+surface,0.0027301893525731357,0.0023901351271638084,0.002363717145540199
+atleast,0.002660388168208212,0.0025899873757798918,0.0027367954763921135
+edge,0.002632751407486352,0.002852108916402021,0.004890839037524632
+distractions,0.002631113908822328,0.005468293724400335,0.0032161718339244263
+president,0.002530298005452476,0.004919492635852242,0.0036184285877850645
+working,0.002529060528814342,0.0020542147151025075,0.0004868164017479483
+get distracted,0.00252439289772699,0.0019608501685883283,0.0005837442062573458
+feet,0.002425139483880605,0.00210192829691604,0.0028166144663376875
+would,0.002386899552293142,0.003711817763726493,0.002742346294629575
+politics,0.002365741872352719,0.0036754537034430616,0.001623535287471039
+student learn,0.002365357817528396,0.0017689265743309538,0.003911703393786234
+things,0.0022267252858740546,0.0026735467021573966,0.0005539258630610281
+best,0.0022055265837290115,0.0011689492711982315,0.0028033098182230717
+trying,0.002195658460021926,0.0031890508020065897,0.0011856186042724071
+one best,0.002168181344577345,0.00217925515236562,0.0008772911557650649
+rocky,0.002150185415613753,0.0017440436217166545,0.001677549533512125
+moon,0.0021418720488996044,0.001957152128748972,0.002180663365555384
+dark,0.00213308263186681,0.0017526350694415526,0.0020180801785702257
+period,0.00212232282073275,0.0016188659987118738,0.002430077675771091
+electronics,0.002112624060446753,0.0038035297695774425,0.001991065321302678
+reason think,0.0020705334208045148,0.0011478130992500063,0.0009973283165004986
+area,0.0020555303373081583,0.0007626274590152732,0.0013880727302569504
+years,0.0019543932618329594,0.001050840480324686,0.002160081248476972
+side,0.0019452839275891699,0.0009597532728418155,0.0023745928259419078
+imagine,0.0019397263831889184,0.0023981937476076883,0.0005900814197231971
+feel,0.0019083249023619804,0.003001809786478362,0.0016895663062046974
+making,0.0018996130033114196,0.0014414054317107817,0.0017284472177685791
+personally,0.0018462976440554238,0.0012502620606129628,0.001347609197973069
+time could,0.0018434750467987884,0.0017156382139011943,0.00017751354306483273
+keeping,0.0018135060106156179,0.0007046184934581748,0.0016134045918978761
+test,0.0017687025601215971,0.002551941356067496,0.0009536780529280006
+electoral college,0.0017462909026832295,0.0029761710029786474,0.0023141430895192634
+move,0.0017449149056025701,0.001739857337880154,9.003461587891093e-05
+would also,0.0017370136134723768,0.0024771732694826684,0.0008714201896715361
+idea would,0.001715844267910487,0.00025181660858241214,0.001951486114579216
+class,0.0017148801306446579,0.0013635960017761451,0.0019147456259520999
+etc,0.0016756908682170626,0.0027671174995295145,0.0012854454473103113
+paper,0.001673769758989425,0.001616557148087355,0.00010250856156400858
+taking,0.001617892064720868,0.0011583596498677803,0.0005373312627455694
+one,0.001611571963457369,0.0013475631781684806,0.002387729567835552
+job,0.0015765396161114228,0.0008363783518004925,0.0007538949730327312
+stopped,0.0015272135962465243,0.0008274927123210262,0.001853026517036689
+idea,0.0015130307305982655,0.0029919986488928098,0.002228678847868019
+opinion,0.0014507613888112302,0.0008295764669572058,0.0007512239540608095
+trip,0.001416831683298606,0.0009917774315082286,0.0011767739231613888
+everything,0.0014157130175993728,0.003157249155166324,0.0019417375243497089
+also,0.0014034865734452542,0.0014999570296555303,0.00015565852902148708
+life,0.0013859279883876514,0.0006549663317719312,0.001782567310824509
+toward,0.0013609540450813893,0.0017715655071732725,0.002956219572335726
+learn,0.0013509915067441646,0.000907183643862473,0.0021425170586761967
+school,0.0013313451561092742,0.0009084034836575576,0.002116952313063525
+hour,0.0013302190071786265,0.0010553000658574366,0.0010362772733164122
+want,0.00132381555567946,0.0013264474642224239,0.0012800032035677519
+small,0.0012890206368038515,0.0008595544886526937,0.0017799517948269682
+us,0.0012702996524653059,0.002275936426789815,0.0013556130282788
+better,0.0012491244114728635,0.0015073801258639013,0.002364549137994133
+spent,0.0012333673461157873,0.0036631393572460367,0.0026596173464585077
+nothing,0.0011974963077824488,0.0008841313961355974,0.0005557577462364462
+well,0.001185616392570117,0.004397503972479545,0.004100241757187652
+risk,0.0011368584884273048,0.0005408621774614913,0.001542751324662883
+today,0.001098521801485982,0.002160942075785946,0.0012121347204681022
+student could,0.0010085881772041348,0.002726915383625021,0.0018547680626891932
+people,0.0010020206452091777,0.0016583944972934513,0.0008398527718672305
+water,0.0009956765034590032,0.00040535825188277855,0.0013787799374542621
+second,0.0009616363748138542,0.00044192927524130076,0.0008652893959461904
+distracted,0.0009204067757326136,0.0021223558316221746,0.0026840871750175364
+animals,0.0009187695584255976,0.0007950515059712818,0.0013770693940602288
+done,0.0008572100510074109,0.0005083667257549211,0.000364787348210319
+work,0.000842733447423015,0.0002626231806296839,0.0006931170362538684
+clean,0.0008051539557324943,0.0020496254415243143,0.0013761248150653898
+time,0.0007788130808221435,0.0005600408896539841,0.00025112517970144393
+students,0.000736102903969155,0.0027493240570835528,0.0022415772144387057
+conduct,0.0007284259519860653,0.00020374576342227068,0.0007245103334092674
+different,0.0007006576697411063,0.0008183746925146636,0.000460742263309785
+represent,0.000586797046004999,0.0011794020099404126,0.0009069840426083152
+report,0.0005831224444058006,0.0006103477509598646,0.0008906134122811666
+college,0.0005655478640375102,0.001030562386744133,0.0010795668105031942
+vote,0.0005458654761917679,0.001014824934832127,0.0007016425199741216
+hear,0.0005361762597400378,0.000714552724315632,0.00024981047856834326
+meaning,0.0005188221580457235,0.00011236973735762802,0.0005515566977818592
+assignment,0.0005025026449259442,0.0018697530721243996,0.0015286423067765464
+electoral,0.0004872084157092122,0.0008082989220377526,0.0007020258517143527
+high,0.0004489828983218101,0.0005528444659366461,0.000941534738226885
+online,0.0004319092208794624,0.00205248632805689,0.0019599978615186205
+believe aliens,0.00038705334798813564,0.0008660062382496924,0.0006443459301923047
+first,0.0002522290224030685,0.0003030430377228372,0.000515096129400954
+many,0.00023874589714497916,0.001334661534188991,0.0013391797693578242
+every,0.00023333678574413672,0.00015321302856015484,0.0002546931319852315
+online classes,0.00022232841600788606,0.00019160792596693298,0.0002585633279277309
+quote,0.0,0.0,0.0
+project could,0.0,0.0,0.0
+project designed,0.0,0.0,0.0
+process place,0.0,0.0,0.0
+project summer,0.0,0.0,0.0
+project student,0.0,0.0,0.0
+problem,0.0,0.0,0.0
+quirks,0.0,0.0,0.0
+project students,0.0,0.0,0.0
+probes,0.0,0.0,0.0
+probaly,0.0,0.0,0.0
+quiet,0.0,0.0,0.0
+quickly,0.0,0.0,0.0
+project teacher,0.0,0.0,0.0
+project would,0.0,0.0,0.0
+project,0.0,0.0,0.0
+quite,0.0,0.0,0.0
+progress,0.0,0.0,0.0
+programs,0.0,0.0,0.0
+process electoral,0.0,0.0,0.0
+process consists,0.0,0.0,0.0
+produces,0.0,0.0,0.0
+quirks electoral,0.0,0.0,0.0
+product,0.0,0.0,0.0
+productive,0.0,0.0,0.0
+projects,0.0,0.0,0.0
+process begins,0.0,0.0,0.0
+productivity,0.0,0.0,0.0
+process,0.0,0.0,0.0
+quit,0.0,0.0,0.0
+prof,0.0,0.0,0.0
+professional,0.0,0.0,0.0
+professor,0.0,0.0,0.0
+program,0.0,0.0,0.0
+produce,0.0,0.0,0.0
+problem elections,0.0,0.0,0.0
+public transportation,0.0,0.0,0.0
+questions,0.0,0.0,0.0
+projects allow,0.0,0.0,0.0
+pursue,0.0,0.0,0.0
+proud,0.0,0.0,0.0
+prove,0.0,0.0,0.0
+proved,0.0,0.0,0.0
+proven,0.0,0.0,0.0
+puts,0.0,0.0,0.0
+put effort,0.0,0.0,0.0
+proves,0.0,0.0,0.0
+put,0.0,0.0,0.0
+push,0.0,0.0,0.0
+probably tell,0.0,0.0,0.0
+pursuit despite,0.0,0.0,0.0
+pursuit,0.0,0.0,0.0
+provides,0.0,0.0,0.0
+quicker,0.0,0.0,0.0
+providing,0.0,0.0,0.0
+proving,0.0,0.0,0.0
+purposes electoral,0.0,0.0,0.0
+proximity,0.0,0.0,0.0
+public,0.0,0.0,0.0
+purposes,0.0,0.0,0.0
+purpose,0.0,0.0,0.0
+public office,0.0,0.0,0.0
+public school,0.0,0.0,0.0
+punishment,0.0,0.0,0.0
+public schools,0.0,0.0,0.0
+pull,0.0,0.0,0.0
+putting,0.0,0.0,0.0
+protection,0.0,0.0,0.0
+protect,0.0,0.0,0.0
+prospect tie,0.0,0.0,0.0
+projects assure,0.0,0.0,0.0
+projects designed,0.0,0.0,0.0
+projects student,0.0,0.0,0.0
+quick,0.0,0.0,0.0
+projects studentdesigned,0.0,0.0,0.0
+projects students,0.0,0.0,0.0
+projects summer,0.0,0.0,0.0
+projects teacher,0.0,0.0,0.0
+projects teacherdesigned,0.0,0.0,0.0
+projects teachers,0.0,0.0,0.0
+projects would,0.0,0.0,0.0
+promote,0.0,0.0,0.0
+question,0.0,0.0,0.0
+promoting,0.0,0.0,0.0
+proof,0.0,0.0,0.0
+quality,0.0,0.0,0.0
+qualities,0.0,0.0,0.0
+qualified citizens,0.0,0.0,0.0
+proper,0.0,0.0,0.0
+qualified,0.0,0.0,0.0
+properly,0.0,0.0,0.0
+pros,0.0,0.0,0.0
+pros cons,0.0,0.0,0.0
+pyramids,0.0,0.0,0.0
+prospect,0.0,0.0,0.0
 abilities,0.0,0.0,0.0
-ability,0.0,0.0,0.0
+president want,0.0,0.0,0.0
+probably covered,0.0,0.0,0.0
+poeple,0.0,0.0,0.0
+poll,0.0,0.0,0.0
+political preference,0.0,0.0,0.0
+political party,0.0,0.0,0.0
+political balance,0.0,0.0,0.0
+political,0.0,0.0,0.0
+policy students,0.0,0.0,0.0
+policy one,0.0,0.0,0.0
+policy,0.0,0.0,0.0
+police,0.0,0.0,0.0
+points view,0.0,0.0,0.0
+points light,0.0,0.0,0.0
+points,0.0,0.0,0.0
+pointless,0.0,0.0,0.0
+point views,0.0,0.0,0.0
+point view,0.0,0.0,0.0
+poll taken,0.0,0.0,0.0
+polluted,0.0,0.0,0.0
+pollution,0.0,0.0,0.0
+population,0.0,0.0,0.0
+possible,0.0,0.0,0.0
+possibility,0.0,0.0,0.0
+possibilities,0.0,0.0,0.0
+posner,0.0,0.0,0.0
+positive,0.0,0.0,0.0
+position,0.0,0.0,0.0
+popularity,0.0,0.0,0.0
+poor,0.0,0.0,0.0
+popular voting,0.0,0.0,0.0
+popular votes,0.0,0.0,0.0
+popular vote,0.0,0.0,0.0
+popular,0.0,0.0,0.0
+pop icon,0.0,0.0,0.0
+pop,0.0,0.0,0.0
+point,0.0,0.0,0.0
+pm,0.0,0.0,0.0
+possible winner,0.0,0.0,0.0
+plus two,0.0,0.0,0.0
+plant,0.0,0.0,0.0
+plans,0.0,0.0,0.0
+planning,0.0,0.0,0.0
+planned,0.0,0.0,0.0
+planets surface,0.0,0.0,0.0
+planets,0.0,0.0,0.0
+planetary visit,0.0,0.0,0.0
+planetary,0.0,0.0,0.0
+planet venus,0.0,0.0,0.0
+planet surface,0.0,0.0,0.0
+planet sun,0.0,0.0,0.0
+planet solar,0.0,0.0,0.0
+planet mars,0.0,0.0,0.0
+planet humans,0.0,0.0,0.0
+planet earth,0.0,0.0,0.0
+plants,0.0,0.0,0.0
+plates,0.0,0.0,0.0
+play,0.0,0.0,0.0
+pledged,0.0,0.0,0.0
+plus,0.0,0.0,0.0
+plurality popular,0.0,0.0,0.0
+plurality,0.0,0.0,0.0
+plumer,0.0,0.0,0.0
+plenty,0.0,0.0,0.0
+pledged kerry,0.0,0.0,0.0
+please,0.0,0.0,0.0
+play games,0.0,0.0,0.0
+plays,0.0,0.0,0.0
+playing sports,0.0,0.0,0.0
+playing,0.0,0.0,0.0
+played,0.0,0.0,0.0
+play sports,0.0,0.0,0.0
+play sport,0.0,0.0,0.0
+possible solution,0.0,0.0,0.0
+possibly,0.0,0.0,0.0
+probably,0.0,0.0,0.0
+president states,0.0,0.0,0.0
+pressure times,0.0,0.0,0.0
+pressure heat,0.0,0.0,0.0
+pressure,0.0,0.0,0.0
+presidents,0.0,0.0,0.0
+presidential elections,0.0,0.0,0.0
+presidential election,0.0,0.0,0.0
+presidential canidate,0.0,0.0,0.0
+presidential candidates,0.0,0.0,0.0
+presidential candidate,0.0,0.0,0.0
+presidential,0.0,0.0,0.0
+presidental,0.0,0.0,0.0
+president would,0.0,0.0,0.0
+president voting,0.0,0.0,0.0
+president vote,0.0,0.0,0.0
+president vice,0.0,0.0,0.0
+pressure would,0.0,0.0,0.0
+pretty,0.0,0.0,0.0
+pretty much,0.0,0.0,0.0
+principal,0.0,0.0,0.0
+privilege,0.0,0.0,0.0
+private,0.0,0.0,0.0
+privacy,0.0,0.0,0.0
+priority,0.0,0.0,0.0
+prior,0.0,0.0,0.0
+principle,0.0,0.0,0.0
+prices,0.0,0.0,0.0
+pretty sure,0.0,0.0,0.0
+price,0.0,0.0,0.0
+previously,0.0,0.0,0.0
+previous,0.0,0.0,0.0
+prevents,0.0,0.0,0.0
+prevented,0.0,0.0,0.0
+prevent,0.0,0.0,0.0
+president united,0.0,0.0,0.0
+president state,0.0,0.0,0.0
+potential,0.0,0.0,0.0
+president slate,0.0,0.0,0.0
+prepares certificate,0.0,0.0,0.0
+prepares,0.0,0.0,0.0
+prepared,0.0,0.0,0.0
+prepare students,0.0,0.0,0.0
+preference rather,0.0,0.0,0.0
+preference,0.0,0.0,0.0
+prefer direct,0.0,0.0,0.0
+prefer,0.0,0.0,0.0
+practice,0.0,0.0,0.0
+practical,0.0,0.0,0.0
+powerful earthquakes,0.0,0.0,0.0
+powerful,0.0,0.0,0.0
+power,0.0,0.0,0.0
+potentially,0.0,0.0,0.0
+potential voters,0.0,0.0,0.0
+preparing,0.0,0.0,0.0
+presedent,0.0,0.0,0.0
+present,0.0,0.0,0.0
+president electoral,0.0,0.0,0.0
+president richard,0.0,0.0,0.0
+president popular,0.0,0.0,0.0
+president people,0.0,0.0,0.0
+president ought,0.0,0.0,0.0
+president may,0.0,0.0,0.0
+president electors,0.0,0.0,0.0
+president elected,0.0,0.0,0.0
+presented,0.0,0.0,0.0
+president counting,0.0,0.0,0.0
+president also,0.0,0.0,0.0
+presidency percent,0.0,0.0,0.0
+presidency,0.0,0.0,0.0
+presents,0.0,0.0,0.0
+presented venus,0.0,0.0,0.0
+race,0.0,0.0,0.0
+real face,0.0,0.0,0.0
+races,0.0,0.0,0.0
+safely,0.0,0.0,0.0
+sadness,0.0,0.0,0.0
+sad happy,0.0,0.0,0.0
+sad,0.0,0.0,0.0
+rush,0.0,0.0,0.0
+runs,0.0,0.0,0.0
+runoff elections,0.0,0.0,0.0
+runoff,0.0,0.0,0.0
+running president,0.0,0.0,0.0
+running,0.0,0.0,0.0
+run country,0.0,0.0,0.0
+run,0.0,0.0,0.0
+rules,0.0,0.0,0.0
+rule,0.0,0.0,0.0
+ruin,0.0,0.0,0.0
+rubric,0.0,0.0,0.0
+safe,0.0,0.0,0.0
+safer,0.0,0.0,0.0
+rosenthal,0.0,0.0,0.0
+safety,0.0,0.0,0.0
+says electoral,0.0,0.0,0.0
+says,0.0,0.0,0.0
+saying,0.0,0.0,0.0
+say want,0.0,0.0,0.0
+say students,0.0,0.0,0.0
+say people,0.0,0.0,0.0
+say electoral,0.0,0.0,0.0
+say,0.0,0.0,0.0
+saw,0.0,0.0,0.0
+saving,0.0,0.0,0.0
+saved,0.0,0.0,0.0
+save,0.0,0.0,0.0
+satisfied,0.0,0.0,0.0
+samples,0.0,0.0,0.0
+said,0.0,0.0,0.0
+routine,0.0,0.0,0.0
+room,0.0,0.0,0.0
+says venus,0.0,0.0,0.0
+right decision,0.0,0.0,0.0
+right,0.0,0.0,0.0
+riding,0.0,0.0,0.0
+ride,0.0,0.0,0.0
+rid electoral,0.0,0.0,0.0
+rid,0.0,0.0,0.0
+richard posner,0.0,0.0,0.0
+richard nixon,0.0,0.0,0.0
+richard,0.0,0.0,0.0
+rhode island,0.0,0.0,0.0
+rhode,0.0,0.0,0.0
+revealing,0.0,0.0,0.0
+revealed,0.0,0.0,0.0
+reveal,0.0,0.0,0.0
+return,0.0,0.0,0.0
+retain,0.0,0.0,0.0
+right choice,0.0,0.0,0.0
+right thing,0.0,0.0,0.0
+romney,0.0,0.0,0.0
+right vote,0.0,0.0,0.0
+role,0.0,0.0,0.0
+rode,0.0,0.0,0.0
+rocky sediment,0.0,0.0,0.0
+rocks,0.0,0.0,0.0
+rock formation,0.0,0.0,0.0
+rock,0.0,0.0,0.0
+robots,0.0,0.0,0.0
+roads,0.0,0.0,0.0
+road,0.0,0.0,0.0
+river plain,0.0,0.0,0.0
+river,0.0,0.0,0.0
+risky,0.0,0.0,0.0
+risks,0.0,0.0,0.0
+rise,0.0,0.0,0.0
+rights,0.0,0.0,0.0
+says paragraph,0.0,0.0,0.0
+scared,0.0,0.0,0.0
+result,0.0,0.0,0.0
+seagoing cowboy,0.0,0.0,0.0
+sea level,0.0,0.0,0.0
+sea,0.0,0.0,0.0
+screen,0.0,0.0,0.0
+scores,0.0,0.0,0.0
+scientists,0.0,0.0,0.0
+scientist nasa,0.0,0.0,0.0
+scientist,0.0,0.0,0.0
+scientific,0.0,0.0,0.0
+science,0.0,0.0,0.0
+schoolwork,0.0,0.0,0.0
+schools students,0.0,0.0,0.0
+schools require,0.0,0.0,0.0
+schools offer,0.0,0.0,0.0
+schools,0.0,0.0,0.0
+schoolname,0.0,0.0,0.0
+seagoing,0.0,0.0,0.0
+seagoing cowboys,0.0,0.0,0.0
+schooled,0.0,0.0,0.0
+seat,0.0,0.0,0.0
+see students,0.0,0.0,0.0
+see single,0.0,0.0,0.0
+see people,0.0,0.0,0.0
+see many,0.0,0.0,0.0
+see face,0.0,0.0,0.0
+see candidates,0.0,0.0,0.0
+see,0.0,0.0,0.0
+sediment includes,0.0,0.0,0.0
+sediment,0.0,0.0,0.0
+section,0.0,0.0,0.0
+seconds,0.0,0.0,0.0
+secondly,0.0,0.0,0.0
+second reason,0.0,0.0,0.0
+second planet,0.0,0.0,0.0
+second opinion,0.0,0.0,0.0
+schooling,0.0,0.0,0.0
+school year,0.0,0.0,0.0
+scenario,0.0,0.0,0.0
+school learn,0.0,0.0,0.0
+school hours,0.0,0.0,0.0
+school home,0.0,0.0,0.0
+school help,0.0,0.0,0.0
+school get,0.0,0.0,0.0
+school everyday,0.0,0.0,0.0
+school dont,0.0,0.0,0.0
+school day,0.0,0.0,0.0
+school could,0.0,0.0,0.0
+school community,0.0,0.0,0.0
+school better,0.0,0.0,0.0
+school also,0.0,0.0,0.0
+school activity,0.0,0.0,0.0
+school activities,0.0,0.0,0.0
+schedules,0.0,0.0,0.0
+schedule,0.0,0.0,0.0
+school kids,0.0,0.0,0.0
+school learning,0.0,0.0,0.0
+school would,0.0,0.0,0.0
+school like,0.0,0.0,0.0
+school work,0.0,0.0,0.0
+school use,0.0,0.0,0.0
+school time,0.0,0.0,0.0
+school systems,0.0,0.0,0.0
+school system,0.0,0.0,0.0
+school students,0.0,0.0,0.0
+school student,0.0,0.0,0.0
+school sports,0.0,0.0,0.0
+school school,0.0,0.0,0.0
+school policy,0.0,0.0,0.0
+school online,0.0,0.0,0.0
+school need,0.0,0.0,0.0
+school may,0.0,0.0,0.0
+school many,0.0,0.0,0.0
+school make,0.0,0.0,0.0
+results,0.0,0.0,0.0
+restores weight,0.0,0.0,0.0
+races swing,0.0,0.0,0.0
+receives,0.0,0.0,0.0
+receive,0.0,0.0,0.0
+reasons think,0.0,0.0,0.0
+reasons keep,0.0,0.0,0.0
+reasoning,0.0,0.0,0.0
+reasonable,0.0,0.0,0.0
+reason would,0.0,0.0,0.0
+reason students,0.0,0.0,0.0
+reason people,0.0,0.0,0.0
+reason electoral,0.0,0.0,0.0
+really want,0.0,0.0,0.0
+really voting,0.0,0.0,0.0
+really think,0.0,0.0,0.0
+really need,0.0,0.0,0.0
+really know,0.0,0.0,0.0
+really help,0.0,0.0,0.0
+received,0.0,0.0,0.0
+receives majority,0.0,0.0,0.0
+really dont,0.0,0.0,0.0
+receives popular,0.0,0.0,0.0
+reduced,0.0,0.0,0.0
+reduce smog,0.0,0.0,0.0
+reduce,0.0,0.0,0.0
+red planet,0.0,0.0,0.0
+red,0.0,0.0,0.0
+recognize student,0.0,0.0,0.0
+recognize,0.0,0.0,0.0
+recognition,0.0,0.0,0.0
+recieves majority,0.0,0.0,0.0
+recieves,0.0,0.0,0.0
+recieved,0.0,0.0,0.0
+recieve,0.0,0.0,0.0
+recently,0.0,0.0,0.0
+recent,0.0,0.0,0.0
+receiving,0.0,0.0,0.0
+really good,0.0,0.0,0.0
+really bad,0.0,0.0,0.0
+reducing,0.0,0.0,0.0
+rd amendment,0.0,0.0,0.0
+rather people,0.0,0.0,0.0
+rather,0.0,0.0,0.0
+rates,0.0,0.0,0.0
+rate,0.0,0.0,0.0
+rarely betrayed,0.0,0.0,0.0
+rarely,0.0,0.0,0.0
+rare,0.0,0.0,0.0
+range,0.0,0.0,0.0
+random,0.0,0.0,0.0
+ran president,0.0,0.0,0.0
+ran,0.0,0.0,0.0
+raise,0.0,0.0,0.0
+radio talk,0.0,0.0,0.0
+radio,0.0,0.0,0.0
+radar,0.0,0.0,0.0
+rd,0.0,0.0,0.0
+reach,0.0,0.0,0.0
+really,0.0,0.0,0.0
+react,0.0,0.0,0.0
+realized,0.0,0.0,0.0
+realize,0.0,0.0,0.0
+reality,0.0,0.0,0.0
+real life,0.0,0.0,0.0
+planet,0.0,0.0,0.0
+ready,0.0,0.0,0.0
+reads,0.0,0.0,0.0
+reading,0.0,0.0,0.0
+readers,0.0,0.0,0.0
+reader,0.0,0.0,0.0
+read students,0.0,0.0,0.0
+read emotions,0.0,0.0,0.0
+read emotional,0.0,0.0,0.0
+read,0.0,0.0,0.0
+reaction,0.0,0.0,0.0
+reduces,0.0,0.0,0.0
+referred,0.0,0.0,0.0
+restores,0.0,0.0,0.0
+research,0.0,0.0,0.0
+requiring,0.0,0.0,0.0
+requires presidential,0.0,0.0,0.0
+requires human,0.0,0.0,0.0
+requires,0.0,0.0,0.0
+requirements,0.0,0.0,0.0
+requirement,0.0,0.0,0.0
+required perform,0.0,0.0,0.0
+required elect,0.0,0.0,0.0
+required community,0.0,0.0,0.0
+required,0.0,0.0,0.0
+require students,0.0,0.0,0.0
+require,0.0,0.0,0.0
+reputation,0.0,0.0,0.0
+republicans,0.0,0.0,0.0
+republican,0.0,0.0,0.0
+requiring students,0.0,0.0,0.0
+researchers,0.0,0.0,0.0
+representing,0.0,0.0,0.0
+researching,0.0,0.0,0.0
+rest,0.0,0.0,0.0
+responsible picking,0.0,0.0,0.0
+responsible,0.0,0.0,0.0
+responsibility,0.0,0.0,0.0
+responsibilities,0.0,0.0,0.0
+response,0.0,0.0,0.0
+respond,0.0,0.0,0.0
+respective electors,0.0,0.0,0.0
+respective,0.0,0.0,0.0
+respect,0.0,0.0,0.0
+resources,0.0,0.0,0.0
+resolution,0.0,0.0,0.0
+residents,0.0,0.0,0.0
+resembles human,0.0,0.0,0.0
+resembles,0.0,0.0,0.0
+represents,0.0,0.0,0.0
+representatives state,0.0,0.0,0.0
+referred earths,0.0,0.0,0.0
+relationships,0.0,0.0,0.0
+related,0.0,0.0,0.0
+relate,0.0,0.0,0.0
+regular,0.0,0.0,0.0
+register,0.0,0.0,0.0
+regions,0.0,0.0,0.0
+regional appeal,0.0,0.0,0.0
+regional,0.0,0.0,0.0
+region,0.0,0.0,0.0
+regardless,0.0,0.0,0.0
+regarding,0.0,0.0,0.0
+regarded anachronism,0.0,0.0,0.0
+regarded,0.0,0.0,0.0
+refused vote,0.0,0.0,0.0
+refused,0.0,0.0,0.0
+reflect,0.0,0.0,0.0
+relationship,0.0,0.0,0.0
+relax,0.0,0.0,0.0
+representatives,0.0,0.0,0.0
+relaxing,0.0,0.0,0.0
+representative,0.0,0.0,0.0
+representation,0.0,0.0,0.0
+replacing democratic,0.0,0.0,0.0
+replacing,0.0,0.0,0.0
+replaced,0.0,0.0,0.0
+replace,0.0,0.0,0.0
+removed,0.0,0.0,0.0
+remove,0.0,0.0,0.0
+reminds,0.0,0.0,0.0
+remember,0.0,0.0,0.0
+remain,0.0,0.0,0.0
+rely,0.0,0.0,0.0
+relieve stress,0.0,0.0,0.0
+relieve,0.0,0.0,0.0
+reliable,0.0,0.0,0.0
+planet also,0.0,0.0,0.0
+phone use,0.0,0.0,0.0
+plan,0.0,0.0,0.0
+nasa would,0.0,0.0,0.0
+natural,0.0,0.0,0.0
+nationwide,0.0,0.0,0.0
+nations,0.0,0.0,0.0
+national popular,0.0,0.0,0.0
+national,0.0,0.0,0.0
+nation,0.0,0.0,0.0
+nasas,0.0,0.0,0.0
+nasa working,0.0,0.0,0.0
+mother,0.0,0.0,0.0
+nasa trying,0.0,0.0,0.0
+nasa,0.0,0.0,0.0
+names respective,0.0,0.0,0.0
+names,0.0,0.0,0.0
+named,0.0,0.0,0.0
+name,0.0,0.0,0.0
+na,0.0,0.0,0.0
+natural land,0.0,0.0,0.0
+natural landform,0.0,0.0,0.0
+natural landforms,0.0,0.0,0.0
+naturally,0.0,0.0,0.0
+need keep,0.0,0.0,0.0
+need help,0.0,0.0,0.0
+need go,0.0,0.0,0.0
+need get,0.0,0.0,0.0
+need change,0.0,0.0,0.0
+need advice,0.0,0.0,0.0
+need,0.0,0.0,0.0
+necessary,0.0,0.0,0.0
+necessarily,0.0,0.0,0.0
+nebraska,0.0,0.0,0.0
+nearly succeeded,0.0,0.0,0.0
+nearly,0.0,0.0,0.0
+nearest,0.0,0.0,0.0
+near,0.0,0.0,0.0
+nature,0.0,0.0,0.0
+must participate,0.0,0.0,0.0
+must move,0.0,0.0,0.0
+must,0.0,0.0,0.0
+much basis,0.0,0.0,0.0
+mr,0.0,0.0,0.0
+moving facial,0.0,0.0,0.0
+moving,0.0,0.0,0.0
+movies,0.0,0.0,0.0
+movie,0.0,0.0,0.0
+movements facial,0.0,0.0,0.0
+movements,0.0,0.0,0.0
+movement,0.0,0.0,0.0
+moved,0.0,0.0,0.0
+move like,0.0,0.0,0.0
+mouth,0.0,0.0,0.0
+mountains craters,0.0,0.0,0.0
+mountains,0.0,0.0,0.0
+motor,0.0,0.0,0.0
+motivation,0.0,0.0,0.0
+much,0.0,0.0,0.0
+much better,0.0,0.0,0.0
+musical,0.0,0.0,0.0
+much easier,0.0,0.0,0.0
+music,0.0,0.0,0.0
+muscles model,0.0,0.0,0.0
+muscles called,0.0,0.0,0.0
+muscles,0.0,0.0,0.0
+muscle,0.0,0.0,0.0
+multiple peoples,0.0,0.0,0.0
+multiple people,0.0,0.0,0.0
+multiple opinions,0.0,0.0,0.0
+multiple,0.0,0.0,0.0
+mules,0.0,0.0,0.0
+much worse,0.0,0.0,0.0
+much work,0.0,0.0,0.0
+much time,0.0,0.0,0.0
+much say,0.0,0.0,0.0
+much happier,0.0,0.0,0.0
+need know,0.0,0.0,0.0
+need learn,0.0,0.0,0.0
+need make,0.0,0.0,0.0
+notify driver,0.0,0.0,0.0
+noticed,0.0,0.0,0.0
+notice,0.0,0.0,0.0
+notes,0.0,0.0,0.0
+nose mouth,0.0,0.0,0.0
+nose,0.0,0.0,0.0
+north,0.0,0.0,0.0
+normally,0.0,0.0,0.0
+normal,0.0,0.0,0.0
+none,0.0,0.0,0.0
+nondemocratic method,0.0,0.0,0.0
+nondemocratic,0.0,0.0,0.0
+non,0.0,0.0,0.0
+nominee,0.0,0.0,0.0
+nobody,0.0,0.0,0.0
+nixon jimmy,0.0,0.0,0.0
+notify,0.0,0.0,0.0
+november,0.0,0.0,0.0
+nixon,0.0,0.0,0.0
+nowadays,0.0,0.0,0.0
+occasionally closest,0.0,0.0,0.0
+occasionally,0.0,0.0,0.0
+obviously,0.0,0.0,0.0
+obvious,0.0,0.0,0.0
+obtain,0.0,0.0,0.0
+obstacles,0.0,0.0,0.0
+objects,0.0,0.0,0.0
+object,0.0,0.0,0.0
+obama,0.0,0.0,0.0
+numerous,0.0,0.0,0.0
+numbers,0.0,0.0,0.0
+number votes,0.0,0.0,0.0
+number one,0.0,0.0,0.0
+number members,0.0,0.0,0.0
+number,0.0,0.0,0.0
+nixon clinton,0.0,0.0,0.0
+nine,0.0,0.0,0.0
+need take,0.0,0.0,0.0
+new friends,0.0,0.0,0.0
+new computer,0.0,0.0,0.0
+new,0.0,0.0,0.0
+nevertheless,0.0,0.0,0.0
+never know,0.0,0.0,0.0
+never,0.0,0.0,0.0
+neutral face,0.0,0.0,0.0
+neutral,0.0,0.0,0.0
+neighbor,0.0,0.0,0.0
+negatively,0.0,0.0,0.0
+negative,0.0,0.0,0.0
+needs help,0.0,0.0,0.0
+needs,0.0,0.0,0.0
+needing,0.0,0.0,0.0
+needed,0.0,0.0,0.0
+need time,0.0,0.0,0.0
+new electors,0.0,0.0,0.0
+new ideas,0.0,0.0,0.0
+night sky,0.0,0.0,0.0
+new information,0.0,0.0,0.0
+nice,0.0,0.0,0.0
+next year,0.0,0.0,0.0
+next time,0.0,0.0,0.0
+next school,0.0,0.0,0.0
+next president,0.0,0.0,0.0
+next day,0.0,0.0,0.0
+next,0.0,0.0,0.0
+news,0.0,0.0,0.0
+new york,0.0,0.0,0.0
+new way,0.0,0.0,0.0
+new things,0.0,0.0,0.0
+new technology,0.0,0.0,0.0
+new software,0.0,0.0,0.0
+new president,0.0,0.0,0.0
+new people,0.0,0.0,0.0
+motivated,0.0,0.0,0.0
+mostly assertions,0.0,0.0,0.0
+ocean,0.0,0.0,0.0
+may think,0.0,0.0,0.0
+meant,0.0,0.0,0.0
+means,0.0,0.0,0.0
+mean,0.0,0.0,0.0
+maybe even,0.0,0.0,0.0
+may well,0.0,0.0,0.0
+may want,0.0,0.0,0.0
+may turn,0.0,0.0,0.0
+may take,0.0,0.0,0.0
+mostly,0.0,0.0,0.0
+may seem,0.0,0.0,0.0
+may say,0.0,0.0,0.0
+may need,0.0,0.0,0.0
+may like,0.0,0.0,0.0
+may know,0.0,0.0,0.0
+may help,0.0,0.0,0.0
+may get,0.0,0.0,0.0
+mechanical,0.0,0.0,0.0
+mechanical computers,0.0,0.0,0.0
+media,0.0,0.0,0.0
+media markets,0.0,0.0,0.0
+mentally,0.0,0.0,0.0
+mental health,0.0,0.0,0.0
+mental,0.0,0.0,0.0
+men,0.0,0.0,0.0
+members congressional,0.0,0.0,0.0
+members,0.0,0.0,0.0
+member house,0.0,0.0,0.0
+member,0.0,0.0,0.0
+meeting electors,0.0,0.0,0.0
+meeting,0.0,0.0,0.0
+meet new,0.0,0.0,0.0
+meet edges,0.0,0.0,0.0
+meet challenge,0.0,0.0,0.0
+meet,0.0,0.0,0.0
+medical,0.0,0.0,0.0
+may find,0.0,0.0,0.0
+may feel,0.0,0.0,0.0
+may even,0.0,0.0,0.0
+mars orbiter,0.0,0.0,0.0
+mars global,0.0,0.0,0.0
+mars face,0.0,0.0,0.0
+mars created,0.0,0.0,0.0
+mars could,0.0,0.0,0.0
+markings hidden,0.0,0.0,0.0
+markings,0.0,0.0,0.0
+markets didnt,0.0,0.0,0.0
+markets,0.0,0.0,0.0
+many years,0.0,0.0,0.0
+many ways,0.0,0.0,0.0
+many times,0.0,0.0,0.0
+many teachers,0.0,0.0,0.0
+many students,0.0,0.0,0.0
+many states,0.0,0.0,0.0
+many schools,0.0,0.0,0.0
+mars natural,0.0,0.0,0.0
+mars would,0.0,0.0,0.0
+may decide,0.0,0.0,0.0
+martian,0.0,0.0,0.0
+may cause,0.0,0.0,0.0
+may believe,0.0,0.0,0.0
+may argue,0.0,0.0,0.0
+may also,0.0,0.0,0.0
+may able,0.0,0.0,0.0
+may,0.0,0.0,0.0
+maximum,0.0,0.0,0.0
+matters,0.0,0.0,0.0
+matter,0.0,0.0,0.0
+math,0.0,0.0,0.0
+materials,0.0,0.0,0.0
+material,0.0,0.0,0.0
+massive,0.0,0.0,0.0
+martian mesa,0.0,0.0,0.0
+martian equivalent,0.0,0.0,0.0
+mention,0.0,0.0,0.0
+mentioned,0.0,0.0,0.0
+mentions,0.0,0.0,0.0
+model face,0.0,0.0,0.0
+mobile,0.0,0.0,0.0
+mixed emotions,0.0,0.0,0.0
+mixed,0.0,0.0,0.0
+mistakes,0.0,0.0,0.0
+mistake,0.0,0.0,0.0
+missions,0.0,0.0,0.0
+mission,0.0,0.0,0.0
+missing,0.0,0.0,0.0
+missed,0.0,0.0,0.0
+miss,0.0,0.0,0.0
+mirror,0.0,0.0,0.0
+minutes,0.0,0.0,0.0
+minute,0.0,0.0,0.0
+minimum,0.0,0.0,0.0
+mine,0.0,0.0,0.0
+model,0.0,0.0,0.0
+model must,0.0,0.0,0.0
+minds,0.0,0.0,0.0
+modern sense,0.0,0.0,0.0
+morning,0.0,0.0,0.0
+moreover,0.0,0.0,0.0
+mood,0.0,0.0,0.0
+monument,0.0,0.0,0.0
+months,0.0,0.0,0.0
+month,0.0,0.0,0.0
+money,0.0,0.0,0.0
+monday november,0.0,0.0,0.0
+monday,0.0,0.0,0.0
+mona lisa,0.0,0.0,0.0
+mona,0.0,0.0,0.0
+moment,0.0,0.0,0.0
+mom,0.0,0.0,0.0
+modify lesson,0.0,0.0,0.0
+modify,0.0,0.0,0.0
+mindset,0.0,0.0,0.0
+mind,0.0,0.0,0.0
+mercury,0.0,0.0,0.0
+middle butte,0.0,0.0,0.0
+michael malin,0.0,0.0,0.0
+michael,0.0,0.0,0.0
+mgs,0.0,0.0,0.0
+methods,0.0,0.0,0.0
+method selecting,0.0,0.0,0.0
+method choosing,0.0,0.0,0.0
+method awarding,0.0,0.0,0.0
+method,0.0,0.0,0.0
+meters,0.0,0.0,0.0
+metals,0.0,0.0,0.0
+met,0.0,0.0,0.0
+message,0.0,0.0,0.0
+mesa common,0.0,0.0,0.0
+mesa,0.0,0.0,0.0
+mercury closer,0.0,0.0,0.0
+middle,0.0,0.0,0.0
+middle school,0.0,0.0,0.0
+millions,0.0,0.0,0.0
+might,0.0,0.0,0.0
+million voters,0.0,0.0,0.0
+million,0.0,0.0,0.0
+miles,0.0,0.0,0.0
+might want,0.0,0.0,0.0
+might think,0.0,0.0,0.0
+might take,0.0,0.0,0.0
+might say,0.0,0.0,0.0
+might need,0.0,0.0,0.0
+might make,0.0,0.0,0.0
+might like,0.0,0.0,0.0
+might know,0.0,0.0,0.0
+might get,0.0,0.0,0.0
+might even,0.0,0.0,0.0
+might call,0.0,0.0,0.0
+might able,0.0,0.0,0.0
+occur,0.0,0.0,0.0
+oceans,0.0,0.0,0.0
+plain idaho,0.0,0.0,0.0
+people make,0.0,0.0,0.0
+people really,0.0,0.0,0.0
+people people,0.0,0.0,0.0
+people opinions,0.0,0.0,0.0
+people one,0.0,0.0,0.0
+people need,0.0,0.0,0.0
+people might,0.0,0.0,0.0
+people may,0.0,0.0,0.0
+people like,0.0,0.0,0.0
+passing,0.0,0.0,0.0
+people know,0.0,0.0,0.0
+people help,0.0,0.0,0.0
+people good,0.0,0.0,0.0
+people going,0.0,0.0,0.0
+people go,0.0,0.0,0.0
+people give,0.0,0.0,0.0
+people getting,0.0,0.0,0.0
+people right,0.0,0.0,0.0
+people say,0.0,0.0,0.0
+people see,0.0,0.0,0.0
+people state,0.0,0.0,0.0
+peoples,0.0,0.0,0.0
+people would,0.0,0.0,0.0
+people world,0.0,0.0,0.0
+people work,0.0,0.0,0.0
+people wanted,0.0,0.0,0.0
+people want,0.0,0.0,0.0
+people voting,0.0,0.0,0.0
+people voted,0.0,0.0,0.0
+people vote,0.0,0.0,0.0
+people use,0.0,0.0,0.0
+people united,0.0,0.0,0.0
+people think,0.0,0.0,0.0
+people talk,0.0,0.0,0.0
+people take,0.0,0.0,0.0
+people still,0.0,0.0,0.0
+people get,0.0,0.0,0.0
+people feeling,0.0,0.0,0.0
+people feel,0.0,0.0,0.0
+people actually,0.0,0.0,0.0
+peers,0.0,0.0,0.0
+peer,0.0,0.0,0.0
+pedigree,0.0,0.0,0.0
+pedestrians,0.0,0.0,0.0
+pc,0.0,0.0,0.0
+paying attention,0.0,0.0,0.0
+paying,0.0,0.0,0.0
+pay close,0.0,0.0,0.0
+pay attention,0.0,0.0,0.0
+pay,0.0,0.0,0.0
+paul eckman,0.0,0.0,0.0
+paul,0.0,0.0,0.0
+path,0.0,0.0,0.0
+past,0.0,0.0,0.0
+passionate,0.0,0.0,0.0
+people able,0.0,0.0,0.0
+people advice,0.0,0.0,0.0
+people electoral,0.0,0.0,0.0
+people agree,0.0,0.0,0.0
+people dont,0.0,0.0,0.0
+people different,0.0,0.0,0.0
+people could,0.0,0.0,0.0
+people consider,0.0,0.0,0.0
+people community,0.0,0.0,0.0
+people choose,0.0,0.0,0.0
+people cars,0.0,0.0,0.0
+people cant,0.0,0.0,0.0
+people believe,0.0,0.0,0.0
+people ask,0.0,0.0,0.0
+people around,0.0,0.0,0.0
+people arent,0.0,0.0,0.0
+people america,0.0,0.0,0.0
+people always,0.0,0.0,0.0
+people also,0.0,0.0,0.0
+peoples opinions,0.0,0.0,0.0
+peoples votes,0.0,0.0,0.0
+per,0.0,0.0,0.0
+picking electors,0.0,0.0,0.0
+picked,0.0,0.0,0.0
+pick trash,0.0,0.0,0.0
+pick president,0.0,0.0,0.0
+pick,0.0,0.0,0.0
+physically,0.0,0.0,0.0
+physical,0.0,0.0,0.0
+photos,0.0,0.0,0.0
+photo,0.0,0.0,0.0
+phones school,0.0,0.0,0.0
+phones lunch,0.0,0.0,0.0
+phones free,0.0,0.0,0.0
+phones driving,0.0,0.0,0.0
+phones class,0.0,0.0,0.0
+phones,0.0,0.0,0.0
+seek,0.0,0.0,0.0
+picking,0.0,0.0,0.0
+picks,0.0,0.0,0.0
+phone policy,0.0,0.0,0.0
+picture,0.0,0.0,0.0
+plain,0.0,0.0,0.0
+places,0.0,0.0,0.0
+placed,0.0,0.0,0.0
+place live,0.0,0.0,0.0
+place founding,0.0,0.0,0.0
+place examine,0.0,0.0,0.0
+place,0.0,0.0,0.0
+pixel,0.0,0.0,0.0
+pieces,0.0,0.0,0.0
+piece,0.0,0.0,0.0
+pictures,0.0,0.0,0.0
+picture ten,0.0,0.0,0.0
+picture taken,0.0,0.0,0.0
+picture face,0.0,0.0,0.0
+picture actually,0.0,0.0,0.0
+phone school,0.0,0.0,0.0
+phone driving,0.0,0.0,0.0
+per pixel,0.0,0.0,0.0
+perhaps,0.0,0.0,0.0
+perform community,0.0,0.0,0.0
+perform,0.0,0.0,0.0
+perfectly,0.0,0.0,0.0
+perfect,0.0,0.0,0.0
+percentage,0.0,0.0,0.0
+percent voters,0.0,0.0,0.0
+percent popular,0.0,0.0,0.0
+percent happy,0.0,0.0,0.0
+percent greenhouse,0.0,0.0,0.0
+percent fearful,0.0,0.0,0.0
+percent electoral,0.0,0.0,0.0
+percent disgusted,0.0,0.0,0.0
+percent carbon,0.0,0.0,0.0
+percent angry,0.0,0.0,0.0
+percent,0.0,0.0,0.0
+performance,0.0,0.0,0.0
+period time,0.0,0.0,0.0
+phone call,0.0,0.0,0.0
+periods,0.0,0.0,0.0
+phone,0.0,0.0,0.0
+pharaoh,0.0,0.0,0.0
+persuade,0.0,0.0,0.0
+perspectives,0.0,0.0,0.0
+perspective,0.0,0.0,0.0
+persons,0.0,0.0,0.0
+personally think,0.0,0.0,0.0
+personal,0.0,0.0,0.0
+person would,0.0,0.0,0.0
+person one,0.0,0.0,0.0
+person might,0.0,0.0,0.0
+person feeling,0.0,0.0,0.0
+person could,0.0,0.0,0.0
+person advice,0.0,0.0,0.0
+person,0.0,0.0,0.0
+passion,0.0,0.0,0.0
+passengers,0.0,0.0,0.0
+oceans could,0.0,0.0,0.0
+online education,0.0,0.0,0.0
+onto,0.0,0.0,0.0
+online video,0.0,0.0,0.0
+online students,0.0,0.0,0.0
+online schooling,0.0,0.0,0.0
+online school,0.0,0.0,0.0
+online learning,0.0,0.0,0.0
+online home,0.0,0.0,0.0
+online courses,0.0,0.0,0.0
+passenger cars,0.0,0.0,0.0
+online course,0.0,0.0,0.0
+online class,0.0,0.0,0.0
+ones,0.0,0.0,0.0
+one would,0.0,0.0,0.0
+one way,0.0,0.0,0.0
+one wants,0.0,0.0,0.0
+one vote,0.0,0.0,0.0
+open,0.0,0.0,0.0
+opened,0.0,0.0,0.0
+operating,0.0,0.0,0.0
+operating vehicle,0.0,0.0,0.0
+options,0.0,0.0,0.0
+option students,0.0,0.0,0.0
+option planetary,0.0,0.0,0.0
+option,0.0,0.0,0.0
+opposite,0.0,0.0,0.0
+opposing,0.0,0.0,0.0
+opposed,0.0,0.0,0.0
+oppose john,0.0,0.0,0.0
+oppose,0.0,0.0,0.0
+opportunity take,0.0,0.0,0.0
+opportunity,0.0,0.0,0.0
+opportunities,0.0,0.0,0.0
+opinions help,0.0,0.0,0.0
+opinions,0.0,0.0,0.0
+opinion think,0.0,0.0,0.0
+one two,0.0,0.0,0.0
+one time,0.0,0.0,0.0
+one thing,0.0,0.0,0.0
+older,0.0,0.0,0.0
+okay,0.0,0.0,0.0
+ok,0.0,0.0,0.0
+ohio,0.0,0.0,0.0
+oh,0.0,0.0,0.0
+often referred,0.0,0.0,0.0
+often,0.0,0.0,0.0
+official,0.0,0.0,0.0
+office federal,0.0,0.0,0.0
+office,0.0,0.0,0.0
+offers,0.0,0.0,0.0
+offering,0.0,0.0,0.0
+offered,0.0,0.0,0.0
+offer distance,0.0,0.0,0.0
+offer,0.0,0.0,0.0
+odd,0.0,0.0,0.0
+old,0.0,0.0,0.0
+one another,0.0,0.0,0.0
+one student,0.0,0.0,0.0
+one brightest,0.0,0.0,0.0
+one side,0.0,0.0,0.0
+one reasons,0.0,0.0,0.0
+one reason,0.0,0.0,0.0
+one point,0.0,0.0,0.0
+one persons,0.0,0.0,0.0
+one person,0.0,0.0,0.0
+one opinion,0.0,0.0,0.0
+one one,0.0,0.0,0.0
+one member,0.0,0.0,0.0
+one many,0.0,0.0,0.0
+one main,0.0,0.0,0.0
+one extracurricular,0.0,0.0,0.0
+one example,0.0,0.0,0.0
+one day,0.0,0.0,0.0
+one could,0.0,0.0,0.0
+orbit,0.0,0.0,0.0
+orbiter,0.0,0.0,0.0
+orbiter camera,0.0,0.0,0.0
+participate sports,0.0,0.0,0.0
+participate least,0.0,0.0,0.0
+participate extracurricular,0.0,0.0,0.0
+participate activities,0.0,0.0,0.0
+participate,0.0,0.0,0.0
+partial driving,0.0,0.0,0.0
+partial,0.0,0.0,0.0
+partake,0.0,0.0,0.0
+part,0.0,0.0,0.0
+parks,0.0,0.0,0.0
+parking,0.0,0.0,0.0
+park,0.0,0.0,0.0
+paris enforced,0.0,0.0,0.0
+paris bans,0.0,0.0,0.0
+paris,0.0,0.0,0.0
+parents would,0.0,0.0,0.0
+participate school,0.0,0.0,0.0
+participated,0.0,0.0,0.0
+parent,0.0,0.0,0.0
+participating,0.0,0.0,0.0
+passenger,0.0,0.0,0.0
+passed,0.0,0.0,0.0
+passage says,0.0,0.0,0.0
+passage,0.0,0.0,0.0
+pass,0.0,0.0,0.0
+partys nominee,0.0,0.0,0.0
+partys candidate,0.0,0.0,0.0
+partys,0.0,0.0,0.0
+party state,0.0,0.0,0.0
+party selects,0.0,0.0,0.0
+party,0.0,0.0,0.0
+parts,0.0,0.0,0.0
+parties,0.0,0.0,0.0
+particular,0.0,0.0,0.0
+participation,0.0,0.0,0.0
+parents,0.0,0.0,0.0
+paragraph states,0.0,0.0,0.0
+orbiting,0.0,0.0,0.0
+outdated irrational,0.0,0.0,0.0
+outcomes,0.0,0.0,0.0
+outcome electoral,0.0,0.0,0.0
+outcome,0.0,0.0,0.0
+ought overruled,0.0,0.0,0.0
+ought,0.0,0.0,0.0
+otherwise,0.0,0.0,0.0
+others opinions,0.0,0.0,0.0
+others might,0.0,0.0,0.0
+others may,0.0,0.0,0.0
+others,0.0,0.0,0.0
+original,0.0,0.0,0.0
+organized,0.0,0.0,0.0
+organize,0.0,0.0,0.0
+organization,0.0,0.0,0.0
+order,0.0,0.0,0.0
+outdated,0.0,0.0,0.0
+outside,0.0,0.0,0.0
+paragraph says,0.0,0.0,0.0
+outside school,0.0,0.0,0.0
+paragraph author,0.0,0.0,0.0
+paragraph,0.0,0.0,0.0
+papers,0.0,0.0,0.0
+panama,0.0,0.0,0.0
+painting,0.0,0.0,0.0
+painted,0.0,0.0,0.0
+paint,0.0,0.0,0.0
+paid,0.0,0.0,0.0
+pace,0.0,0.0,0.0
+owner,0.0,0.0,0.0
+overruled declaring,0.0,0.0,0.0
+overruled,0.0,0.0,0.0
+overcome,0.0,0.0,0.0
+overall,0.0,0.0,0.0
+outweigh,0.0,0.0,0.0
+seeing,0.0,0.0,0.0
+sent,0.0,0.0,0.0
+seek advice,0.0,0.0,0.0
+use,0.0,0.0,0.0
+used,0.0,0.0,0.0
+use technology,0.0,0.0,0.0
+use phones,0.0,0.0,0.0
+use phone,0.0,0.0,0.0
+use class,0.0,0.0,0.0
+use cell,0.0,0.0,0.0
+use cars,0.0,0.0,0.0
+usage,0.0,0.0,0.0
+various forms,0.0,0.0,0.0
+usa,0.0,0.0,0.0
+us would,0.0,0.0,0.0
+us students,0.0,0.0,0.0
+us people,0.0,0.0,0.0
+us many,0.0,0.0,0.0
+us know,0.0,0.0,0.0
+us humans,0.0,0.0,0.0
+useful,0.0,0.0,0.0
+useless,0.0,0.0,0.0
+uses,0.0,0.0,0.0
+using,0.0,0.0,0.0
+variety,0.0,0.0,0.0
+value insight,0.0,0.0,0.0
+value,0.0,0.0,0.0
+valuable,0.0,0.0,0.0
+valleys mountains,0.0,0.0,0.0
+valleys,0.0,0.0,0.0
+valid,0.0,0.0,0.0
+vacation,0.0,0.0,0.0
+usually,0.0,0.0,0.0
+using technology,0.0,0.0,0.0
+using phones,0.0,0.0,0.0
+using phone,0.0,0.0,0.0
+using electoral,0.0,0.0,0.0
+using cell,0.0,0.0,0.0
+using cars,0.0,0.0,0.0
+us chamber,0.0,0.0,0.0
+upset,0.0,0.0,0.0
+ups,0.0,0.0,0.0
+unit,0.0,0.0,0.0
+unhappy,0.0,0.0,0.0
+unfortunately,0.0,0.0,0.0
+unfair voters,0.0,0.0,0.0
+unfair outdated,0.0,0.0,0.0
+unfair,0.0,0.0,0.0
+understanding,0.0,0.0,0.0
+understand students,0.0,0.0,0.0
+understand,0.0,0.0,0.0
+uncomfortable,0.0,0.0,0.0
+unable,0.0,0.0,0.0
+ultimately,0.0,0.0,0.0
+typically,0.0,0.0,0.0
+types,0.0,0.0,0.0
+type,0.0,0.0,0.0
+two senators,0.0,0.0,0.0
+unique,0.0,0.0,0.0
+united,0.0,0.0,0.0
+upon,0.0,0.0,0.0
+united states,0.0,0.0,0.0
+upcoming school,0.0,0.0,0.0
+upcoming,0.0,0.0,0.0
+unusual,0.0,0.0,0.0
+unsafe,0.0,0.0,0.0
+unrra,0.0,0.0,0.0
+unnecessary,0.0,0.0,0.0
+unmasking face,0.0,0.0,0.0
+unmasking,0.0,0.0,0.0
+unmanned,0.0,0.0,0.0
+unlikely,0.0,0.0,0.0
+unlike,0.0,0.0,0.0
+unless,0.0,0.0,0.0
+university,0.0,0.0,0.0
+universal,0.0,0.0,0.0
+units,0.0,0.0,0.0
+various,0.0,0.0,0.0
+vary,0.0,0.0,0.0
+twin venus,0.0,0.0,0.0
+video surgery,0.0,0.0,0.0
+vinci,0.0,0.0,0.0
+viking photos,0.0,0.0,0.0
+viking,0.0,0.0,0.0
+views,0.0,0.0,0.0
+viewpoints,0.0,0.0,0.0
+view,0.0,0.0,0.0
+videos,0.0,0.0,0.0
+video imagery,0.0,0.0,0.0
+vary electors,0.0,0.0,0.0
+video games,0.0,0.0,0.0
+video conferencing,0.0,0.0,0.0
+video conferences,0.0,0.0,0.0
+video conference,0.0,0.0,0.0
+video,0.0,0.0,0.0
+victory,0.0,0.0,0.0
+vice president,0.0,0.0,0.0
+virtual,0.0,0.0,0.0
+virtue,0.0,0.0,0.0
+virtue malapportionment,0.0,0.0,0.0
+virus,0.0,0.0,0.0
+vote doesnt,0.0,0.0,0.0
+vote congress,0.0,0.0,0.0
+vote compared,0.0,0.0,0.0
+vote candidate,0.0,0.0,0.0
+vote also,0.0,0.0,0.0
+volunteer,0.0,0.0,0.0
+volleyball,0.0,0.0,0.0
+volcanoes powerful,0.0,0.0,0.0
+volcanoes,0.0,0.0,0.0
+voices,0.0,0.0,0.0
+voice,0.0,0.0,0.0
+vital,0.0,0.0,0.0
+visual,0.0,0.0,0.0
+visits,0.0,0.0,0.0
+visit,0.0,0.0,0.0
+vice,0.0,0.0,0.0
+venuss surface,0.0,0.0,0.0
+venuss atmosphere,0.0,0.0,0.0
+venus like,0.0,0.0,0.0
+venus even,0.0,0.0,0.0
+venus earth,0.0,0.0,0.0
+venus dangerous,0.0,0.0,0.0
+venus could,0.0,0.0,0.0
+venus closest,0.0,0.0,0.0
+venus author,0.0,0.0,0.0
+venus also,0.0,0.0,0.0
+venus,0.0,0.0,0.0
+vehicles,0.0,0.0,0.0
+vehicle hovering,0.0,0.0,0.0
+vehicle,0.0,0.0,0.0
+vaubans,0.0,0.0,0.0
+vauban germany,0.0,0.0,0.0
+vauban,0.0,0.0,0.0
+varying,0.0,0.0,0.0
+venus hottest,0.0,0.0,0.0
+venus mars,0.0,0.0,0.0
+venuss,0.0,0.0,0.0
+venus may,0.0,0.0,0.0
+venusian,0.0,0.0,0.0
+venuse,0.0,0.0,0.0
+venus would,0.0,0.0,0.0
+venus worthy,0.0,0.0,0.0
+venus worth,0.0,0.0,0.0
+venus venus,0.0,0.0,0.0
+venus value,0.0,0.0,0.0
+venus three,0.0,0.0,0.0
+venus surface,0.0,0.0,0.0
+venus still,0.0,0.0,0.0
+venus sometimes,0.0,0.0,0.0
+venus second,0.0,0.0,0.0
+venus probably,0.0,0.0,0.0
+venus planet,0.0,0.0,0.0
+venus one,0.0,0.0,0.0
+two,0.0,0.0,0.0
+twin,0.0,0.0,0.0
+things like,0.0,0.0,0.0
+thrown,0.0,0.0,0.0
+tight,0.0,0.0,0.0
+ties,0.0,0.0,0.0
+tie electoral,0.0,0.0,0.0
+tie,0.0,0.0,0.0
+ticket,0.0,0.0,0.0
+thus,0.0,0.0,0.0
+thrown house,0.0,0.0,0.0
+throw,0.0,0.0,0.0
+time would,0.0,0.0,0.0
+throughout school,0.0,0.0,0.0
+throughout,0.0,0.0,0.0
+threw,0.0,0.0,0.0
+three weeks,0.0,0.0,0.0
+three decades,0.0,0.0,0.0
+three,0.0,0.0,0.0
+thousands,0.0,0.0,0.0
+tight races,0.0,0.0,0.0
+till,0.0,0.0,0.0
+time ago,0.0,0.0,0.0
+time also,0.0,0.0,0.0
+time time,0.0,0.0,0.0
+time students,0.0,0.0,0.0
+time student,0.0,0.0,0.0
+time states,0.0,0.0,0.0
+time school,0.0,0.0,0.0
+time people,0.0,0.0,0.0
+time money,0.0,0.0,0.0
+time management,0.0,0.0,0.0
+time make,0.0,0.0,0.0
+time get,0.0,0.0,0.0
+time fun,0.0,0.0,0.0
+time family,0.0,0.0,0.0
+time day,0.0,0.0,0.0
+time consuming,0.0,0.0,0.0
+time away,0.0,0.0,0.0
+thoughts,0.0,0.0,0.0
+thoughtful voters,0.0,0.0,0.0
+thoughtful,0.0,0.0,0.0
+think natural,0.0,0.0,0.0
+think kids,0.0,0.0,0.0
+think great,0.0,0.0,0.0
+think good,0.0,0.0,0.0
+think going,0.0,0.0,0.0
+think get,0.0,0.0,0.0
+think face,0.0,0.0,0.0
+think electoral,0.0,0.0,0.0
+think driverless,0.0,0.0,0.0
+think could,0.0,0.0,0.0
+think community,0.0,0.0,0.0
+think change,0.0,0.0,0.0
+think best,0.0,0.0,0.0
+think aliens,0.0,0.0,0.0
+things would,0.0,0.0,0.0
+things people,0.0,0.0,0.0
+think make,0.0,0.0,0.0
+think people,0.0,0.0,0.0
+thought would,0.0,0.0,0.0
+think policy,0.0,0.0,0.0
+thought,0.0,0.0,0.0
+though mercury,0.0,0.0,0.0
+though,0.0,0.0,0.0
+thomas,0.0,0.0,0.0
+thirty,0.0,0.0,0.0
+third,0.0,0.0,0.0
+thinks,0.0,0.0,0.0
+thinking,0.0,0.0,0.0
+think would,0.0,0.0,0.0
+think use,0.0,0.0,0.0
+think thats,0.0,0.0,0.0
+think students,0.0,0.0,0.0
+think single,0.0,0.0,0.0
+think school,0.0,0.0,0.0
+think right,0.0,0.0,0.0
+time work,0.0,0.0,0.0
+time year,0.0,0.0,0.0
+twice,0.0,0.0,0.0
+trips,0.0,0.0,0.0
+truth,0.0,0.0,0.0
+trusted vote,0.0,0.0,0.0
+trusted,0.0,0.0,0.0
+trust,0.0,0.0,0.0
+truly,0.0,0.0,0.0
+true,0.0,0.0,0.0
+trouble,0.0,0.0,0.0
+tried,0.0,0.0,0.0
+times,0.0,0.0,0.0
+trend,0.0,0.0,0.0
+treated like,0.0,0.0,0.0
+treated,0.0,0.0,0.0
+travels earth,0.0,0.0,0.0
+travels,0.0,0.0,0.0
+traveling,0.0,0.0,0.0
+travel,0.0,0.0,0.0
+try,0.0,0.0,0.0
+try get,0.0,0.0,0.0
+try make,0.0,0.0,0.0
+try new,0.0,0.0,0.0
+twenty,0.0,0.0,0.0
+tv,0.0,0.0,0.0
+tutoring,0.0,0.0,0.0
+tutor,0.0,0.0,0.0
+turns,0.0,0.0,0.0
+turning,0.0,0.0,0.0
+turned,0.0,0.0,0.0
+turn potential,0.0,0.0,0.0
+turn elect,0.0,0.0,0.0
+turn,0.0,0.0,0.0
+tuesday first,0.0,0.0,0.0
+tuesday,0.0,0.0,0.0
+trying say,0.0,0.0,0.0
+trying make,0.0,0.0,0.0
+trying get,0.0,0.0,0.0
+trash,0.0,0.0,0.0
+transregional appeal,0.0,0.0,0.0
+transregional,0.0,0.0,0.0
+tossup,0.0,0.0,0.0
+topic,0.0,0.0,0.0
+top,0.0,0.0,0.0
+tools,0.0,0.0,0.0
+tool,0.0,0.0,0.0
+took picture,0.0,0.0,0.0
+took,0.0,0.0,0.0
+tons,0.0,0.0,0.0
+told,0.0,0.0,0.0
+together,0.0,0.0,0.0
+todays society,0.0,0.0,0.0
+todays,0.0,0.0,0.0
+tired,0.0,0.0,0.0
+times sharper,0.0,0.0,0.0
+times greater,0.0,0.0,0.0
+times bigger,0.0,0.0,0.0
+topics,0.0,0.0,0.0
+tossup states,0.0,0.0,0.0
+transportation,0.0,0.0,0.0
+total,0.0,0.0,0.0
+transport,0.0,0.0,0.0
+trait,0.0,0.0,0.0
+traffic jams,0.0,0.0,0.0
+traffic jam,0.0,0.0,0.0
+traffic,0.0,0.0,0.0
+traditional,0.0,0.0,0.0
+tracks,0.0,0.0,0.0
+track,0.0,0.0,0.0
+town,0.0,0.0,0.0
+towards,0.0,0.0,0.0
+tough,0.0,0.0,0.0
+touched venus,0.0,0.0,0.0
+touched,0.0,0.0,0.0
+touch,0.0,0.0,0.0
+totally,0.0,0.0,0.0
+vote dont,0.0,0.0,0.0
+vote election,0.0,0.0,0.0
+vote electoral,0.0,0.0,0.0
+worry,0.0,0.0,0.0
+would able,0.0,0.0,0.0
+worthy pursuit,0.0,0.0,0.0
+worthy,0.0,0.0,0.0
+worth,0.0,0.0,0.0
+worst,0.0,0.0,0.0
+worse,0.0,0.0,0.0
+worrying,0.0,0.0,0.0
+worried,0.0,0.0,0.0
+would happen,0.0,0.0,0.0
+worlds,0.0,0.0,0.0
+world would,0.0,0.0,0.0
+world war,0.0,0.0,0.0
+world better,0.0,0.0,0.0
+works,0.0,0.0,0.0
+workers,0.0,0.0,0.0
+worked,0.0,0.0,0.0
+would actually,0.0,0.0,0.0
+would agree,0.0,0.0,0.0
+would allow,0.0,0.0,0.0
+would become,0.0,0.0,0.0
+would great,0.0,0.0,0.0
+would good,0.0,0.0,0.0
+would go,0.0,0.0,0.0
+would give,0.0,0.0,0.0
+would feel,0.0,0.0,0.0
+would fair,0.0,0.0,0.0
+would even,0.0,0.0,0.0
+would easier,0.0,0.0,0.0
+would close,0.0,0.0,0.0
+would choose,0.0,0.0,0.0
+would change,0.0,0.0,0.0
+would cause,0.0,0.0,0.0
+would best,0.0,0.0,0.0
+would benefit,0.0,0.0,0.0
+would beneficial,0.0,0.0,0.0
+work would,0.0,0.0,0.0
+work together,0.0,0.0,0.0
+work time,0.0,0.0,0.0
+within,0.0,0.0,0.0
+wispy,0.0,0.0,0.0
+wish,0.0,0.0,0.0
+wise,0.0,0.0,0.0
+winter,0.0,0.0,0.0
+wins,0.0,0.0,0.0
+winning presidential,0.0,0.0,0.0
+winning focusing,0.0,0.0,0.0
+winning candidates,0.0,0.0,0.0
+winning,0.0,0.0,0.0
+winnertakesall system,0.0,0.0,0.0
+winnertakesall,0.0,0.0,0.0
+winnertakeall system,0.0,0.0,0.0
+winnertakeall,0.0,0.0,0.0
+winner takes,0.0,0.0,0.0
+winner take,0.0,0.0,0.0
+witch,0.0,0.0,0.0
+without,0.0,0.0,0.0
+work summer,0.0,0.0,0.0
+without cars,0.0,0.0,0.0
+work students,0.0,0.0,0.0
+work school,0.0,0.0,0.0
+work pace,0.0,0.0,0.0
+work home,0.0,0.0,0.0
+work hard,0.0,0.0,0.0
+work ethic,0.0,0.0,0.0
+work done,0.0,0.0,0.0
+words,0.0,0.0,0.0
+word,0.0,0.0,0.0
+wont get,0.0,0.0,0.0
+wont able,0.0,0.0,0.0
+wont,0.0,0.0,0.0
+wonderful,0.0,0.0,0.0
+wonder,0.0,0.0,0.0
+without much,0.0,0.0,0.0
+would greatly,0.0,0.0,0.0
+would hard,0.0,0.0,0.0
+vote electors,0.0,0.0,0.0
+wrote,0.0,0.0,0.0
+years tuesday,0.0,0.0,0.0
+years ago,0.0,0.0,0.0
+yearbook,0.0,0.0,0.0
+year students,0.0,0.0,0.0
+year,0.0,0.0,0.0
+yeah,0.0,0.0,0.0
+wyoming,0.0,0.0,0.0
+wrong electoral,0.0,0.0,0.0
+would help,0.0,0.0,0.0
+wrong candidate,0.0,0.0,0.0
+wrong bradford,0.0,0.0,0.0
+wrong,0.0,0.0,0.0
+written,0.0,0.0,0.0
+writing,0.0,0.0,0.0
+writes,0.0,0.0,0.0
+write,0.0,0.0,0.0
+yes,0.0,0.0,0.0
+yet,0.0,0.0,0.0
+york,0.0,0.0,0.0
+youd,0.0,0.0,0.0
+discourse_type_Lead,0.0,0.0,0.0
+discourse_type_Counterclaim,0.0,0.0,0.0
+discourse_type_Concluding Statement,0.0,0.0,0.0
+zones,0.0,0.0,0.0
+zone,0.0,0.0,0.0
+youve,0.0,0.0,0.0
+youth,0.0,0.0,0.0
+youre going,0.0,0.0,0.0
+youre actually,0.0,0.0,0.0
+youre,0.0,0.0,0.0
+younger,0.0,0.0,0.0
+young people,0.0,0.0,0.0
+young age,0.0,0.0,0.0
+youll,0.0,0.0,0.0
+youd vote,0.0,0.0,0.0
+wouldve,0.0,0.0,0.0
+wouldnt want,0.0,0.0,0.0
+wouldnt able,0.0,0.0,0.0
+would one,0.0,0.0,0.0
+would need,0.0,0.0,0.0
+would much,0.0,0.0,0.0
+would mean,0.0,0.0,0.0
+would make,0.0,0.0,0.0
+would love,0.0,0.0,0.0
+would lot,0.0,0.0,0.0
+would look,0.0,0.0,0.0
+would likely,0.0,0.0,0.0
+would like,0.0,0.0,0.0
+would let,0.0,0.0,0.0
+would less,0.0,0.0,0.0
+would lead,0.0,0.0,0.0
+would know,0.0,0.0,0.0
+would keep,0.0,0.0,0.0
+would increase,0.0,0.0,0.0
+would never,0.0,0.0,0.0
+would oppose,0.0,0.0,0.0
+wouldnt,0.0,0.0,0.0
+would prefer,0.0,0.0,0.0
+would work,0.0,0.0,0.0
+would want,0.0,0.0,0.0
+would vote,0.0,0.0,0.0
+would use,0.0,0.0,0.0
+would thrown,0.0,0.0,0.0
+would think,0.0,0.0,0.0
+would take,0.0,0.0,0.0
+would students,0.0,0.0,0.0
+would still,0.0,0.0,0.0
+would see,0.0,0.0,0.0
+would say,0.0,0.0,0.0
+would really,0.0,0.0,0.0
+would rather,0.0,0.0,0.0
+would put,0.0,0.0,0.0
+would probably,0.0,0.0,0.0
+winner electoral,0.0,0.0,0.0
+winner,0.0,0.0,0.0
+win national,0.0,0.0,0.0
+votes would,0.0,0.0,0.0
+voting slate,0.0,0.0,0.0
+voting process,0.0,0.0,0.0
+voting president,0.0,0.0,0.0
+voting electors,0.0,0.0,0.0
+voting electoral,0.0,0.0,0.0
+voting candidates,0.0,0.0,0.0
+voting,0.0,0.0,0.0
+votes winner,0.0,0.0,0.0
+win electoral,0.0,0.0,0.0
+votes state,0.0,0.0,0.0
+votes required,0.0,0.0,0.0
+votes president,0.0,0.0,0.0
+votes people,0.0,0.0,0.0
+votes induces,0.0,0.0,0.0
+votes electoral,0.0,0.0,0.0
+votes elect,0.0,0.0,0.0
+voting system,0.0,0.0,0.0
+wait,0.0,0.0,0.0
+waiting,0.0,0.0,0.0
+wake,0.0,0.0,0.0
+want participate,0.0,0.0,0.0
+want make,0.0,0.0,0.0
+want learn,0.0,0.0,0.0
+want know,0.0,0.0,0.0
+want keep,0.0,0.0,0.0
+want help,0.0,0.0,0.0
+want go,0.0,0.0,0.0
+want get,0.0,0.0,0.0
+want express,0.0,0.0,0.0
+want change,0.0,0.0,0.0
+wan na,0.0,0.0,0.0
+wan,0.0,0.0,0.0
+walter,0.0,0.0,0.0
+walking,0.0,0.0,0.0
+walk,0.0,0.0,0.0
+votes dont,0.0,0.0,0.0
+votes count,0.0,0.0,0.0
+votes congress,0.0,0.0,0.0
+vote whomever,0.0,0.0,0.0
+vote vote,0.0,0.0,0.0
+vote system,0.0,0.0,0.0
+vote state,0.0,0.0,0.0
+vote slate,0.0,0.0,0.0
+vote qualified,0.0,0.0,0.0
+vote presidential,0.0,0.0,0.0
+vote president,0.0,0.0,0.0
+vote possible,0.0,0.0,0.0
+vote popular,0.0,0.0,0.0
+vote person,0.0,0.0,0.0
+vote partys,0.0,0.0,0.0
+vote one,0.0,0.0,0.0
+vote may,0.0,0.0,0.0
+vote lost,0.0,0.0,0.0
+vote john,0.0,0.0,0.0
+vote want,0.0,0.0,0.0
+vote win,0.0,0.0,0.0
+votes cast,0.0,0.0,0.0
+vote would,0.0,0.0,0.0
+votes bush,0.0,0.0,0.0
+votes,0.0,0.0,0.0
+voters would,0.0,0.0,0.0
+voters winnertakeall,0.0,0.0,0.0
+voters vote,0.0,0.0,0.0
+voters presidential,0.0,0.0,0.0
+voters largest,0.0,0.0,0.0
+voters get,0.0,0.0,0.0
+voters dont,0.0,0.0,0.0
+voters candidate,0.0,0.0,0.0
+voters,0.0,0.0,0.0
+voter,0.0,0.0,0.0
+voteing,0.0,0.0,0.0
+voted,0.0,0.0,0.0
+vote wrong,0.0,0.0,0.0
+want people,0.0,0.0,0.0
+want play,0.0,0.0,0.0
+want president,0.0,0.0,0.0
+whats wrong,0.0,0.0,0.0
+whats,0.0,0.0,0.0
+whatever,0.0,0.0,0.0
+weve,0.0,0.0,0.0
+wether,0.0,0.0,0.0
+west,0.0,0.0,0.0
+werent,0.0,0.0,0.0
+went,0.0,0.0,0.0
+well earthlike,0.0,0.0,0.0
+weird,0.0,0.0,0.0
+weight political,0.0,0.0,0.0
+weight,0.0,0.0,0.0
+weeks,0.0,0.0,0.0
+week,0.0,0.0,0.0
+website,0.0,0.0,0.0
+web surfers,0.0,0.0,0.0
+whats going,0.0,0.0,0.0
+wheel,0.0,0.0,0.0
+web,0.0,0.0,0.0
+whenever,0.0,0.0,0.0
+win election,0.0,0.0,0.0
+win,0.0,0.0,0.0
+willing,0.0,0.0,0.0
+widely regarded,0.0,0.0,0.0
+widely,0.0,0.0,0.0
+wide,0.0,0.0,0.0
+wich,0.0,0.0,0.0
+whose,0.0,0.0,0.0
+whos,0.0,0.0,0.0
+whomever,0.0,0.0,0.0
+whole lot,0.0,0.0,0.0
+whole,0.0,0.0,0.0
+whoever,0.0,0.0,0.0
+whether,0.0,0.0,0.0
+whereas,0.0,0.0,0.0
+web ad,0.0,0.0,0.0
+weather,0.0,0.0,0.0
+want see,0.0,0.0,0.0
+way,0.0,0.0,0.0
+watch,0.0,0.0,0.0
+wasting,0.0,0.0,0.0
+waste time,0.0,0.0,0.0
+waste,0.0,0.0,0.0
+wasnt,0.0,0.0,0.0
+war ii,0.0,0.0,0.0
+war,0.0,0.0,0.0
+wants,0.0,0.0,0.0
+wanting,0.0,0.0,0.0
+wanted vote,0.0,0.0,0.0
+wanted,0.0,0.0,0.0
+want work,0.0,0.0,0.0
+want vote,0.0,0.0,0.0
+want take,0.0,0.0,0.0
+want students,0.0,0.0,0.0
+watching,0.0,0.0,0.0
+way better,0.0,0.0,0.0
+wear,0.0,0.0,0.0
+way could,0.0,0.0,0.0
+ways humans,0.0,0.0,0.0
+ways,0.0,0.0,0.0
+way would,0.0,0.0,0.0
+way voting,0.0,0.0,0.0
+way vote,0.0,0.0,0.0
+way students,0.0,0.0,0.0
+way people,0.0,0.0,0.0
+way online,0.0,0.0,0.0
+way make,0.0,0.0,0.0
+way learning,0.0,0.0,0.0
+way learn,0.0,0.0,0.0
+way help,0.0,0.0,0.0
+way go,0.0,0.0,0.0
+way get,0.0,0.0,0.0
+way elect,0.0,0.0,0.0
+things need,0.0,0.0,0.0
+thing would,0.0,0.0,0.0
+seek multiple,0.0,0.0,0.0
+speak,0.0,0.0,0.0
+speeds,0.0,0.0,0.0
+speed,0.0,0.0,0.0
+speech,0.0,0.0,0.0
+specifically,0.0,0.0,0.0
+specific,0.0,0.0,0.0
+special,0.0,0.0,0.0
+speaking,0.0,0.0,0.0
+spaceship touched,0.0,0.0,0.0
+starred,0.0,0.0,0.0
+spaceship,0.0,0.0,0.0
+spacecrafts,0.0,0.0,0.0
+spacecraft survived,0.0,0.0,0.0
+spacecraft land,0.0,0.0,0.0
+spacecraft,0.0,0.0,0.0
+space,0.0,0.0,0.0
+south carolina,0.0,0.0,0.0
+spend,0.0,0.0,0.0
+spend time,0.0,0.0,0.0
+spending,0.0,0.0,0.0
+spending time,0.0,0.0,0.0
+star,0.0,0.0,0.0
+standards,0.0,0.0,0.0
+standard,0.0,0.0,0.0
+stand,0.0,0.0,0.0
+stage,0.0,0.0,0.0
+staff,0.0,0.0,0.0
+spread,0.0,0.0,0.0
+spotted,0.0,0.0,0.0
+spot,0.0,0.0,0.0
+sports team,0.0,0.0,0.0
+sports school,0.0,0.0,0.0
+sports activities,0.0,0.0,0.0
+sports,0.0,0.0,0.0
+sport,0.0,0.0,0.0
+spinning,0.0,0.0,0.0
+south,0.0,0.0,0.0
+source two,0.0,0.0,0.0
+source paragraph,0.0,0.0,0.0
+something else,0.0,0.0,0.0
+something bad,0.0,0.0,0.0
+something,0.0,0.0,0.0
+someones,0.0,0.0,0.0
+someone make,0.0,0.0,0.0
+someone elses,0.0,0.0,0.0
+someone else,0.0,0.0,0.0
+someone,0.0,0.0,0.0
+somebody,0.0,0.0,0.0
+solved,0.0,0.0,0.0
+solve problem,0.0,0.0,0.0
+solve,0.0,0.0,0.0
+solutions,0.0,0.0,0.0
+solution,0.0,0.0,0.0
+sold car,0.0,0.0,0.0
+sold,0.0,0.0,0.0
+something dont,0.0,0.0,0.0
+something enjoy,0.0,0.0,0.0
+source,0.0,0.0,0.0
+something good,0.0,0.0,0.0
+sounds,0.0,0.0,0.0
+sound,0.0,0.0,0.0
+sort,0.0,0.0,0.0
+soon,0.0,0.0,0.0
+somthing,0.0,0.0,0.0
+somewhere,0.0,0.0,0.0
+somewhat,0.0,0.0,0.0
+sometimes people,0.0,0.0,0.0
+sometimes get,0.0,0.0,0.0
+sometimes,0.0,0.0,0.0
+sometime,0.0,0.0,0.0
+something wrong,0.0,0.0,0.0
+something would,0.0,0.0,0.0
+something new,0.0,0.0,0.0
+something like,0.0,0.0,0.0
+star one,0.0,0.0,0.0
+start,0.0,0.0,0.0
+solar,0.0,0.0,0.0
+still,0.0,0.0,0.0
+stores,0.0,0.0,0.0
+store,0.0,0.0,0.0
+stops,0.0,0.0,0.0
+stop,0.0,0.0,0.0
+still need,0.0,0.0,0.0
+still features,0.0,0.0,0.0
+still able,0.0,0.0,0.0
+stick,0.0,0.0,0.0
+started,0.0,0.0,0.0
+steps,0.0,0.0,0.0
+step,0.0,0.0,0.0
+steer,0.0,0.0,0.0
+staying,0.0,0.0,0.0
+stayed,0.0,0.0,0.0
+stay school,0.0,0.0,0.0
+stay home,0.0,0.0,0.0
+storms,0.0,0.0,0.0
+story,0.0,0.0,0.0
+straight,0.0,0.0,0.0
+strange,0.0,0.0,0.0
+structure,0.0,0.0,0.0
+strongly believe,0.0,0.0,0.0
+strongly,0.0,0.0,0.0
+stronger,0.0,0.0,0.0
+strong,0.0,0.0,0.0
+striving meet,0.0,0.0,0.0
+striving,0.0,0.0,0.0
+strive,0.0,0.0,0.0
+strikes,0.0,0.0,0.0
+strict,0.0,0.0,0.0
+stressful,0.0,0.0,0.0
+stressed,0.0,0.0,0.0
+stress,0.0,0.0,0.0
+streets,0.0,0.0,0.0
+street,0.0,0.0,0.0
+stay,0.0,0.0,0.0
+statistics,0.0,0.0,0.0
+stating,0.0,0.0,0.0
+stated source,0.0,0.0,0.0
+state vote,0.0,0.0,0.0
+state senator,0.0,0.0,0.0
+state purposes,0.0,0.0,0.0
+state legislatures,0.0,0.0,0.0
+state laws,0.0,0.0,0.0
+state group,0.0,0.0,0.0
+state gets,0.0,0.0,0.0
+state electors,0.0,0.0,0.0
+state electoral,0.0,0.0,0.0
+state delegations,0.0,0.0,0.0
+state candidates,0.0,0.0,0.0
+state along,0.0,0.0,0.0
+state,0.0,0.0,0.0
+starts,0.0,0.0,0.0
+starting,0.0,0.0,0.0
+stated,0.0,0.0,0.0
+statement,0.0,0.0,0.0
+states would,0.0,0.0,0.0
+states,0.0,0.0,0.0
+states winnertakeall,0.0,0.0,0.0
+states vote,0.0,0.0,0.0
+states population,0.0,0.0,0.0
+states people,0.0,0.0,0.0
+states lose,0.0,0.0,0.0
+states likely,0.0,0.0,0.0
+states like,0.0,0.0,0.0
+states know,0.0,0.0,0.0
+states get,0.0,0.0,0.0
+states electors,0.0,0.0,0.0
+states electoral,0.0,0.0,0.0
+states dont,0.0,0.0,0.0
+states didnt,0.0,0.0,0.0
+states big,0.0,0.0,0.0
+states america,0.0,0.0,0.0
+solar system,0.0,0.0,0.0
+software tracks,0.0,0.0,0.0
+thing people,0.0,0.0,0.0
+setting,0.0,0.0,0.0
+shadows,0.0,0.0,0.0
+shadow,0.0,0.0,0.0
+shacks,0.0,0.0,0.0
+several,0.0,0.0,0.0
+seventeen states,0.0,0.0,0.0
+seventeen,0.0,0.0,0.0
+seven,0.0,0.0,0.0
+set,0.0,0.0,0.0
+shows martian,0.0,0.0,0.0
+services,0.0,0.0,0.0
+service would,0.0,0.0,0.0
+service help,0.0,0.0,0.0
+service great,0.0,0.0,0.0
+service good,0.0,0.0,0.0
+service,0.0,0.0,0.0
+serve,0.0,0.0,0.0
+shadows giving,0.0,0.0,0.0
+shadows made,0.0,0.0,0.0
+shape,0.0,0.0,0.0
+share,0.0,0.0,0.0
+shown,0.0,0.0,0.0
+showing,0.0,0.0,0.0
+showed,0.0,0.0,0.0
+show,0.0,0.0,0.0
+shouldnt,0.0,0.0,0.0
+shortly al,0.0,0.0,0.0
+shortly,0.0,0.0,0.0
+short,0.0,0.0,0.0
+shopping,0.0,0.0,0.0
+shoes,0.0,0.0,0.0
+shift,0.0,0.0,0.0
+shes,0.0,0.0,0.0
+sharper,0.0,0.0,0.0
+share popular,0.0,0.0,0.0
+share electoral,0.0,0.0,0.0
+seriously,0.0,0.0,0.0
+serious,0.0,0.0,0.0
+sentence,0.0,0.0,0.0
+selection electors,0.0,0.0,0.0
+selecting president,0.0,0.0,0.0
+selecting,0.0,0.0,0.0
+selected,0.0,0.0,0.0
+select,0.0,0.0,0.0
+segregationists,0.0,0.0,0.0
+sees,0.0,0.0,0.0
+seen,0.0,0.0,0.0
+seems like,0.0,0.0,0.0
+seems,0.0,0.0,0.0
+seemed,0.0,0.0,0.0
+seem like,0.0,0.0,0.0
+seem,0.0,0.0,0.0
+seeking multiple,0.0,0.0,0.0
+seeking advice,0.0,0.0,0.0
+seeking,0.0,0.0,0.0
+selection,0.0,0.0,0.0
+selects,0.0,0.0,0.0
+many problems,0.0,0.0,0.0
+selects slate,0.0,0.0,0.0
+sensors,0.0,0.0,0.0
+sensor,0.0,0.0,0.0
+sense,0.0,0.0,0.0
+sending humans,0.0,0.0,0.0
+sending,0.0,0.0,0.0
+send,0.0,0.0,0.0
+senators,0.0,0.0,0.0
+senator,0.0,0.0,0.0
+senate decreed,0.0,0.0,0.0
+senate,0.0,0.0,0.0
+selves,0.0,0.0,0.0
+selsky,0.0,0.0,0.0
+sell,0.0,0.0,0.0
+self driving,0.0,0.0,0.0
+self,0.0,0.0,0.0
+shows,0.0,0.0,0.0
+shut,0.0,0.0,0.0
+software,0.0,0.0,0.0
+slightly,0.0,0.0,0.0
+smart,0.0,0.0,0.0
+smaller states,0.0,0.0,0.0
+smaller,0.0,0.0,0.0
+small states,0.0,0.0,0.0
+small state,0.0,0.0,0.0
+slowly,0.0,0.0,0.0
+slow,0.0,0.0,0.0
+slight,0.0,0.0,0.0
+shy,0.0,0.0,0.0
+sleeping,0.0,0.0,0.0
+sleep,0.0,0.0,0.0
+slate electors,0.0,0.0,0.0
+slate democratic,0.0,0.0,0.0
+slate,0.0,0.0,0.0
+sky,0.0,0.0,0.0
+skip,0.0,0.0,0.0
+smart car,0.0,0.0,0.0
+smart cars,0.0,0.0,0.0
+smarter,0.0,0.0,0.0
+smile,0.0,0.0,0.0
+society,0.0,0.0,0.0
+socialize,0.0,0.0,0.0
+social skills,0.0,0.0,0.0
+social media,0.0,0.0,0.0
+social life,0.0,0.0,0.0
+social interaction,0.0,0.0,0.0
+social,0.0,0.0,0.0
+soccer,0.0,0.0,0.0
+snapped picture,0.0,0.0,0.0
+snapped,0.0,0.0,0.0
+snake river,0.0,0.0,0.0
+snake,0.0,0.0,0.0
+smog,0.0,0.0,0.0
+smiling,0.0,0.0,0.0
+smile face,0.0,0.0,0.0
+skills,0.0,0.0,0.0
+skill,0.0,0.0,0.0
+size occasionally,0.0,0.0,0.0
+simply look,0.0,0.0,0.0
+simplified electronics,0.0,0.0,0.0
+simplified,0.0,0.0,0.0
+simple,0.0,0.0,0.0
+similar earth,0.0,0.0,0.0
+similar,0.0,0.0,0.0
+silicon carbide,0.0,0.0,0.0
+silicon,0.0,0.0,0.0
+signs,0.0,0.0,0.0
+significantly,0.0,0.0,0.0
+significant,0.0,0.0,0.0
+sign,0.0,0.0,0.0
+sidewalks,0.0,0.0,0.0
+sides,0.0,0.0,0.0
+sick,0.0,0.0,0.0
+siblings,0.0,0.0,0.0
+simply,0.0,0.0,0.0
+simulating,0.0,0.0,0.0
+size,0.0,0.0,0.0
+simulating chaos,0.0,0.0,0.0
+six basic,0.0,0.0,0.0
+six,0.0,0.0,0.0
+situations,0.0,0.0,0.0
+situation,0.0,0.0,0.0
+sites,0.0,0.0,0.0
+site,0.0,0.0,0.0
+sit,0.0,0.0,0.0
+sister planet,0.0,0.0,0.0
+sister,0.0,0.0,0.0
+single vote,0.0,0.0,0.0
+single spaceship,0.0,0.0,0.0
+single campaign,0.0,0.0,0.0
+single best,0.0,0.0,0.0
+single,0.0,0.0,0.0
+since,0.0,0.0,0.0
+struggle,0.0,0.0,0.0
+struggling,0.0,0.0,0.0
+stuck,0.0,0.0,0.0
+taking away,0.0,0.0,0.0
+talked,0.0,0.0,0.0
+talk shows,0.0,0.0,0.0
+talk people,0.0,0.0,0.0
+talk,0.0,0.0,0.0
+taking online,0.0,0.0,0.0
+taking classes,0.0,0.0,0.0
+taking care,0.0,0.0,0.0
+takes system,0.0,0.0,0.0
+teachers give,0.0,0.0,0.0
+takes form,0.0,0.0,0.0
+takes away,0.0,0.0,0.0
+takes,0.0,0.0,0.0
+taken shortly,0.0,0.0,0.0
+taken away,0.0,0.0,0.0
+taken,0.0,0.0,0.0
+take time,0.0,0.0,0.0
+talking,0.0,0.0,0.0
+talks,0.0,0.0,0.0
+task,0.0,0.0,0.0
+tasks,0.0,0.0,0.0
+teachers,0.0,0.0,0.0
+teacherdesigned summer,0.0,0.0,0.0
+teacherdesigned projects,0.0,0.0,0.0
+teacherdesigned project,0.0,0.0,0.0
+teacherdesigned,0.0,0.0,0.0
+teacher would,0.0,0.0,0.0
+teacher designed,0.0,0.0,0.0
+teacher could,0.0,0.0,0.0
+teacher,0.0,0.0,0.0
+teach students,0.0,0.0,0.0
+teach,0.0,0.0,0.0
+taxis,0.0,0.0,0.0
+taxi,0.0,0.0,0.0
+tax,0.0,0.0,0.0
+taught,0.0,0.0,0.0
+take system,0.0,0.0,0.0
+take samples,0.0,0.0,0.0
+take place,0.0,0.0,0.0
+system awards,0.0,0.0,0.0
+system,0.0,0.0,0.0
+switch,0.0,0.0,0.0
+swing states,0.0,0.0,0.0
+swing,0.0,0.0,0.0
+survived landing,0.0,0.0,0.0
+survived,0.0,0.0,0.0
+survive,0.0,0.0,0.0
+survivable humans,0.0,0.0,0.0
+survivable,0.0,0.0,0.0
+surveyor flew,0.0,0.0,0.0
+surveyor,0.0,0.0,0.0
+surroundings,0.0,0.0,0.0
+surrounding,0.0,0.0,0.0
+surrounded,0.0,0.0,0.0
+surprised,0.0,0.0,0.0
+system allows,0.0,0.0,0.0
+system could,0.0,0.0,0.0
+take pictures,0.0,0.0,0.0
+system electoral,0.0,0.0,0.0
+take part,0.0,0.0,0.0
+take online,0.0,0.0,0.0
+take control,0.0,0.0,0.0
+take classes,0.0,0.0,0.0
+take class,0.0,0.0,0.0
+take care,0.0,0.0,0.0
+take away,0.0,0.0,0.0
+take advantage,0.0,0.0,0.0
+take,0.0,0.0,0.0
+systems,0.0,0.0,0.0
+system wrong,0.0,0.0,0.0
+system would,0.0,0.0,0.0
+system voters,0.0,0.0,0.0
+system state,0.0,0.0,0.0
+system even,0.0,0.0,0.0
+teachers design,0.0,0.0,0.0
+teachers know,0.0,0.0,0.0
+student becoming,0.0,0.0,0.0
+testing,0.0,0.0,0.0
+texting,0.0,0.0,0.0
+text states,0.0,0.0,0.0
+text says,0.0,0.0,0.0
+text drive,0.0,0.0,0.0
+text,0.0,0.0,0.0
+texas,0.0,0.0,0.0
+tests,0.0,0.0,0.0
+tested chamber,0.0,0.0,0.0
+teachers make,0.0,0.0,0.0
+tested,0.0,0.0,0.0
+terrible,0.0,0.0,0.0
+terms density,0.0,0.0,0.0
+terms,0.0,0.0,0.0
+term,0.0,0.0,0.0
+tense,0.0,0.0,0.0
+tend,0.0,0.0,0.0
+texting driving,0.0,0.0,0.0
+th,0.0,0.0,0.0
+th grade,0.0,0.0,0.0
+thank,0.0,0.0,0.0
+thing could,0.0,0.0,0.0
+thing,0.0,0.0,0.0
+thier,0.0,0.0,0.0
+thick atmosphere,0.0,0.0,0.0
+thick,0.0,0.0,0.0
+theyve,0.0,0.0,0.0
+theyre,0.0,0.0,0.0
+theyll,0.0,0.0,0.0
+theres,0.0,0.0,0.0
+ther,0.0,0.0,0.0
+theory,0.0,0.0,0.0
+theorists,0.0,0.0,0.0
+thats think,0.0,0.0,0.0
+thats,0.0,0.0,0.0
+thanks,0.0,0.0,0.0
+ten times,0.0,0.0,0.0
+ten,0.0,0.0,0.0
+temperatures average,0.0,0.0,0.0
+technology make,0.0,0.0,0.0
+technology called,0.0,0.0,0.0
+technology,0.0,0.0,0.0
+technologies,0.0,0.0,0.0
+technological,0.0,0.0,0.0
+technolgy,0.0,0.0,0.0
+technically responsible,0.0,0.0,0.0
+technically,0.0,0.0,0.0
+tech,0.0,0.0,0.0
+teams,0.0,0.0,0.0
+team snapped,0.0,0.0,0.0
+team,0.0,0.0,0.0
+teaching,0.0,0.0,0.0
+teaches,0.0,0.0,0.0
+teachers would,0.0,0.0,0.0
+teachers students,0.0,0.0,0.0
+technology could,0.0,0.0,0.0
+technology read,0.0,0.0,0.0
+temperatures,0.0,0.0,0.0
+technology would,0.0,0.0,0.0
+temperature planet,0.0,0.0,0.0
+temperature,0.0,0.0,0.0
+tells us,0.0,0.0,0.0
+tells,0.0,0.0,0.0
+telling us,0.0,0.0,0.0
+telling,0.0,0.0,0.0
+tell us,0.0,0.0,0.0
+tell someone,0.0,0.0,0.0
+tell people,0.0,0.0,0.0
+tell friend,0.0,0.0,0.0
+tell,0.0,0.0,0.0
+television,0.0,0.0,0.0
+teens,0.0,0.0,0.0
+teenagers,0.0,0.0,0.0
+teen,0.0,0.0,0.0
+surprise anger,0.0,0.0,0.0
+surprise,0.0,0.0,0.0
+surgery,0.0,0.0,0.0
+students go,0.0,0.0,0.0
+students learn,0.0,0.0,0.0
+students know,0.0,0.0,0.0
+students home,0.0,0.0,0.0
+students help,0.0,0.0,0.0
+students grades,0.0,0.0,0.0
+students grade,0.0,0.0,0.0
+students going,0.0,0.0,0.0
+students given,0.0,0.0,0.0
+surfers waiting,0.0,0.0,0.0
+students getting,0.0,0.0,0.0
+students get,0.0,0.0,0.0
+students freedom,0.0,0.0,0.0
+students find,0.0,0.0,0.0
+students feel,0.0,0.0,0.0
+students enjoy,0.0,0.0,0.0
+students emotions,0.0,0.0,0.0
+students learning,0.0,0.0,0.0
+students least,0.0,0.0,0.0
+students like,0.0,0.0,0.0
+students likely,0.0,0.0,0.0
+students something,0.0,0.0,0.0
+students shouldnt,0.0,0.0,0.0
+students school,0.0,0.0,0.0
+students required,0.0,0.0,0.0
+students perform,0.0,0.0,0.0
+students participate,0.0,0.0,0.0
+students parents,0.0,0.0,0.0
+students opportunity,0.0,0.0,0.0
+students often,0.0,0.0,0.0
+students need,0.0,0.0,0.0
+students must,0.0,0.0,0.0
+students might,0.0,0.0,0.0
+students may,0.0,0.0,0.0
+students many,0.0,0.0,0.0
+students make,0.0,0.0,0.0
+students emotional,0.0,0.0,0.0
+students education,0.0,0.0,0.0
+students dont,0.0,0.0,0.0
+students already,0.0,0.0,0.0
+students able,0.0,0.0,0.0
+students ability,0.0,0.0,0.0
+studentdesigned summer,0.0,0.0,0.0
+studentdesigned projects,0.0,0.0,0.0
+studentdesigned project,0.0,0.0,0.0
+studentdesigned,0.0,0.0,0.0
+student would,0.0,0.0,0.0
+student work,0.0,0.0,0.0
+student wants,0.0,0.0,0.0
+student take,0.0,0.0,0.0
+student might,0.0,0.0,0.0
+student may,0.0,0.0,0.0
+student get,0.0,0.0,0.0
+student designed,0.0,0.0,0.0
+student council,0.0,0.0,0.0
+students allowed,0.0,0.0,0.0
+students also,0.0,0.0,0.0
+students design,0.0,0.0,0.0
+students always,0.0,0.0,0.0
+students create,0.0,0.0,0.0
+students could,0.0,0.0,0.0
+students continue,0.0,0.0,0.0
+students complete,0.0,0.0,0.0
+students community,0.0,0.0,0.0
+students come,0.0,0.0,0.0
+students classroom,0.0,0.0,0.0
+students choose,0.0,0.0,0.0
+students chance,0.0,0.0,0.0
+students cell,0.0,0.0,0.0
+students bring,0.0,0.0,0.0
+students better,0.0,0.0,0.0
+students benefit,0.0,0.0,0.0
+students become,0.0,0.0,0.0
+students attend,0.0,0.0,0.0
+students stay,0.0,0.0,0.0
+students still,0.0,0.0,0.0
+students struggle,0.0,0.0,0.0
+support,0.0,0.0,0.0
+super,0.0,0.0,0.0
+sun venus,0.0,0.0,0.0
+sun different,0.0,0.0,0.0
+sun,0.0,0.0,0.0
+summer time,0.0,0.0,0.0
+summer students,0.0,0.0,0.0
+summer projects,0.0,0.0,0.0
+summer project,0.0,0.0,0.0
+summer break,0.0,0.0,0.0
+summer assignments,0.0,0.0,0.0
+summer assignment,0.0,0.0,0.0
+summer,0.0,0.0,0.0
+sulfuric acid,0.0,0.0,0.0
+sulfuric,0.0,0.0,0.0
+suggests studying,0.0,0.0,0.0
+supplies,0.0,0.0,0.0
+support idea,0.0,0.0,0.0
+suggest,0.0,0.0,0.0
+supported,0.0,0.0,0.0
+surfers,0.0,0.0,0.0
+surface venus,0.0,0.0,0.0
+surface temperatures,0.0,0.0,0.0
+surface temperature,0.0,0.0,0.0
+surface rocky,0.0,0.0,0.0
+surface lasted,0.0,0.0,0.0
+surely,0.0,0.0,0.0
+sure students,0.0,0.0,0.0
+sure,0.0,0.0,0.0
+supposed,0.0,0.0,0.0
+suppose,0.0,0.0,0.0
+supports idea,0.0,0.0,0.0
+supports,0.0,0.0,0.0
+supporting,0.0,0.0,0.0
+supported various,0.0,0.0,0.0
+suggests,0.0,0.0,0.0
+suffer,0.0,0.0,0.0
+students students,0.0,0.0,0.0
+study,0.0,0.0,0.0
+studied,0.0,0.0,0.0
+students wouldnt,0.0,0.0,0.0
+students would,0.0,0.0,0.0
+students work,0.0,0.0,0.0
+students wont,0.0,0.0,0.0
+students want,0.0,0.0,0.0
+students use,0.0,0.0,0.0
+students understand,0.0,0.0,0.0
+students try,0.0,0.0,0.0
+students time,0.0,0.0,0.0
+students think,0.0,0.0,0.0
+students teachers,0.0,0.0,0.0
+students taking,0.0,0.0,0.0
+students take,0.0,0.0,0.0
+students summer,0.0,0.0,0.0
+studies,0.0,0.0,0.0
+study venus,0.0,0.0,0.0
+successful,0.0,0.0,0.0
+studying,0.0,0.0,0.0
+success,0.0,0.0,0.0
+succeeded replacing,0.0,0.0,0.0
+succeeded,0.0,0.0,0.0
+succeed,0.0,0.0,0.0
+suburbs,0.0,0.0,0.0
+suburban,0.0,0.0,0.0
+suburb,0.0,0.0,0.0
+submarine,0.0,0.0,0.0
+subjects,0.0,0.0,0.0
+subject,0.0,0.0,0.0
+style,0.0,0.0,0.0
+stupid,0.0,0.0,0.0
+stuff like,0.0,0.0,0.0
+stuff,0.0,0.0,0.0
+studying venus,0.0,0.0,0.0
+many reasons,0.0,0.0,0.0
+make project,0.0,0.0,0.0
+many people,0.0,0.0,0.0
+complete summer,0.0,0.0,0.0
+complicate,0.0,0.0,0.0
+complex,0.0,0.0,0.0
+completly,0.0,0.0,0.0
+completing,0.0,0.0,0.0
+completely driverless,0.0,0.0,0.0
+completely,0.0,0.0,0.0
+completed,0.0,0.0,0.0
+complete project,0.0,0.0,0.0
+company,0.0,0.0,0.0
+complete assignment,0.0,0.0,0.0
+complete,0.0,0.0,0.0
+complain,0.0,0.0,0.0
+competing,0.0,0.0,0.0
+compelling,0.0,0.0,0.0
+compared percent,0.0,0.0,0.0
+compared,0.0,0.0,0.0
+complicated,0.0,0.0,0.0
+comprehend,0.0,0.0,0.0
+compromise,0.0,0.0,0.0
+compromise election,0.0,0.0,0.0
+conclusion electoral,0.0,0.0,0.0
+conclusion,0.0,0.0,0.0
+conclude,0.0,0.0,0.0
+concerns,0.0,0.0,0.0
+concern,0.0,0.0,0.0
+concepts,0.0,0.0,0.0
+concept,0.0,0.0,0.0
+computers,0.0,0.0,0.0
+computer tell,0.0,0.0,0.0
+computer software,0.0,0.0,0.0
+computer model,0.0,0.0,0.0
+computer knows,0.0,0.0,0.0
+computer could,0.0,0.0,0.0
+computer constructs,0.0,0.0,0.0
+computer,0.0,0.0,0.0
+compare,0.0,0.0,0.0
+companies,0.0,0.0,0.0
+could go,0.0,0.0,0.0
+college widely,0.0,0.0,0.0
+come,0.0,0.0,0.0
+columbia allocated,0.0,0.0,0.0
+columbia,0.0,0.0,0.0
+colombia,0.0,0.0,0.0
+colleges,0.0,0.0,0.0
+college would,0.0,0.0,0.0
+college work,0.0,0.0,0.0
+college way,0.0,0.0,0.0
+community services,0.0,0.0,0.0
+college voting,0.0,0.0,0.0
+college votes,0.0,0.0,0.0
+college vote,0.0,0.0,0.0
+college unfair,0.0,0.0,0.0
+college system,0.0,0.0,0.0
+college still,0.0,0.0,0.0
+college stay,0.0,0.0,0.0
+come back,0.0,0.0,0.0
+come school,0.0,0.0,0.0
+comes,0.0,0.0,0.0
+comfort,0.0,0.0,0.0
+community service,0.0,0.0,0.0
+community,0.0,0.0,0.0
+communities,0.0,0.0,0.0
+communication,0.0,0.0,0.0
+communicating,0.0,0.0,0.0
+communicate,0.0,0.0,0.0
+common around,0.0,0.0,0.0
+common,0.0,0.0,0.0
+commerce aflcio,0.0,0.0,0.0
+commerce,0.0,0.0,0.0
+coming school,0.0,0.0,0.0
+coming,0.0,0.0,0.0
+comfortable,0.0,0.0,0.0
+comfort zone,0.0,0.0,0.0
+comfort home,0.0,0.0,0.0
+conclusion think,0.0,0.0,0.0
+condition,0.0,0.0,0.0
+conditions,0.0,0.0,0.0
+continue,0.0,0.0,0.0
+convenient,0.0,0.0,0.0
+control electors,0.0,0.0,0.0
+control car,0.0,0.0,0.0
+control,0.0,0.0,0.0
+contribute,0.0,0.0,0.0
+continues,0.0,0.0,0.0
+continue learning,0.0,0.0,0.0
+content,0.0,0.0,0.0
+conditions far,0.0,0.0,0.0
+contact,0.0,0.0,0.0
+consuming,0.0,0.0,0.0
+constructs computer,0.0,0.0,0.0
+constructs,0.0,0.0,0.0
+constitution district,0.0,0.0,0.0
+constitution compromise,0.0,0.0,0.0
+constitution,0.0,0.0,0.0
+convey,0.0,0.0,0.0
+convince,0.0,0.0,0.0
+convincing,0.0,0.0,0.0
+cool,0.0,0.0,0.0
+could get,0.0,0.0,0.0
+could find,0.0,0.0,0.0
+could even,0.0,0.0,0.0
+could easily,0.0,0.0,0.0
+could change,0.0,0.0,0.0
+could cause,0.0,0.0,0.0
+could always,0.0,0.0,0.0
+could also,0.0,0.0,0.0
+costs,0.0,0.0,0.0
+cost,0.0,0.0,0.0
+corrosive sulfuric,0.0,0.0,0.0
+corrosive,0.0,0.0,0.0
+correctly,0.0,0.0,0.0
+correct,0.0,0.0,0.0
+corner,0.0,0.0,0.0
+constantly,0.0,0.0,0.0
+constant,0.0,0.0,0.0
+conspiracy theorists,0.0,0.0,0.0
+congressional,0.0,0.0,0.0
+congress,0.0,0.0,0.0
+congestion,0.0,0.0,0.0
+confusion,0.0,0.0,0.0
+confusing,0.0,0.0,0.0
+confused electors,0.0,0.0,0.0
+confused bored,0.0,0.0,0.0
+confused,0.0,0.0,0.0
+conflict,0.0,0.0,0.0
+confident,0.0,0.0,0.0
+confidence,0.0,0.0,0.0
+conferencing,0.0,0.0,0.0
+conferences,0.0,0.0,0.0
+conference,0.0,0.0,0.0
+conditions venus,0.0,0.0,0.0
+conditions surface,0.0,0.0,0.0
+congress election,0.0,0.0,0.0
+congressional delegation,0.0,0.0,0.0
+conspiracy,0.0,0.0,0.0
+connect,0.0,0.0,0.0
+consists selection,0.0,0.0,0.0
+consists electors,0.0,0.0,0.0
+consists,0.0,0.0,0.0
+consist,0.0,0.0,0.0
+considering,0.0,0.0,0.0
+considered,0.0,0.0,0.0
+consideration,0.0,0.0,0.0
+consider state,0.0,0.0,0.0
+consider lucky,0.0,0.0,0.0
+consider,0.0,0.0,0.0
+consequences,0.0,0.0,0.0
+cons,0.0,0.0,0.0
+connections,0.0,0.0,0.0
+connection,0.0,0.0,0.0
+connected,0.0,0.0,0.0
+college restores,0.0,0.0,0.0
+college requires,0.0,0.0,0.0
+college process,0.0,0.0,0.0
+changing election,0.0,0.0,0.0
+cheating,0.0,0.0,0.0
+cheat,0.0,0.0,0.0
+charge,0.0,0.0,0.0
+characteristic,0.0,0.0,0.0
+character,0.0,0.0,0.0
+chaos venuss,0.0,0.0,0.0
+chaos,0.0,0.0,0.0
+changing,0.0,0.0,0.0
+citizens united,0.0,0.0,0.0
+changes,0.0,0.0,0.0
+changed,0.0,0.0,0.0
+change world,0.0,0.0,0.0
+change way,0.0,0.0,0.0
+change mind,0.0,0.0,0.0
+change electoral,0.0,0.0,0.0
+change election,0.0,0.0,0.0
+child,0.0,0.0,0.0
+children,0.0,0.0,0.0
+childs,0.0,0.0,0.0
+china,0.0,0.0,0.0
+citizen,0.0,0.0,0.0
+cities,0.0,0.0,0.0
+circumstances,0.0,0.0,0.0
+chosen candidates,0.0,0.0,0.0
+chosen,0.0,0.0,0.0
+chose,0.0,0.0,0.0
+choosing president,0.0,0.0,0.0
+choosing,0.0,0.0,0.0
+chooses,0.0,0.0,0.0
+choose want,0.0,0.0,0.0
+choose states,0.0,0.0,0.0
+choose president,0.0,0.0,0.0
+choose,0.0,0.0,0.0
+choices,0.0,0.0,0.0
+choice,0.0,0.0,0.0
+change,0.0,0.0,0.0
+chances,0.0,0.0,0.0
+chance winning,0.0,0.0,0.0
+century system,0.0,0.0,0.0
+central,0.0,0.0,0.0
+center,0.0,0.0,0.0
+cellphones,0.0,0.0,0.0
+cell phones,0.0,0.0,0.0
+cell phone,0.0,0.0,0.0
+cell,0.0,0.0,0.0
+causing,0.0,0.0,0.0
+causes,0.0,0.0,0.0
+caused,0.0,0.0,0.0
+cause problems,0.0,0.0,0.0
+cause,0.0,0.0,0.0
+caught,0.0,0.0,0.0
+cattle boat,0.0,0.0,0.0
+cattle,0.0,0.0,0.0
+catch,0.0,0.0,0.0
+century,0.0,0.0,0.0
+certain,0.0,0.0,0.0
+chance,0.0,0.0,0.0
+certainly,0.0,0.0,0.0
+chamber simulating,0.0,0.0,0.0
+chamber commerce,0.0,0.0,0.0
+chamber,0.0,0.0,0.0
+challenging planet,0.0,0.0,0.0
+challenging place,0.0,0.0,0.0
+challenging clouds,0.0,0.0,0.0
+challenging,0.0,0.0,0.0
+challenges,0.0,0.0,0.0
+challenge presented,0.0,0.0,0.0
+challenge exploring,0.0,0.0,0.0
+challenge,0.0,0.0,0.0
+certificate ascertainment,0.0,0.0,0.0
+certificate,0.0,0.0,0.0
+certainty outcome,0.0,0.0,0.0
+certainty,0.0,0.0,0.0
+citizens,0.0,0.0,0.0
+citizens vote,0.0,0.0,0.0
+college popular,0.0,0.0,0.0
+clubs,0.0,0.0,0.0
+collect,0.0,0.0,0.0
+colleague,0.0,0.0,0.0
+collage,0.0,0.0,0.0
+cold,0.0,0.0,0.0
+coding system,0.0,0.0,0.0
+coding,0.0,0.0,0.0
+code,0.0,0.0,0.0
+club,0.0,0.0,0.0
+city,0.0,0.0,0.0
+cloudy,0.0,0.0,0.0
+clouds highly,0.0,0.0,0.0
+clouds,0.0,0.0,0.0
+clothes,0.0,0.0,0.0
+closest planet,0.0,0.0,0.0
+closest distance,0.0,0.0,0.0
+closest,0.0,0.0,0.0
+college abolished,0.0,0.0,0.0
+college also,0.0,0.0,0.0
+college avoids,0.0,0.0,0.0
+college best,0.0,0.0,0.0
+college people,0.0,0.0,0.0
+college might,0.0,0.0,0.0
+college method,0.0,0.0,0.0
+college may,0.0,0.0,0.0
+college many,0.0,0.0,0.0
+college kept,0.0,0.0,0.0
+college invariably,0.0,0.0,0.0
+college good,0.0,0.0,0.0
+college five,0.0,0.0,0.0
+college fair,0.0,0.0,0.0
+college even,0.0,0.0,0.0
+college electors,0.0,0.0,0.0
+college electoral,0.0,0.0,0.0
+college consists,0.0,0.0,0.0
+college change,0.0,0.0,0.0
+closer sun,0.0,0.0,0.0
+closer,0.0,0.0,0.0
+closely,0.0,0.0,0.0
+classified,0.0,0.0,0.0
+classes students,0.0,0.0,0.0
+classes school,0.0,0.0,0.0
+classes online,0.0,0.0,0.0
+classes home,0.0,0.0,0.0
+class would,0.0,0.0,0.0
+class work,0.0,0.0,0.0
+class time,0.0,0.0,0.0
+class teacher,0.0,0.0,0.0
+class students,0.0,0.0,0.0
+class room,0.0,0.0,0.0
+class online,0.0,0.0,0.0
+class home,0.0,0.0,0.0
+claims,0.0,0.0,0.0
+claim,0.0,0.0,0.0
+civilization,0.0,0.0,0.0
+classes would,0.0,0.0,0.0
+classified six,0.0,0.0,0.0
+close sea,0.0,0.0,0.0
+classmates,0.0,0.0,0.0
+close attention,0.0,0.0,0.0
+close,0.0,0.0,0.0
+clinton,0.0,0.0,0.0
+clearly,0.0,0.0,0.0
+clear winner,0.0,0.0,0.0
+clear air,0.0,0.0,0.0
+clear,0.0,0.0,0.0
+cleaning,0.0,0.0,0.0
+cleaner,0.0,0.0,0.0
+classwork,0.0,0.0,0.0
+classrooms,0.0,0.0,0.0
+classroom valuable,0.0,0.0,0.0
+classroom setting,0.0,0.0,0.0
+classroom computer,0.0,0.0,0.0
+classroom,0.0,0.0,0.0
+could give,0.0,0.0,0.0
+could good,0.0,0.0,0.0
+cast,0.0,0.0,0.0
+different opinions,0.0,0.0,0.0
+different ways,0.0,0.0,0.0
+different way,0.0,0.0,0.0
+different things,0.0,0.0,0.0
+different speeds,0.0,0.0,0.0
+different point,0.0,0.0,0.0
+different perspectives,0.0,0.0,0.0
+different people,0.0,0.0,0.0
+different ideas,0.0,0.0,0.0
+didnt know,0.0,0.0,0.0
+different experiences,0.0,0.0,0.0
+differences,0.0,0.0,0.0
+difference,0.0,0.0,0.0
+diesel,0.0,0.0,0.0
+died,0.0,0.0,0.0
+die,0.0,0.0,0.0
+didnt want,0.0,0.0,0.0
+differently,0.0,0.0,0.0
+difficult,0.0,0.0,0.0
+difficulties,0.0,0.0,0.0
+difficulty,0.0,0.0,0.0
+disaster factor,0.0,0.0,0.0
+disaster,0.0,0.0,0.0
+disagree,0.0,0.0,0.0
+disadvantages,0.0,0.0,0.0
+disabilities,0.0,0.0,0.0
+dirty,0.0,0.0,0.0
+directly,0.0,0.0,0.0
+directions,0.0,0.0,0.0
+direction,0.0,0.0,0.0
+direct election,0.0,0.0,0.0
+direct,0.0,0.0,0.0
+dioxide blankets,0.0,0.0,0.0
+dioxide,0.0,0.0,0.0
+digital,0.0,0.0,0.0
+diffrent,0.0,0.0,0.0
+didnt see,0.0,0.0,0.0
+didnt get,0.0,0.0,0.0
+could happen,0.0,0.0,0.0
+design summer,0.0,0.0,0.0
+designing,0.0,0.0,0.0
+designed teachers,0.0,0.0,0.0
+designed summer,0.0,0.0,0.0
+designed students,0.0,0.0,0.0
+designed projects,0.0,0.0,0.0
+designed project,0.0,0.0,0.0
+designed,0.0,0.0,0.0
+design projects,0.0,0.0,0.0
+didnt even,0.0,0.0,0.0
+design project,0.0,0.0,0.0
+design,0.0,0.0,0.0
+deserve,0.0,0.0,0.0
+describing,0.0,0.0,0.0
+describes,0.0,0.0,0.0
+describe,0.0,0.0,0.0
+depth,0.0,0.0,0.0
+desire,0.0,0.0,0.0
+despised,0.0,0.0,0.0
+despised method,0.0,0.0,0.0
+despite,0.0,0.0,0.0
+didnt,0.0,0.0,0.0
+devices,0.0,0.0,0.0
+device,0.0,0.0,0.0
+development driverless,0.0,0.0,0.0
+development,0.0,0.0,0.0
+developing,0.0,0.0,0.0
+developed,0.0,0.0,0.0
+develop,0.0,0.0,0.0
+determined,0.0,0.0,0.0
+determine,0.0,0.0,0.0
+detect,0.0,0.0,0.0
+details,0.0,0.0,0.0
+detail,0.0,0.0,0.0
+destination,0.0,0.0,0.0
+despite dangers,0.0,0.0,0.0
+discover,0.0,0.0,0.0
+discovered,0.0,0.0,0.0
+discuss,0.0,0.0,0.0
+dont see,0.0,0.0,0.0
+dont want,0.0,0.0,0.0
+dont vote,0.0,0.0,0.0
+dont understand,0.0,0.0,0.0
+dont time,0.0,0.0,0.0
+dont think,0.0,0.0,0.0
+dont take,0.0,0.0,0.0
+dont spend,0.0,0.0,0.0
+dont really,0.0,0.0,0.0
+discussing,0.0,0.0,0.0
+dont need,0.0,0.0,0.0
+dont make,0.0,0.0,0.0
+dont like,0.0,0.0,0.0
+dont let,0.0,0.0,0.0
+dont know,0.0,0.0,0.0
+dont go,0.0,0.0,0.0
+dont get,0.0,0.0,0.0
+dosent,0.0,0.0,0.0
+doubt,0.0,0.0,0.0
+doubts,0.0,0.0,0.0
+doubts expanded,0.0,0.0,0.0
+driverless car,0.0,0.0,0.0
+driverless,0.0,0.0,0.0
+driver take,0.0,0.0,0.0
+driver,0.0,0.0,0.0
+driven,0.0,0.0,0.0
+driveless cars,0.0,0.0,0.0
+driveless car,0.0,0.0,0.0
+driveless,0.0,0.0,0.0
+drive,0.0,0.0,0.0
+dream,0.0,0.0,0.0
+drastically,0.0,0.0,0.0
+drama,0.0,0.0,0.0
+dr paul,0.0,0.0,0.0
+dr huang,0.0,0.0,0.0
+dr,0.0,0.0,0.0
+dont even,0.0,0.0,0.0
+dont care,0.0,0.0,0.0
+dont believe,0.0,0.0,0.0
+district,0.0,0.0,0.0
+distracting,0.0,0.0,0.0
+distracted driving,0.0,0.0,0.0
+distant,0.0,0.0,0.0
+distance learning,0.0,0.0,0.0
+distance,0.0,0.0,0.0
+dispute popular,0.0,0.0,0.0
+dispute outcome,0.0,0.0,0.0
+dispute,0.0,0.0,0.0
+displays,0.0,0.0,0.0
+dislike,0.0,0.0,0.0
+disgusted percent,0.0,0.0,0.0
+disgusted,0.0,0.0,0.0
+disgust fear,0.0,0.0,0.0
+disgust,0.0,0.0,0.0
+discussion,0.0,0.0,0.0
+distraction,0.0,0.0,0.0
+district columbia,0.0,0.0,0.0
+dont always,0.0,0.0,0.0
+diverse,0.0,0.0,0.0
+dont agree,0.0,0.0,0.0
+dome takes,0.0,0.0,0.0
+dome,0.0,0.0,0.0
+dollars,0.0,0.0,0.0
+dole us,0.0,0.0,0.0
+dole,0.0,0.0,0.0
+dog,0.0,0.0,0.0
+doesnt mean,0.0,0.0,0.0
+doesnt matter,0.0,0.0,0.0
+doesnt make,0.0,0.0,0.0
+doesnt even,0.0,0.0,0.0
+doesnt,0.0,0.0,0.0
+doctors,0.0,0.0,0.0
+doctor,0.0,0.0,0.0
+diving,0.0,0.0,0.0
+depression,0.0,0.0,0.0
+depressed,0.0,0.0,0.0
+depends,0.0,0.0,0.0
+crazy,0.0,0.0,0.0
+creates,0.0,0.0,0.0
+created aliens,0.0,0.0,0.0
+created,0.0,0.0,0.0
+create summer,0.0,0.0,0.0
+create projects,0.0,0.0,0.0
+create project,0.0,0.0,0.0
+create,0.0,0.0,0.0
+craters,0.0,0.0,0.0
+cut,0.0,0.0,0.0
+crashes,0.0,0.0,0.0
+crash,0.0,0.0,0.0
+craft,0.0,0.0,0.0
+cows,0.0,0.0,0.0
+cowboys program,0.0,0.0,0.0
+cowboys,0.0,0.0,0.0
+cowboy,0.0,0.0,0.0
+creating,0.0,0.0,0.0
+creation,0.0,0.0,0.0
+creative,0.0,0.0,0.0
+creativity,0.0,0.0,0.0
+curricular activities,0.0,0.0,0.0
+curricular,0.0,0.0,0.0
+currently,0.0,0.0,0.0
+current,0.0,0.0,0.0
+curious,0.0,0.0,0.0
+curiosity likely,0.0,0.0,0.0
+curiosity,0.0,0.0,0.0
+culture,0.0,0.0,0.0
+crush,0.0,0.0,0.0
+cross,0.0,0.0,0.0
+critical,0.0,0.0,0.0
+crisis century,0.0,0.0,0.0
+crisis,0.0,0.0,0.0
+credit,0.0,0.0,0.0
+creator,0.0,0.0,0.0
+covered largely,0.0,0.0,0.0
+covered,0.0,0.0,0.0
+cover,0.0,0.0,0.0
+could work,0.0,0.0,0.0
+could use,0.0,0.0,0.0
+could tell,0.0,0.0,0.0
+could take,0.0,0.0,0.0
+could supported,0.0,0.0,0.0
+could see,0.0,0.0,0.0
+could say,0.0,0.0,0.0
+could recognize,0.0,0.0,0.0
+could really,0.0,0.0,0.0
+could potentially,0.0,0.0,0.0
+could possibly,0.0,0.0,0.0
+could modify,0.0,0.0,0.0
+could make,0.0,0.0,0.0
+could made,0.0,0.0,0.0
+could lead,0.0,0.0,0.0
+could help,0.0,0.0,0.0
+could used,0.0,0.0,0.0
+couldnt,0.0,0.0,0.0
+court,0.0,0.0,0.0
+couldve,0.0,0.0,0.0
+courses,0.0,0.0,0.0
+course,0.0,0.0,0.0
+couple,0.0,0.0,0.0
+county,0.0,0.0,0.0
+counts,0.0,0.0,0.0
+countrys,0.0,0.0,0.0
+country,0.0,0.0,0.0
+countries,0.0,0.0,0.0
+countless,0.0,0.0,0.0
+counting electoral,0.0,0.0,0.0
+counting,0.0,0.0,0.0
+counted,0.0,0.0,0.0
+count votes,0.0,0.0,0.0
+count,0.0,0.0,0.0
+council,0.0,0.0,0.0
+curriculum,0.0,0.0,0.0
+cydonia,0.0,0.0,0.0
+depending,0.0,0.0,0.0
+deepest,0.0,0.0,0.0
+defy,0.0,0.0,0.0
+definitely,0.0,0.0,0.0
+defenses system,0.0,0.0,0.0
+defenses,0.0,0.0,0.0
+defense electoral,0.0,0.0,0.0
+defense,0.0,0.0,0.0
+defenders,0.0,0.0,0.0
+deep,0.0,0.0,0.0
+cydonia first,0.0,0.0,0.0
+dedicated,0.0,0.0,0.0
+decreed constitution,0.0,0.0,0.0
+decreed,0.0,0.0,0.0
+decreased,0.0,0.0,0.0
+decrease,0.0,0.0,0.0
+declaring candidate,0.0,0.0,0.0
+declaring,0.0,0.0,0.0
+defy people,0.0,0.0,0.0
+degree,0.0,0.0,0.0
+degrees,0.0,0.0,0.0
+degrees fahrenheit,0.0,0.0,0.0
+depend,0.0,0.0,0.0
+density size,0.0,0.0,0.0
+density,0.0,0.0,0.0
+dense,0.0,0.0,0.0
+demonstration,0.0,0.0,0.0
+democrats,0.0,0.0,0.0
+democratic pedigree,0.0,0.0,0.0
+democratic modern,0.0,0.0,0.0
+democratic electors,0.0,0.0,0.0
+democratic,0.0,0.0,0.0
+democrat,0.0,0.0,0.0
+democracy,0.0,0.0,0.0
+delegations vote,0.0,0.0,0.0
+delegations,0.0,0.0,0.0
+delegation,0.0,0.0,0.0
+decisions,0.0,0.0,0.0
+decision making,0.0,0.0,0.0
+decision,0.0,0.0,0.0
+day school,0.0,0.0,0.0
+day,0.0,0.0,0.0
+date,0.0,0.0,0.0
+data,0.0,0.0,0.0
+dangers venus,0.0,0.0,0.0
+dangers presents,0.0,0.0,0.0
+dangers doubts,0.0,0.0,0.0
+dangers,0.0,0.0,0.0
+dangerous,0.0,0.0,0.0
+danger,0.0,0.0,0.0
+damage,0.0,0.0,0.0
+dalto,0.0,0.0,0.0
+daily,0.0,0.0,0.0
+dad,0.0,0.0,0.0
+da vinci,0.0,0.0,0.0
+da,0.0,0.0,0.0
+day day,0.0,0.0,0.0
+day without,0.0,0.0,0.0
+deciding vote,0.0,0.0,0.0
+day would,0.0,0.0,0.0
+deciding,0.0,0.0,0.0
+decides,0.0,0.0,0.0
+decided,0.0,0.0,0.0
+decide president,0.0,0.0,0.0
+decide election,0.0,0.0,0.0
+decide,0.0,0.0,0.0
+decades,0.0,0.0,0.0
+debate,0.0,0.0,0.0
+deaths,0.0,0.0,0.0
+death,0.0,0.0,0.0
+dear,0.0,0.0,0.0
+dealing,0.0,0.0,0.0
+deal,0.0,0.0,0.0
+dead,0.0,0.0,0.0
+days,0.0,0.0,0.0
+casts,0.0,0.0,0.0
+case,0.0,0.0,0.0
+drivers,0.0,0.0,0.0
+andor,0.0,0.0,0.0
+another martian,0.0,0.0,0.0
+another example,0.0,0.0,0.0
+another,0.0,0.0,0.0
+animal,0.0,0.0,0.0
+angry,0.0,0.0,0.0
+anger disgust,0.0,0.0,0.0
+anger,0.0,0.0,0.0
+ancient,0.0,0.0,0.0
+amount,0.0,0.0,0.0
+anatomy,0.0,0.0,0.0
+anachronism nondemocratic,0.0,0.0,0.0
+anachronism,0.0,0.0,0.0
+amounts,0.0,0.0,0.0
+amount work,0.0,0.0,0.0
+amount votes,0.0,0.0,0.0
+amount time,0.0,0.0,0.0
+another person,0.0,0.0,0.0
+another planet,0.0,0.0,0.0
+another reason,0.0,0.0,0.0
+another student,0.0,0.0,0.0
+anyways,0.0,0.0,0.0
+anyway,0.0,0.0,0.0
+anytime,0.0,0.0,0.0
+anything humans,0.0,0.0,0.0
+anything else,0.0,0.0,0.0
+anything,0.0,0.0,0.0
+anyone,0.0,0.0,0.0
+anymore,0.0,0.0,0.0
+anybody,0.0,0.0,0.0
+anxious,0.0,0.0,0.0
+anxiety,0.0,0.0,0.0
+answers,0.0,0.0,0.0
+answer,0.0,0.0,0.0
+another way,0.0,0.0,0.0
+another thing,0.0,0.0,0.0
+amount people,0.0,0.0,0.0
+among,0.0,0.0,0.0
+atmospheric,0.0,0.0,0.0
+also many,0.0,0.0,0.0
+also students,0.0,0.0,0.0
+also states,0.0,0.0,0.0
+also see,0.0,0.0,0.0
+also says,0.0,0.0,0.0
+also people,0.0,0.0,0.0
+also need,0.0,0.0,0.0
+also may,0.0,0.0,0.0
+also make,0.0,0.0,0.0
+americas,0.0,0.0,0.0
+also human,0.0,0.0,0.0
+also helps,0.0,0.0,0.0
+also help,0.0,0.0,0.0
+also good,0.0,0.0,0.0
+also gives,0.0,0.0,0.0
+also give,0.0,0.0,0.0
+also get,0.0,0.0,0.0
+also think,0.0,0.0,0.0
+also unfair,0.0,0.0,0.0
+also would,0.0,0.0,0.0
+alternative,0.0,0.0,0.0
+americans,0.0,0.0,0.0
+american west,0.0,0.0,0.0
+american people,0.0,0.0,0.0
+american,0.0,0.0,0.0
+america,0.0,0.0,0.0
+amendment constitution,0.0,0.0,0.0
+amendment,0.0,0.0,0.0
+amazing,0.0,0.0,0.0
+always tense,0.0,0.0,0.0
+always good,0.0,0.0,0.0
+always defy,0.0,0.0,0.0
+always,0.0,0.0,0.0
+although may,0.0,0.0,0.0
+although many,0.0,0.0,0.0
+although,0.0,0.0,0.0
+anywhere,0.0,0.0,0.0
+ap,0.0,0.0,0.0
+apart,0.0,0.0,0.0
+ask questions,0.0,0.0,0.0
+asking people,0.0,0.0,0.0
+asking one,0.0,0.0,0.0
+asking multiple,0.0,0.0,0.0
+asking advice,0.0,0.0,0.0
+asking,0.0,0.0,0.0
+asked,0.0,0.0,0.0
+ask someone,0.0,0.0,0.0
+ask people,0.0,0.0,0.0
+appeal,0.0,0.0,0.0
+ask one,0.0,0.0,0.0
+ask multiple,0.0,0.0,0.0
+ask help,0.0,0.0,0.0
+ask advice,0.0,0.0,0.0
+ask,0.0,0.0,0.0
+ascertainment,0.0,0.0,0.0
+artifact,0.0,0.0,0.0
+asks,0.0,0.0,0.0
+asleep,0.0,0.0,0.0
+aspect,0.0,0.0,0.0
+aspects,0.0,0.0,0.0
+atmosphere,0.0,0.0,0.0
+atlantic,0.0,0.0,0.0
+astronomers fascinated,0.0,0.0,0.0
+astronomers,0.0,0.0,0.0
+assure,0.0,0.0,0.0
+assume,0.0,0.0,0.0
+associated,0.0,0.0,0.0
+assistance,0.0,0.0,0.0
+assist,0.0,0.0,0.0
+assignments,0.0,0.0,0.0
+assigning,0.0,0.0,0.0
+assigned,0.0,0.0,0.0
+assign,0.0,0.0,0.0
+assertions without,0.0,0.0,0.0
+assertions,0.0,0.0,0.0
+article states,0.0,0.0,0.0
+article says,0.0,0.0,0.0
+article making,0.0,0.0,0.0
+argue,0.0,0.0,0.0
+areas united,0.0,0.0,0.0
+areas,0.0,0.0,0.0
+april mars,0.0,0.0,0.0
+april,0.0,0.0,0.0
+appropriate,0.0,0.0,0.0
+approaches,0.0,0.0,0.0
+approach,0.0,0.0,0.0
+appreciate,0.0,0.0,0.0
+applying,0.0,0.0,0.0
+apply,0.0,0.0,0.0
+applied,0.0,0.0,0.0
+appears screen,0.0,0.0,0.0
+appears,0.0,0.0,0.0
+appeared,0.0,0.0,0.0
+appear,0.0,0.0,0.0
+arent,0.0,0.0,0.0
+argued,0.0,0.0,0.0
+article challenge,0.0,0.0,0.0
+argued electoral,0.0,0.0,0.0
+article author,0.0,0.0,0.0
+article,0.0,0.0,0.0
+artical,0.0,0.0,0.0
+art,0.0,0.0,0.0
+around world,0.0,0.0,0.0
+around school,0.0,0.0,0.0
+around degrees,0.0,0.0,0.0
+around american,0.0,0.0,0.0
+around,0.0,0.0,0.0
+arguments favor,0.0,0.0,0.0
+arguments,0.0,0.0,0.0
+argument electoral,0.0,0.0,0.0
+argument,0.0,0.0,0.0
+arguing,0.0,0.0,0.0
+arguement,0.0,0.0,0.0
+also electoral,0.0,0.0,0.0
+also dont,0.0,0.0,0.0
+also could,0.0,0.0,0.0
+acting,0.0,0.0,0.0
+activities help,0.0,0.0,0.0
+activities,0.0,0.0,0.0
+active,0.0,0.0,0.0
+actions,0.0,0.0,0.0
+action unit,0.0,0.0,0.0
+action coding,0.0,0.0,0.0
+action,0.0,0.0,0.0
+act,0.0,0.0,0.0
+additional,0.0,0.0,0.0
+across,0.0,0.0,0.0
+acid venuss,0.0,0.0,0.0
+acid,0.0,0.0,0.0
+achieve,0.0,0.0,0.0
+accustomed,0.0,0.0,0.0
+accurate,0.0,0.0,0.0
+account,0.0,0.0,0.0
+activities like,0.0,0.0,0.0
+activities school,0.0,0.0,0.0
+activities students,0.0,0.0,0.0
+activities would,0.0,0.0,0.0
+adding,0.0,0.0,0.0
+added,0.0,0.0,0.0
+add,0.0,0.0,0.0
+adapt,0.0,0.0,0.0
+ad appears,0.0,0.0,0.0
+ad,0.0,0.0,0.0
+actually voting,0.0,0.0,0.0
+actually shows,0.0,0.0,0.0
+actually,0.0,0.0,0.0
+actual,0.0,0.0,0.0
+activitys,0.0,0.0,0.0
+activity would,0.0,0.0,0.0
+activity students,0.0,0.0,0.0
+activity school,0.0,0.0,0.0
+activity,0.0,0.0,0.0
+according source,0.0,0.0,0.0
+according gallup,0.0,0.0,0.0
+according article,0.0,0.0,0.0
+able vote,0.0,0.0,0.0
+able tell,0.0,0.0,0.0
+able take,0.0,0.0,0.0
+able see,0.0,0.0,0.0
+able read,0.0,0.0,0.0
+able play,0.0,0.0,0.0
+able participate,0.0,0.0,0.0
+able make,0.0,0.0,0.0
+able learn,0.0,0.0,0.0
+able help,0.0,0.0,0.0
+able go,0.0,0.0,0.0
+able get,0.0,0.0,0.0
+able design,0.0,0.0,0.0
+able choose,0.0,0.0,0.0
+able attend,0.0,0.0,0.0
 able,0.0,0.0,0.0
+able use,0.0,0.0,0.0
+able work,0.0,0.0,0.0
+according,0.0,0.0,0.0
+abolish,0.0,0.0,0.0
+accomplish,0.0,0.0,0.0
+accidents,0.0,0.0,0.0
+accident,0.0,0.0,0.0
+accessible,0.0,0.0,0.0
+access,0.0,0.0,0.0
+accept,0.0,0.0,0.0
+accelerate,0.0,0.0,0.0
+academics,0.0,0.0,0.0
+academically,0.0,0.0,0.0
+academic,0.0,0.0,0.0
+absolutely,0.0,0.0,0.0
+abolishing electoral,0.0,0.0,0.0
+abolishing,0.0,0.0,0.0
+abolished,0.0,0.0,0.0
+abolish electoral,0.0,0.0,0.0
+addition,0.0,0.0,0.0
+additionally,0.0,0.0,0.0
+also able,0.0,0.0,0.0
+aliens real,0.0,0.0,0.0
+allotment electors,0.0,0.0,0.0
+allotment,0.0,0.0,0.0
+allocated electors,0.0,0.0,0.0
+allocated,0.0,0.0,0.0
+alive,0.0,0.0,0.0
+alike,0.0,0.0,0.0
+aliens would,0.0,0.0,0.0
+aliens made,0.0,0.0,0.0
+adjust,0.0,0.0,0.0
+aliens created,0.0,0.0,0.0
+alien monument,0.0,0.0,0.0
+alien markings,0.0,0.0,0.0
+alien life,0.0,0.0,0.0
+alien artifact,0.0,0.0,0.0
+alien,0.0,0.0,0.0
+alert,0.0,0.0,0.0
+allow,0.0,0.0,0.0
+allow students,0.0,0.0,0.0
+allowed,0.0,0.0,0.0
+allowed use,0.0,0.0,0.0
+already know,0.0,0.0,0.0
+already,0.0,0.0,0.0
+aloud,0.0,0.0,0.0
+alot people,0.0,0.0,0.0
+alot,0.0,0.0,0.0
+along names,0.0,0.0,0.0
+along,0.0,0.0,0.0
+alone,0.0,0.0,0.0
+almost percent,0.0,0.0,0.0
+almost,0.0,0.0,0.0
+allows students,0.0,0.0,0.0
+allows much,0.0,0.0,0.0
+allows,0.0,0.0,0.0
+allowing students,0.0,0.0,0.0
+allowing,0.0,0.0,0.0
+al gore,0.0,0.0,0.0
+al,0.0,0.0,0.0
+airplanes,0.0,0.0,0.0
+advise,0.0,0.0,0.0
+advice others,0.0,0.0,0.0
+advice one,0.0,0.0,0.0
+advice multiple,0.0,0.0,0.0
+advice help,0.0,0.0,0.0
+adventure,0.0,0.0,0.0
+advantages limiting,0.0,0.0,0.0
+advantages,0.0,0.0,0.0
+advantage,0.0,0.0,0.0
+advancements,0.0,0.0,0.0
+advanced,0.0,0.0,0.0
+advance,0.0,0.0,0.0
+adults,0.0,0.0,0.0
+adult,0.0,0.0,0.0
+ads,0.0,0.0,0.0
+administration,0.0,0.0,0.0
+advice people,0.0,0.0,0.0
+affect,0.0,0.0,0.0
+air pressure,0.0,0.0,0.0
+affected,0.0,0.0,0.0
+air pollution,0.0,0.0,0.0
+air global,0.0,0.0,0.0
+air,0.0,0.0,0.0
+aid,0.0,0.0,0.0
+ahead,0.0,0.0,0.0
+agreed,0.0,0.0,0.0
+agree students,0.0,0.0,0.0
+agree,0.0,0.0,0.0
+ago venus,0.0,0.0,0.0
+ago,0.0,0.0,0.0
+age,0.0,0.0,0.0
+afraid,0.0,0.0,0.0
+aflcio,0.0,0.0,0.0
+afford,0.0,0.0,0.0
+affects,0.0,0.0,0.0
+atmosphere almost,0.0,0.0,0.0
+atmospheric pressure,0.0,0.0,0.0
+carter bob,0.0,0.0,0.0
+brother,0.0,0.0,0.0
+bullying,0.0,0.0,0.0
+bullied,0.0,0.0,0.0
+built,0.0,0.0,0.0
+building,0.0,0.0,0.0
+build,0.0,0.0,0.0
+budget,0.0,0.0,0.0
+brought,0.0,0.0,0.0
+broken,0.0,0.0,0.0
+brightest,0.0,0.0,0.0
+broke,0.0,0.0,0.0
+brings,0.0,0.0,0.0
+bringing,0.0,0.0,0.0
+bring smile,0.0,0.0,0.0
+bring phones,0.0,0.0,0.0
+bring cell,0.0,0.0,0.0
+bring,0.0,0.0,0.0
+bunch,0.0,0.0,0.0
+bus,0.0,0.0,0.0
+buses,0.0,0.0,0.0
+bush,0.0,0.0,0.0
+called evening,0.0,0.0,0.0
+called,0.0,0.0,0.0
+call parents,0.0,0.0,0.0
+call disaster,0.0,0.0,0.0
+call,0.0,0.0,0.0
+california,0.0,0.0,0.0
+calculation,0.0,0.0,0.0
+calculate,0.0,0.0,0.0
+buying,0.0,0.0,0.0
+buy,0.0,0.0,0.0
+butte snake,0.0,0.0,0.0
+butte mesa,0.0,0.0,0.0
+butte,0.0,0.0,0.0
+busy,0.0,0.0,0.0
+business,0.0,0.0,0.0
+brightest points,0.0,0.0,0.0
+bright,0.0,0.0,0.0
+attempt,0.0,0.0,0.0
+bob,0.0,0.0,0.0
+books,0.0,0.0,0.0
+book,0.0,0.0,0.0
+bomberger,0.0,0.0,0.0
+bogota colombia,0.0,0.0,0.0
+bogota,0.0,0.0,0.0
+body,0.0,0.0,0.0
+bob dole,0.0,0.0,0.0
+boat,0.0,0.0,0.0
+breath,0.0,0.0,0.0
+board,0.0,0.0,0.0
+bmw,0.0,0.0,0.0
+blimplike,0.0,0.0,0.0
+blimp,0.0,0.0,0.0
+blankets venus,0.0,0.0,0.0
+blankets,0.0,0.0,0.0
+bit,0.0,0.0,0.0
+books magazines,0.0,0.0,0.0
+bored,0.0,0.0,0.0
+boring,0.0,0.0,0.0
+bother,0.0,0.0,0.0
+breaks,0.0,0.0,0.0
+breaking,0.0,0.0,0.0
+break students,0.0,0.0,0.0
+break school,0.0,0.0,0.0
+break,0.0,0.0,0.0
+brakes,0.0,0.0,0.0
+brake,0.0,0.0,0.0
+brains,0.0,0.0,0.0
+brain,0.0,0.0,0.0
+bradford plumer,0.0,0.0,0.0
+bradford,0.0,0.0,0.0
+boy,0.0,0.0,0.0
+boxing,0.0,0.0,0.0
+box,0.0,0.0,0.0
+bound,0.0,0.0,0.0
+called facial,0.0,0.0,0.0
+calling,0.0,0.0,0.0
+calls,0.0,0.0,0.0
+carbide tested,0.0,0.0,0.0
+cares,0.0,0.0,0.0
+carefully,0.0,0.0,0.0
+careful,0.0,0.0,0.0
+career,0.0,0.0,0.0
+care,0.0,0.0,0.0
+carbon dioxide,0.0,0.0,0.0
+carbon,0.0,0.0,0.0
+carbide,0.0,0.0,0.0
+calm,0.0,0.0,0.0
+car would,0.0,0.0,0.0
+car use,0.0,0.0,0.0
+car usage,0.0,0.0,0.0
+car move,0.0,0.0,0.0
+car free,0.0,0.0,0.0
+car driving,0.0,0.0,0.0
+car drive,0.0,0.0,0.0
+carfree,0.0,0.0,0.0
+carfree day,0.0,0.0,0.0
+caring,0.0,0.0,0.0
+carolina,0.0,0.0,0.0
+carter,0.0,0.0,0.0
+cars would,0.0,0.0,0.0
+cars still,0.0,0.0,0.0
+cars people,0.0,0.0,0.0
+cars may,0.0,0.0,0.0
+cars home,0.0,0.0,0.0
+cars good,0.0,0.0,0.0
+cars driving,0.0,0.0,0.0
+cars drive,0.0,0.0,0.0
+cars could,0.0,0.0,0.0
+cars coming,0.0,0.0,0.0
+cars,0.0,0.0,0.0
+carrying state,0.0,0.0,0.0
+carrying,0.0,0.0,0.0
+carry,0.0,0.0,0.0
+car culture,0.0,0.0,0.0
+car could,0.0,0.0,0.0
+car companies,0.0,0.0,0.0
+candidate wins,0.0,0.0,0.0
+candidate running,0.0,0.0,0.0
+candidate recieves,0.0,0.0,0.0
+candidate receives,0.0,0.0,0.0
+candidate hope,0.0,0.0,0.0
+candidate actually,0.0,0.0,0.0
+candidate,0.0,0.0,0.0
+candiate,0.0,0.0,0.0
+campus,0.0,0.0,0.0
+campaigns,0.0,0.0,0.0
+campaign seventeen,0.0,0.0,0.0
+campaign ad,0.0,0.0,0.0
+campaign,0.0,0.0,0.0
+cameras,0.0,0.0,0.0
+camera,0.0,0.0,0.0
+came,0.0,0.0,0.0
+candidate transregional,0.0,0.0,0.0
+candidate youre,0.0,0.0,0.0
+car always,0.0,0.0,0.0
+candidates,0.0,0.0,0.0
+car accidents,0.0,0.0,0.0
+car accident,0.0,0.0,0.0
+car,0.0,0.0,0.0
+captured,0.0,0.0,0.0
+capital,0.0,0.0,0.0
+capable,0.0,0.0,0.0
+cant,0.0,0.0,0.0
+canidates,0.0,0.0,0.0
+canidate,0.0,0.0,0.0
+candidates share,0.0,0.0,0.0
+candidates ran,0.0,0.0,0.0
+candidates political,0.0,0.0,0.0
+candidates electors,0.0,0.0,0.0
+candidates dont,0.0,0.0,0.0
+candidates campaign,0.0,0.0,0.0
+bills,0.0,0.0,0.0
+bill,0.0,0.0,0.0
+bikes,0.0,0.0,0.0
+back school,0.0,0.0,0.0
+balance large,0.0,0.0,0.0
+balance,0.0,0.0,0.0
+bad things,0.0,0.0,0.0
+bad thing,0.0,0.0,0.0
+bad idea,0.0,0.0,0.0
+bad,0.0,0.0,0.0
+background,0.0,0.0,0.0
+back,0.0,0.0,0.0
+becasue,0.0,0.0,0.0
+baby,0.0,0.0,0.0
+awesome,0.0,0.0,0.0
+away stress,0.0,0.0,0.0
+away school,0.0,0.0,0.0
+away,0.0,0.0,0.0
+aware,0.0,0.0,0.0
+awards electors,0.0,0.0,0.0
+ball,0.0,0.0,0.0
+ban,0.0,0.0,0.0
+ban clear,0.0,0.0,0.0
+banned,0.0,0.0,0.0
+beautiful,0.0,0.0,0.0
+beacuse,0.0,0.0,0.0
+basketball,0.0,0.0,0.0
+basis reality,0.0,0.0,0.0
+basis,0.0,0.0,0.0
+basically,0.0,0.0,0.0
+basic level,0.0,0.0,0.0
+basic emotions,0.0,0.0,0.0
+basic,0.0,0.0,0.0
+based,0.0,0.0,0.0
+baseball,0.0,0.0,0.0
+base,0.0,0.0,0.0
+barely,0.0,0.0,0.0
+bans driving,0.0,0.0,0.0
+bans,0.0,0.0,0.0
+awards,0.0,0.0,0.0
+awarding electoral,0.0,0.0,0.0
+awarding,0.0,0.0,0.0
+author says,0.0,0.0,0.0
+author also,0.0,0.0,0.0
+author,0.0,0.0,0.0
+audience,0.0,0.0,0.0
+attention road,0.0,0.0,0.0
+attention presidential,0.0,0.0,0.0
+attention campaign,0.0,0.0,0.0
+attention,0.0,0.0,0.0
+attending school,0.0,0.0,0.0
+attending classes,0.0,0.0,0.0
+attending,0.0,0.0,0.0
+attend school,0.0,0.0,0.0
+attend online,0.0,0.0,0.0
+attend classes,0.0,0.0,0.0
+attend class,0.0,0.0,0.0
+attend,0.0,0.0,0.0
+author gives,0.0,0.0,0.0
+author states,0.0,0.0,0.0
+award,0.0,0.0,0.0
+author suggests,0.0,0.0,0.0
+avoids problem,0.0,0.0,0.0
+avoids,0.0,0.0,0.0
+avoiding,0.0,0.0,0.0
+avoided,0.0,0.0,0.0
+avoid runoff,0.0,0.0,0.0
+avoid,0.0,0.0,0.0
+average degrees,0.0,0.0,0.0
+average,0.0,0.0,0.0
+available,0.0,0.0,0.0
+automobiles,0.0,0.0,0.0
+automatically,0.0,0.0,0.0
+auto,0.0,0.0,0.0
+authors,0.0,0.0,0.0
+author talks,0.0,0.0,0.0
+author supports,0.0,0.0,0.0
+became,0.0,0.0,0.0
+become,0.0,0.0,0.0
+bike,0.0,0.0,0.0
+better choice,0.0,0.0,0.0
+better place,0.0,0.0,0.0
+better person,0.0,0.0,0.0
+better people,0.0,0.0,0.0
+better one,0.0,0.0,0.0
+better grades,0.0,0.0,0.0
+better decision,0.0,0.0,0.0
+better choices,0.0,0.0,0.0
+better chance,0.0,0.0,0.0
+become president,0.0,0.0,0.0
+betrayed,0.0,0.0,0.0
+bet,0.0,0.0,0.0
+bestlaid defenses,0.0,0.0,0.0
+bestlaid,0.0,0.0,0.0
+best way,0.0,0.0,0.0
+best thing,0.0,0.0,0.0
+best option,0.0,0.0,0.0
+better school,0.0,0.0,0.0
+better students,0.0,0.0,0.0
+better understanding,0.0,0.0,0.0
+better way,0.0,0.0,0.0
+biggest election,0.0,0.0,0.0
+biggest,0.0,0.0,0.0
+bigger states,0.0,0.0,0.0
+bigger,0.0,0.0,0.0
+big states,0.0,0.0,0.0
+big part,0.0,0.0,0.0
+big hit,0.0,0.0,0.0
+big deal,0.0,0.0,0.0
+big,0.0,0.0,0.0
+bicycle,0.0,0.0,0.0
+biased,0.0,0.0,0.0
+bias,0.0,0.0,0.0
+beyond limited,0.0,0.0,0.0
+beyond,0.0,0.0,0.0
+better ways,0.0,0.0,0.0
+best friend,0.0,0.0,0.0
+best decision,0.0,0.0,0.0
+best choice,0.0,0.0,0.0
+believe electoral,0.0,0.0,0.0
+beleive,0.0,0.0,0.0
+behind wheel,0.0,0.0,0.0
+behind,0.0,0.0,0.0
+behavior,0.0,0.0,0.0
+begins computer,0.0,0.0,0.0
+begins,0.0,0.0,0.0
+beginning,0.0,0.0,0.0
+begin,0.0,0.0,0.0
+began,0.0,0.0,0.0
+bed,0.0,0.0,0.0
+becuse,0.0,0.0,0.0
+becuase,0.0,0.0,0.0
+becoming confused,0.0,0.0,0.0
+becoming,0.0,0.0,0.0
+becomes,0.0,0.0,0.0
+beliefs,0.0,0.0,0.0
+believe face,0.0,0.0,0.0
+best arguments,0.0,0.0,0.0
+believe keep,0.0,0.0,0.0
+best argument,0.0,0.0,0.0
+besides,0.0,0.0,0.0
+benifit,0.0,0.0,0.0
+benefits,0.0,0.0,0.0
+benefit students,0.0,0.0,0.0
+benefit online,0.0,0.0,0.0
+benefit able,0.0,0.0,0.0
+benefit,0.0,0.0,0.0
+beneficial students,0.0,0.0,0.0
+beneficial,0.0,0.0,0.0
+belive,0.0,0.0,0.0
+believes,0.0,0.0,0.0
+believed,0.0,0.0,0.0
+believe would,0.0,0.0,0.0
+believe students,0.0,0.0,0.0
+driverless cars,0.0,0.0,0.0
+drives,0.0,0.0,0.0
+many kids,0.0,0.0,0.0
+includes familiar,0.0,0.0,0.0
+indeed,0.0,0.0,0.0
+incredibly,0.0,0.0,0.0
+increasing,0.0,0.0,0.0
+increases,0.0,0.0,0.0
+increased,0.0,0.0,0.0
+increase,0.0,0.0,0.0
+including,0.0,0.0,0.0
+includes,0.0,0.0,0.0
+impossible,0.0,0.0,0.0
+included,0.0,0.0,0.0
+include,0.0,0.0,0.0
+incentive,0.0,0.0,0.0
+improving,0.0,0.0,0.0
+improvement,0.0,0.0,0.0
+improved,0.0,0.0,0.0
+improve,0.0,0.0,0.0
+indefensible,0.0,0.0,0.0
+indefensible electoral,0.0,0.0,0.0
+independence,0.0,0.0,0.0
+independent,0.0,0.0,0.0
+inside,0.0,0.0,0.0
+input,0.0,0.0,0.0
+innovations,0.0,0.0,0.0
+innovation,0.0,0.0,0.0
+injuries,0.0,0.0,0.0
+injured,0.0,0.0,0.0
+informed,0.0,0.0,0.0
+information,0.0,0.0,0.0
+inform,0.0,0.0,0.0
+influence,0.0,0.0,0.0
+ineffective,0.0,0.0,0.0
+industry,0.0,0.0,0.0
+induces,0.0,0.0,0.0
+individuals,0.0,0.0,0.0
+individual,0.0,0.0,0.0
+impressive,0.0,0.0,0.0
+importantly,0.0,0.0,0.0
+know chance,0.0,0.0,0.0
+identify,0.0,0.0,0.0
+illusion,0.0,0.0,0.0
+illness,0.0,0.0,0.0
+illegal,0.0,0.0,0.0
+ill,0.0,0.0,0.0
+ii,0.0,0.0,0.0
+identify mixed,0.0,0.0,0.0
+identify human,0.0,0.0,0.0
+ideas,0.0,0.0,0.0
+important thing,0.0,0.0,0.0
+ideal,0.0,0.0,0.0
+idea studying,0.0,0.0,0.0
+idea students,0.0,0.0,0.0
+idea sending,0.0,0.0,0.0
+idaho,0.0,0.0,0.0
+id,0.0,0.0,0.0
+icon,0.0,0.0,0.0
+illusion eyes,0.0,0.0,0.0
+im,0.0,0.0,0.0
+im going,0.0,0.0,0.0
+im saying,0.0,0.0,0.0
+important students,0.0,0.0,0.0
+important,0.0,0.0,0.0
+importance,0.0,0.0,0.0
+implemented,0.0,0.0,0.0
+implement,0.0,0.0,0.0
+impediments like,0.0,0.0,0.0
+impediments,0.0,0.0,0.0
+impact,0.0,0.0,0.0
+imagination innovation,0.0,0.0,0.0
+imagination,0.0,0.0,0.0
+images,0.0,0.0,0.0
+imagery,0.0,0.0,0.0
+image first,0.0,0.0,0.0
+image,0.0,0.0,0.0
+im sure,0.0,0.0,0.0
+insight,0.0,0.0,0.0
+insight gained,0.0,0.0,0.0
+inspire,0.0,0.0,0.0
+joining,0.0,0.0,0.0
+keeps,0.0,0.0,0.0
+keeping electoral,0.0,0.0,0.0
+keep students,0.0,0.0,0.0
+keep grades,0.0,0.0,0.0
+keep going,0.0,0.0,0.0
+keep despised,0.0,0.0,0.0
+jpl,0.0,0.0,0.0
+joined,0.0,0.0,0.0
+instance,0.0,0.0,0.0
+join seagoing,0.0,0.0,0.0
+join program,0.0,0.0,0.0
+join club,0.0,0.0,0.0
+join,0.0,0.0,0.0
+john kerry,0.0,0.0,0.0
+john kennedy,0.0,0.0,0.0
+john,0.0,0.0,0.0
+kennedy,0.0,0.0,0.0
+kept,0.0,0.0,0.0
+kerry,0.0,0.0,0.0
+kerry youd,0.0,0.0,0.0
+knew,0.0,0.0,0.0
+kinds,0.0,0.0,0.0
+kinda,0.0,0.0,0.0
+kind,0.0,0.0,0.0
+killed,0.0,0.0,0.0
+kill,0.0,0.0,0.0
+kids would,0.0,0.0,0.0
+kids school,0.0,0.0,0.0
+kids need,0.0,0.0,0.0
+kids get,0.0,0.0,0.0
+kids dont,0.0,0.0,0.0
+kids,0.0,0.0,0.0
+kid,0.0,0.0,0.0
+kicked,0.0,0.0,0.0
+key,0.0,0.0,0.0
+jobs,0.0,0.0,0.0
+jimmy carter,0.0,0.0,0.0
+jimmy,0.0,0.0,0.0
+introduction,0.0,0.0,0.0
+intimidating endeavors,0.0,0.0,0.0
+intimidating,0.0,0.0,0.0
+internet,0.0,0.0,0.0
+interests,0.0,0.0,0.0
+interesting,0.0,0.0,0.0
+interested,0.0,0.0,0.0
+interest,0.0,0.0,0.0
+interactions,0.0,0.0,0.0
+interaction,0.0,0.0,0.0
+interact,0.0,0.0,0.0
+intended,0.0,0.0,0.0
+insurance,0.0,0.0,0.0
+instructor,0.0,0.0,0.0
+instructions,0.0,0.0,0.0
+instead,0.0,0.0,0.0
+introduced,0.0,0.0,0.0
+invariably,0.0,0.0,0.0
+jams,0.0,0.0,0.0
+invented,0.0,0.0,0.0
+jam,0.0,0.0,0.0
+jail,0.0,0.0,0.0
+ive,0.0,0.0,0.0
+itll,0.0,0.0,0.0
+italy,0.0,0.0,0.0
+issues,0.0,0.0,0.0
+issue,0.0,0.0,0.0
+isolated mesa,0.0,0.0,0.0
+isolated,0.0,0.0,0.0
+isnt,0.0,0.0,0.0
+island south,0.0,0.0,0.0
+island,0.0,0.0,0.0
+irrational,0.0,0.0,0.0
+involved,0.0,0.0,0.0
+invention,0.0,0.0,0.0
+hurting,0.0,0.0,0.0
+hurt,0.0,0.0,0.0
+hundreds,0.0,0.0,0.0
+height,0.0,0.0,0.0
+help find,0.0,0.0,0.0
+help community,0.0,0.0,0.0
+help choose,0.0,0.0,0.0
+help,0.0,0.0,0.0
+held every,0.0,0.0,0.0
+held,0.0,0.0,0.0
+height face,0.0,0.0,0.0
+heidrun,0.0,0.0,0.0
+helping community,0.0,0.0,0.0
+heavily,0.0,0.0,0.0
+heat,0.0,0.0,0.0
+hearing,0.0,0.0,0.0
+heard,0.0,0.0,0.0
+healthy,0.0,0.0,0.0
+healthier,0.0,0.0,0.0
+health,0.0,0.0,0.0
+help get,0.0,0.0,0.0
+help kids,0.0,0.0,0.0
+help learn,0.0,0.0,0.0
+help lot,0.0,0.0,0.0
+helped,0.0,0.0,0.0
+help us,0.0,0.0,0.0
+help teachers,0.0,0.0,0.0
+help teacher,0.0,0.0,0.0
+help students,0.0,0.0,0.0
+help student,0.0,0.0,0.0
+help someone,0.0,0.0,0.0
+help school,0.0,0.0,0.0
+help produce,0.0,0.0,0.0
+help person,0.0,0.0,0.0
+help people,0.0,0.0,0.0
+help others,0.0,0.0,0.0
+help need,0.0,0.0,0.0
+help many,0.0,0.0,0.0
+help make,0.0,0.0,0.0
+head,0.0,0.0,0.0
+haze,0.0,0.0,0.0
+hawaii,0.0,0.0,0.0
+happiness,0.0,0.0,0.0
+happier,0.0,0.0,0.0
+happens,0.0,0.0,0.0
+happening,0.0,0.0,0.0
+happened,0.0,0.0,0.0
+happend,0.0,0.0,0.0
+happen,0.0,0.0,0.0
+hang friends,0.0,0.0,0.0
+hang,0.0,0.0,0.0
+hands,0.0,0.0,0.0
+handle,0.0,0.0,0.0
+hand,0.0,0.0,0.0
+hall,0.0,0.0,0.0
+half,0.0,0.0,0.0
+habits,0.0,0.0,0.0
+gym,0.0,0.0,0.0
+happier way,0.0,0.0,0.0
+happiness surprise,0.0,0.0,0.0
+havent,0.0,0.0,0.0
+happy,0.0,0.0,0.0
+hate,0.0,0.0,0.0
+hasnt,0.0,0.0,0.0
+harsh conditions,0.0,0.0,0.0
+harsh,0.0,0.0,0.0
+harmful,0.0,0.0,0.0
+harm,0.0,0.0,0.0
+hardest,0.0,0.0,0.0
+harder,0.0,0.0,0.0
+hard work,0.0,0.0,0.0
+hard time,0.0,0.0,0.0
+hard get,0.0,0.0,0.0
+hard,0.0,0.0,0.0
+happy sad,0.0,0.0,0.0
+happy percent,0.0,0.0,0.0
+happy face,0.0,0.0,0.0
+helpful,0.0,0.0,0.0
+helping people,0.0,0.0,0.0
+hundred,0.0,0.0,0.0
+hostile,0.0,0.0,0.0
+house representatives,0.0,0.0,0.0
+house,0.0,0.0,0.0
+hours,0.0,0.0,0.0
+hottest surface,0.0,0.0,0.0
+hottest,0.0,0.0,0.0
+hot,0.0,0.0,0.0
+hostile conditions,0.0,0.0,0.0
+hospital,0.0,0.0,0.0
+helps,0.0,0.0,0.0
+horses,0.0,0.0,0.0
+horrible,0.0,0.0,0.0
+hopefully,0.0,0.0,0.0
+hope carrying,0.0,0.0,0.0
+hope,0.0,0.0,0.0
+honestly,0.0,0.0,0.0
+honest,0.0,0.0,0.0
+houses,0.0,0.0,0.0
+hovering,0.0,0.0,0.0
+hovering miles,0.0,0.0,0.0
+however,0.0,0.0,0.0
+humans study,0.0,0.0,0.0
+humans encounter,0.0,0.0,0.0
+humans,0.0,0.0,0.0
+human muscles,0.0,0.0,0.0
+human instructor,0.0,0.0,0.0
+human head,0.0,0.0,0.0
+human face,0.0,0.0,0.0
+human emotions,0.0,0.0,0.0
+human driver,0.0,0.0,0.0
+human curiosity,0.0,0.0,0.0
+human,0.0,0.0,0.0
+huge rock,0.0,0.0,0.0
+huge,0.0,0.0,0.0
+huang,0.0,0.0,0.0
+however students,0.0,0.0,0.0
+homework,0.0,0.0,0.0
+homeschooling,0.0,0.0,0.0
+homes,0.0,0.0,0.0
+highway,0.0,0.0,0.0
+highly,0.0,0.0,0.0
+highest,0.0,0.0,0.0
+higher,0.0,0.0,0.0
+high school,0.0,0.0,0.0
+high pressure,0.0,0.0,0.0
+hiding,0.0,0.0,0.0
+hide,0.0,0.0,0.0
+hidden haze,0.0,0.0,0.0
+hidden,0.0,0.0,0.0
+hey,0.0,0.0,0.0
+heshe,0.0,0.0,0.0
+hes,0.0,0.0,0.0
+helps us,0.0,0.0,0.0
+helps students,0.0,0.0,0.0
+helps people,0.0,0.0,0.0
+highly corrosive,0.0,0.0,0.0
+hisher,0.0,0.0,0.0
+homeless,0.0,0.0,0.0
+history,0.0,0.0,0.0
+home would,0.0,0.0,0.0
+home way,0.0,0.0,0.0
+home students,0.0,0.0,0.0
+home schooling,0.0,0.0,0.0
+home schooled,0.0,0.0,0.0
+home school,0.0,0.0,0.0
+home online,0.0,0.0,0.0
+hollywood,0.0,0.0,0.0
+holds,0.0,0.0,0.0
+holding public,0.0,0.0,0.0
+holding,0.0,0.0,0.0
+hold,0.0,0.0,0.0
+hobby,0.0,0.0,0.0
+hobbies,0.0,0.0,0.0
+hit,0.0,0.0,0.0
+know,0.0,0.0,0.0
+know could,0.0,0.0,0.0
+guy,0.0,0.0,0.0
+look face,0.0,0.0,0.0
+looks like,0.0,0.0,0.0
+looks,0.0,0.0,0.0
+looking,0.0,0.0,0.0
+looked like,0.0,0.0,0.0
+looked,0.0,0.0,0.0
+look like,0.0,0.0,0.0
+look forward,0.0,0.0,0.0
+look,0.0,0.0,0.0
+located,0.0,0.0,0.0
+longer,0.0,0.0,0.0
+long time,0.0,0.0,0.0
+long run,0.0,0.0,0.0
+long enough,0.0,0.0,0.0
+long ago,0.0,0.0,0.0
+long,0.0,0.0,0.0
+logical,0.0,0.0,0.0
+loose,0.0,0.0,0.0
+lose,0.0,0.0,0.0
+lose virtue,0.0,0.0,0.0
+losing,0.0,0.0,0.0
+lower,0.0,0.0,0.0
+low,0.0,0.0,0.0
+loved,0.0,0.0,0.0
+love,0.0,0.0,0.0
+louisiana legislature,0.0,0.0,0.0
+louisiana,0.0,0.0,0.0
+lot time,0.0,0.0,0.0
+lot things,0.0,0.0,0.0
+lot students,0.0,0.0,0.0
+lot people,0.0,0.0,0.0
+lot money,0.0,0.0,0.0
+lot,0.0,0.0,0.0
+lost presidency,0.0,0.0,0.0
+lost,0.0,0.0,0.0
+loss,0.0,0.0,0.0
+location,0.0,0.0,0.0
+local,0.0,0.0,0.0
+know dont,0.0,0.0,0.0
+likely dispute,0.0,0.0,0.0
+limited dangers,0.0,0.0,0.0
+limited,0.0,0.0,0.0
+limit,0.0,0.0,0.0
+likes,0.0,0.0,0.0
+likely pay,0.0,0.0,0.0
+likely lead,0.0,0.0,0.0
+likely get,0.0,0.0,0.0
+likely,0.0,0.0,0.0
+living,0.0,0.0,0.0
+liked,0.0,0.0,0.0
+like would,0.0,0.0,0.0
+like students,0.0,0.0,0.0
+like state,0.0,0.0,0.0
+like sports,0.0,0.0,0.0
+like something,0.0,0.0,0.0
+like school,0.0,0.0,0.0
+limiting,0.0,0.0,0.0
+limiting car,0.0,0.0,0.0
+limits,0.0,0.0,0.0
+line,0.0,0.0,0.0
+lives,0.0,0.0,0.0
+lived texas,0.0,0.0,0.0
+lived,0.0,0.0,0.0
+live,0.0,0.0,0.0
+little bit,0.0,0.0,0.0
+little,0.0,0.0,0.0
+litter,0.0,0.0,0.0
+listing,0.0,0.0,0.0
+listening,0.0,0.0,0.0
+listen,0.0,0.0,0.0
+list,0.0,0.0,0.0
+lisa smile,0.0,0.0,0.0
+lisa,0.0,0.0,0.0
+lips,0.0,0.0,0.0
+lines,0.0,0.0,0.0
+lucky,0.0,0.0,0.0
+lucky fiasco,0.0,0.0,0.0
+luke,0.0,0.0,0.0
+make right,0.0,0.0,0.0
+make things,0.0,0.0,0.0
+make sure,0.0,0.0,0.0
+make summer,0.0,0.0,0.0
+make students,0.0,0.0,0.0
+make something,0.0,0.0,0.0
+make sense,0.0,0.0,0.0
+make school,0.0,0.0,0.0
+ability,0.0,0.0,0.0
+luke bomberger,0.0,0.0,0.0
+make people,0.0,0.0,0.0
+make new,0.0,0.0,0.0
+make look,0.0,0.0,0.0
+make kids,0.0,0.0,0.0
+make good,0.0,0.0,0.0
+make friends,0.0,0.0,0.0
+make feel,0.0,0.0,0.0
+make us,0.0,0.0,0.0
+makes,0.0,0.0,0.0
+makes sense,0.0,0.0,0.0
+making decision,0.0,0.0,0.0
+many equally,0.0,0.0,0.0
+many different,0.0,0.0,0.0
+many benefits,0.0,0.0,0.0
+manufacturers,0.0,0.0,0.0
+manner,0.0,0.0,0.0
+mandatory,0.0,0.0,0.0
+management,0.0,0.0,0.0
+manage,0.0,0.0,0.0
+man,0.0,0.0,0.0
+malin,0.0,0.0,0.0
+malapportionment senate,0.0,0.0,0.0
+malapportionment,0.0,0.0,0.0
+making sure,0.0,0.0,0.0
+making students,0.0,0.0,0.0
+making mona,0.0,0.0,0.0
+make face,0.0,0.0,0.0
+make easier,0.0,0.0,0.0
+make difference,0.0,0.0,0.0
+main reason,0.0,0.0,0.0
+magazines radio,0.0,0.0,0.0
+magazines,0.0,0.0,0.0
+made silicon,0.0,0.0,0.0
+made look,0.0,0.0,0.0
+made face,0.0,0.0,0.0
+made aliens,0.0,0.0,0.0
+made,0.0,0.0,0.0
+mad,0.0,0.0,0.0
+machines,0.0,0.0,0.0
+machine,0.0,0.0,0.0
+lying,0.0,0.0,0.0
+lunch periods,0.0,0.0,0.0
+lunch free,0.0,0.0,0.0
+lunch,0.0,0.0,0.0
+lukes,0.0,0.0,0.0
+main,0.0,0.0,0.0
+maine,0.0,0.0,0.0
+make decisions,0.0,0.0,0.0
+mainly,0.0,0.0,0.0
+make decision,0.0,0.0,0.0
+make community,0.0,0.0,0.0
+make choice,0.0,0.0,0.0
+make better,0.0,0.0,0.0
+make best,0.0,0.0,0.0
+make,0.0,0.0,0.0
+majority votes,0.0,0.0,0.0
+majority vote,0.0,0.0,0.0
+majority students,0.0,0.0,0.0
+majority people,0.0,0.0,0.0
+majority electoral,0.0,0.0,0.0
+majority,0.0,0.0,0.0
+major muscles,0.0,0.0,0.0
+major,0.0,0.0,0.0
+maintain,0.0,0.0,0.0
+like said,0.0,0.0,0.0
+like planet,0.0,0.0,0.0
+like people,0.0,0.0,0.0
+lasted three,0.0,0.0,0.0
+lava dome,0.0,0.0,0.0
+lava,0.0,0.0,0.0
+latest,0.0,0.0,0.0
+later life,0.0,0.0,0.0
+later,0.0,0.0,0.0
+late,0.0,0.0,0.0
+lastly,0.0,0.0,0.0
+lasted,0.0,0.0,0.0
+learning break,0.0,0.0,0.0
+last year,0.0,0.0,0.0
+last reason,0.0,0.0,0.0
+last long,0.0,0.0,0.0
+last least,0.0,0.0,0.0
+last,0.0,0.0,0.0
+largest media,0.0,0.0,0.0
+largest,0.0,0.0,0.0
+law,0.0,0.0,0.0
+laws,0.0,0.0,0.0
+laws vary,0.0,0.0,0.0
+laziness,0.0,0.0,0.0
+learning,0.0,0.0,0.0
+learners,0.0,0.0,0.0
+learned,0.0,0.0,0.0
+learn something,0.0,0.0,0.0
+learn new,0.0,0.0,0.0
+learn home,0.0,0.0,0.0
+learn better,0.0,0.0,0.0
+leads,0.0,0.0,0.0
+leading,0.0,0.0,0.0
+leadership,0.0,0.0,0.0
+leaders,0.0,0.0,0.0
+leader,0.0,0.0,0.0
+lead us,0.0,0.0,0.0
+lead,0.0,0.0,0.0
+lazy,0.0,0.0,0.0
+larger states,0.0,0.0,0.0
+larger,0.0,0.0,0.0
+largely oceans,0.0,0.0,0.0
+lack democratic,0.0,0.0,0.0
+lab,0.0,0.0,0.0
+knows,0.0,0.0,0.0
+known,0.0,0.0,0.0
+knowledge,0.0,0.0,0.0
+knowing,0.0,0.0,0.0
+know would,0.0,0.0,0.0
+know venus,0.0,0.0,0.0
+know students,0.0,0.0,0.0
+know student,0.0,0.0,0.0
+know person,0.0,0.0,0.0
+know people,0.0,0.0,0.0
+know much,0.0,0.0,0.0
+know going,0.0,0.0,0.0
+know exactly,0.0,0.0,0.0
+know electoral,0.0,0.0,0.0
+lack,0.0,0.0,0.0
+land,0.0,0.0,0.0
+largely,0.0,0.0,0.0
+land form,0.0,0.0,0.0
+large states,0.0,0.0,0.0
+large state,0.0,0.0,0.0
+large,0.0,0.0,0.0
+language,0.0,0.0,0.0
+landslide,0.0,0.0,0.0
+landscape,0.0,0.0,0.0
+landing hours,0.0,0.0,0.0
+landing,0.0,0.0,0.0
+landforms common,0.0,0.0,0.0
+landforms,0.0,0.0,0.0
+landform mars,0.0,0.0,0.0
+landform alien,0.0,0.0,0.0
+landform,0.0,0.0,0.0
+land venus,0.0,0.0,0.0
+land surface,0.0,0.0,0.0
+learning allows,0.0,0.0,0.0
+learning environment,0.0,0.0,0.0
+like one,0.0,0.0,0.0
+licenses,0.0,0.0,0.0
+lifes,0.0,0.0,0.0
+life would,0.0,0.0,0.0
+life skills,0.0,0.0,0.0
+life mars,0.0,0.0,0.0
+life like,0.0,0.0,0.0
+life goes,0.0,0.0,0.0
+lie,0.0,0.0,0.0
+license plates,0.0,0.0,0.0
+learning experience,0.0,0.0,0.0
+license,0.0,0.0,0.0
+library,0.0,0.0,0.0
+levels,0.0,0.0,0.0
+level electoral,0.0,0.0,0.0
+level earth,0.0,0.0,0.0
+level,0.0,0.0,0.0
+letting students,0.0,0.0,0.0
+lifestyle,0.0,0.0,0.0
+lifetime,0.0,0.0,0.0
+light,0.0,0.0,0.0
+light night,0.0,0.0,0.0
+like idea,0.0,0.0,0.0
+like human,0.0,0.0,0.0
+like help,0.0,0.0,0.0
+like face,0.0,0.0,0.0
+like electoral,0.0,0.0,0.0
+like egyptian,0.0,0.0,0.0
+like effective,0.0,0.0,0.0
+like earth,0.0,0.0,0.0
+like dont,0.0,0.0,0.0
+like could,0.0,0.0,0.0
+like,0.0,0.0,0.0
+lights,0.0,0.0,0.0
+lightning strikes,0.0,0.0,0.0
+lightning,0.0,0.0,0.0
+lighting,0.0,0.0,0.0
+letting,0.0,0.0,0.0
+letter,0.0,0.0,0.0
+lets say,0.0,0.0,0.0
+legal,0.0,0.0,0.0
+led,0.0,0.0,0.0
+leaving,0.0,0.0,0.0
+leaves,0.0,0.0,0.0
+leave cars,0.0,0.0,0.0
+leave,0.0,0.0,0.0
+least one,0.0,0.0,0.0
+least average,0.0,0.0,0.0
+least,0.0,0.0,0.0
+learns,0.0,0.0,0.0
+learning would,0.0,0.0,0.0
+learning summer,0.0,0.0,0.0
+learning students,0.0,0.0,0.0
+learning option,0.0,0.0,0.0
+learning new,0.0,0.0,0.0
+learning home,0.0,0.0,0.0
+left,0.0,0.0,0.0
+legislature,0.0,0.0,0.0
+lets,0.0,0.0,0.0
+legislature nearly,0.0,0.0,0.0
+let us,0.0,0.0,0.0
+let students,0.0,0.0,0.0
+let people,0.0,0.0,0.0
+let know,0.0,0.0,0.0
+let,0.0,0.0,0.0
+lessons,0.0,0.0,0.0
+lesson like,0.0,0.0,0.0
+lesson,0.0,0.0,0.0
+less time,0.0,0.0,0.0
+less stressful,0.0,0.0,0.0
+less stress,0.0,0.0,0.0
+less likely,0.0,0.0,0.0
+less,0.0,0.0,0.0
+legislatures technically,0.0,0.0,0.0
+legislatures,0.0,0.0,0.0
+guys,0.0,0.0,0.0
+guidelines,0.0,0.0,0.0
+driveways,0.0,0.0,0.0
+everyday life,0.0,0.0,0.0
+everywhere,0.0,0.0,0.0
+everyones president,0.0,0.0,0.0
+everyones,0.0,0.0,0.0
+everyone would,0.0,0.0,0.0
+everyone else,0.0,0.0,0.0
+everyone different,0.0,0.0,0.0
+everyone,0.0,0.0,0.0
+everyday,0.0,0.0,0.0
+every four,0.0,0.0,0.0
+everybody,0.0,0.0,0.0
+every year,0.0,0.0,0.0
+every time,0.0,0.0,0.0
+every student,0.0,0.0,0.0
+every state,0.0,0.0,0.0
+every single,0.0,0.0,0.0
+every person,0.0,0.0,0.0
+evidence,0.0,0.0,0.0
+exact,0.0,0.0,0.0
+exactly,0.0,0.0,0.0
+examine,0.0,0.0,0.0
+exist,0.0,0.0,0.0
+exercise,0.0,0.0,0.0
+exciting,0.0,0.0,0.0
+excited,0.0,0.0,0.0
+except,0.0,0.0,0.0
+excel,0.0,0.0,0.0
+exceeds,0.0,0.0,0.0
+exceed,0.0,0.0,0.0
+examples,0.0,0.0,0.0
+example would,0.0,0.0,0.0
+example students,0.0,0.0,0.0
+example student,0.0,0.0,0.0
+example one,0.0,0.0,0.0
+example,0.0,0.0,0.0
+examine closely,0.0,0.0,0.0
+every one,0.0,0.0,0.0
+every day,0.0,0.0,0.0
+fall,0.0,0.0,0.0
+erupting,0.0,0.0,0.0
+ethic,0.0,0.0,0.0
+established constitution,0.0,0.0,0.0
+established,0.0,0.0,0.0
+essential,0.0,0.0,0.0
+essay,0.0,0.0,0.0
+especially,0.0,0.0,0.0
+erupting volcanoes,0.0,0.0,0.0
+error,0.0,0.0,0.0
+ever since,0.0,0.0,0.0
+equivalent butte,0.0,0.0,0.0
+equivalent,0.0,0.0,0.0
+equipment,0.0,0.0,0.0
+equals,0.0,0.0,0.0
+equally intimidating,0.0,0.0,0.0
+equally,0.0,0.0,0.0
+equal,0.0,0.0,0.0
+europe,0.0,0.0,0.0
+even,0.0,0.0,0.0
+even bestlaid,0.0,0.0,0.0
+even better,0.0,0.0,0.0
+ever,0.0,0.0,0.0
+eventually,0.0,0.0,0.0
+events,0.0,0.0,0.0
+event,0.0,0.0,0.0
+evening star,0.0,0.0,0.0
+evening,0.0,0.0,0.0
+even worse,0.0,0.0,0.0
+even vote,0.0,0.0,0.0
+even though,0.0,0.0,0.0
+even small,0.0,0.0,0.0
+even number,0.0,0.0,0.0
+even know,0.0,0.0,0.0
+even help,0.0,0.0,0.0
+even get,0.0,0.0,0.0
+even challenging,0.0,0.0,0.0
+expand,0.0,0.0,0.0
+expanded,0.0,0.0,0.0
+expanded meet,0.0,0.0,0.0
+face natural,0.0,0.0,0.0
+facial movements,0.0,0.0,0.0
+facial expressions,0.0,0.0,0.0
+facial expression,0.0,0.0,0.0
+facial action,0.0,0.0,0.0
+facial,0.0,0.0,0.0
+faces,0.0,0.0,0.0
+faced,0.0,0.0,0.0
+face mars,0.0,0.0,0.0
+expect,0.0,0.0,0.0
+face major,0.0,0.0,0.0
+face face,0.0,0.0,0.0
+face created,0.0,0.0,0.0
+face could,0.0,0.0,0.0
+face alien,0.0,0.0,0.0
+face,0.0,0.0,0.0
+eyes nose,0.0,0.0,0.0
+facial muscles,0.0,0.0,0.0
+facing,0.0,0.0,0.0
+facs,0.0,0.0,0.0
+fact,0.0,0.0,0.0
+fake,0.0,0.0,0.0
+faithless electors,0.0,0.0,0.0
+faithless,0.0,0.0,0.0
+fairly,0.0,0.0,0.0
+fair people,0.0,0.0,0.0
+fair,0.0,0.0,0.0
+fails,0.0,0.0,0.0
+failing,0.0,0.0,0.0
+failed,0.0,0.0,0.0
+fail,0.0,0.0,0.0
+fahrenheit atmospheric,0.0,0.0,0.0
+fahrenheit,0.0,0.0,0.0
+facts,0.0,0.0,0.0
+factors,0.0,0.0,0.0
+factor,0.0,0.0,0.0
+eyes,0.0,0.0,0.0
+eye,0.0,0.0,0.0
+extremely,0.0,0.0,0.0
+explore venus,0.0,0.0,0.0
+exploration,0.0,0.0,0.0
+explanation,0.0,0.0,0.0
+explains,0.0,0.0,0.0
+explaining,0.0,0.0,0.0
+explained,0.0,0.0,0.0
+explain,0.0,0.0,0.0
+experts,0.0,0.0,0.0
+experiment,0.0,0.0,0.0
+experiences,0.0,0.0,0.0
+experienced,0.0,0.0,0.0
+experience planet,0.0,0.0,0.0
+experience,0.0,0.0,0.0
+expensive,0.0,0.0,0.0
+expected,0.0,0.0,0.0
+expectations,0.0,0.0,0.0
+explore,0.0,0.0,0.0
+exploring,0.0,0.0,0.0
+extreme anything,0.0,0.0,0.0
+exploring venus,0.0,0.0,0.0
+extreme,0.0,0.0,0.0
+extracurricular activity,0.0,0.0,0.0
+extracurricular activities,0.0,0.0,0.0
+extracurricular,0.0,0.0,0.0
+extra curricular,0.0,0.0,0.0
+extra,0.0,0.0,0.0
+expressive,0.0,0.0,0.0
+expressions students,0.0,0.0,0.0
+expressions,0.0,0.0,0.0
+expression,0.0,0.0,0.0
+expressing,0.0,0.0,0.0
+expresses,0.0,0.0,0.0
+express political,0.0,0.0,0.0
+express,0.0,0.0,0.0
+exposed,0.0,0.0,0.0
+environment would,0.0,0.0,0.0
+environment,0.0,0.0,0.0
+enviroment,0.0,0.0,0.0
+effects,0.0,0.0,0.0
+either,0.0,0.0,0.0
+eight,0.0,0.0,0.0
+egyptian,0.0,0.0,0.0
+efforts,0.0,0.0,0.0
+effort,0.0,0.0,0.0
+efficiently,0.0,0.0,0.0
+efficient,0.0,0.0,0.0
+effectively,0.0,0.0,0.0
+elections candidate,0.0,0.0,0.0
+effective human,0.0,0.0,0.0
+effective,0.0,0.0,0.0
+effect,0.0,0.0,0.0
+educators,0.0,0.0,0.0
+educational,0.0,0.0,0.0
+education system,0.0,0.0,0.0
+education,0.0,0.0,0.0
+either way,0.0,0.0,0.0
+elctoral,0.0,0.0,0.0
+elctoral college,0.0,0.0,0.0
+elderly,0.0,0.0,0.0
+election would,0.0,0.0,0.0
+election process,0.0,0.0,0.0
+election president,0.0,0.0,0.0
+election popular,0.0,0.0,0.0
+election kind,0.0,0.0,0.0
+election held,0.0,0.0,0.0
+election electoral,0.0,0.0,0.0
+election crisis,0.0,0.0,0.0
+election,0.0,0.0,0.0
+electing president,0.0,0.0,0.0
+electing,0.0,0.0,0.0
+elected president,0.0,0.0,0.0
+elected,0.0,0.0,0.0
+elect president,0.0,0.0,0.0
+elect,0.0,0.0,0.0
+educated,0.0,0.0,0.0
+edges imagination,0.0,0.0,0.0
+edges,0.0,0.0,0.0
+earth,0.0,0.0,0.0
+early,0.0,0.0,0.0
+earlier,0.0,0.0,0.0
+dumb,0.0,0.0,0.0
+due smog,0.0,0.0,0.0
+due lack,0.0,0.0,0.0
+due fact,0.0,0.0,0.0
+due,0.0,0.0,0.0
+drunk,0.0,0.0,0.0
+drop,0.0,0.0,0.0
+driving less,0.0,0.0,0.0
+driving due,0.0,0.0,0.0
+driving cars,0.0,0.0,0.0
+driving car,0.0,0.0,0.0
+driving ban,0.0,0.0,0.0
+driving,0.0,0.0,0.0
+earn,0.0,0.0,0.0
+earth beyond,0.0,0.0,0.0
+economy,0.0,0.0,0.0
+earth like,0.0,0.0,0.0
+eckman,0.0,0.0,0.0
+eating,0.0,0.0,0.0
+eat,0.0,0.0,0.0
+easy conditions,0.0,0.0,0.0
+easy,0.0,0.0,0.0
+easier,0.0,0.0,0.0
+ease,0.0,0.0,0.0
+earths twin,0.0,0.0,0.0
+earths,0.0,0.0,0.0
+earthquakes frequent,0.0,0.0,0.0
+earthquakes,0.0,0.0,0.0
+earthlike planet,0.0,0.0,0.0
+earthlike,0.0,0.0,0.0
+earth venus,0.0,0.0,0.0
+earth terms,0.0,0.0,0.0
+elections,0.0,0.0,0.0
+elections people,0.0,0.0,0.0
+enviorment,0.0,0.0,0.0
+encounter earth,0.0,0.0,0.0
+ended,0.0,0.0,0.0
+endeavors,0.0,0.0,0.0
+end day,0.0,0.0,0.0
+end car,0.0,0.0,0.0
+end,0.0,0.0,0.0
+encouraged,0.0,0.0,0.0
+encourage,0.0,0.0,0.0
+encounter,0.0,0.0,0.0
+elector,0.0,0.0,0.0
+enables,0.0,0.0,0.0
+emotions like,0.0,0.0,0.0
+emotions also,0.0,0.0,0.0
+emotions,0.0,0.0,0.0
+emotional expressions,0.0,0.0,0.0
+emotion universal,0.0,0.0,0.0
+emotion,0.0,0.0,0.0
+energy,0.0,0.0,0.0
+enforced,0.0,0.0,0.0
+enforced partial,0.0,0.0,0.0
+engage,0.0,0.0,0.0
+entitled,0.0,0.0,0.0
+entirely,0.0,0.0,0.0
+entire,0.0,0.0,0.0
+entertainment,0.0,0.0,0.0
+ensures,0.0,0.0,0.0
+ensure,0.0,0.0,0.0
+enough time,0.0,0.0,0.0
+enough electoral,0.0,0.0,0.0
+enough,0.0,0.0,0.0
+enjoying,0.0,0.0,0.0
+enjoyed,0.0,0.0,0.0
+enjoyable,0.0,0.0,0.0
+enjoy,0.0,0.0,0.0
+english,0.0,0.0,0.0
+engaged,0.0,0.0,0.0
+emissions,0.0,0.0,0.0
+emergency,0.0,0.0,0.0
+email,0.0,0.0,0.0
+electors new,0.0,0.0,0.0
+electors majority,0.0,0.0,0.0
+electors generally,0.0,0.0,0.0
+electors equals,0.0,0.0,0.0
+electors electors,0.0,0.0,0.0
+electors electoral,0.0,0.0,0.0
+electors elect,0.0,0.0,0.0
+electors could,0.0,0.0,0.0
+electors chosen,0.0,0.0,0.0
+electors,0.0,0.0,0.0
+electorial college,0.0,0.0,0.0
+electorial,0.0,0.0,0.0
+electoral votes,0.0,0.0,0.0
+electoral vote,0.0,0.0,0.0
+electoral colleges,0.0,0.0,0.0
+electoral collage,0.0,0.0,0.0
+electors meeting,0.0,0.0,0.0
+electors pledged,0.0,0.0,0.0
+elses,0.0,0.0,0.0
+electors selected,0.0,0.0,0.0
+else,0.0,0.0,0.0
+elisabeth rosenthal,0.0,0.0,0.0
+elisabeth,0.0,0.0,0.0
+eliminate,0.0,0.0,0.0
+eletoral,0.0,0.0,0.0
+elementary school,0.0,0.0,0.0
+elementary,0.0,0.0,0.0
+electronics made,0.0,0.0,0.0
+electronic,0.0,0.0,0.0
+electors would,0.0,0.0,0.0
+electors winning,0.0,0.0,0.0
+electors vote,0.0,0.0,0.0
+electors turn,0.0,0.0,0.0
+electors trusted,0.0,0.0,0.0
+electors treated,0.0,0.0,0.0
+fake smile,0.0,0.0,0.0
+fall behind,0.0,0.0,0.0
+guide,0.0,0.0,0.0
+get trouble,0.0,0.0,0.0
+getting advice,0.0,0.0,0.0
+getting,0.0,0.0,0.0
+gets attention,0.0,0.0,0.0
+gets,0.0,0.0,0.0
+get work,0.0,0.0,0.0
+get votes,0.0,0.0,0.0
+get vote,0.0,0.0,0.0
+get see,0.0,0.0,0.0
+get job,0.0,0.0,0.0
+get school,0.0,0.0,0.0
+get rid,0.0,0.0,0.0
+get people,0.0,0.0,0.0
+get one,0.0,0.0,0.0
+get multiple,0.0,0.0,0.0
+get much,0.0,0.0,0.0
+get mad,0.0,0.0,0.0
+getting multiple,0.0,0.0,0.0
+getting rid,0.0,0.0,0.0
+girl,0.0,0.0,0.0
+give,0.0,0.0,0.0
+go,0.0,0.0,0.0
+global surveyor,0.0,0.0,0.0
+global city,0.0,0.0,0.0
+global,0.0,0.0,0.0
+giving students,0.0,0.0,0.0
+giving illusion,0.0,0.0,0.0
+giving,0.0,0.0,0.0
+gives us,0.0,0.0,0.0
+gives students,0.0,0.0,0.0
+gives,0.0,0.0,0.0
+given opportunity,0.0,0.0,0.0
+given,0.0,0.0,0.0
+give us,0.0,0.0,0.0
+give students,0.0,0.0,0.0
+give people,0.0,0.0,0.0
+get know,0.0,0.0,0.0
+get information,0.0,0.0,0.0
+falling,0.0,0.0,0.0
+generation,0.0,0.0,0.0
+german,0.0,0.0,0.0
+george bush,0.0,0.0,0.0
+george,0.0,0.0,0.0
+geology,0.0,0.0,0.0
+genericschool,0.0,0.0,0.0
+genericname,0.0,0.0,0.0
+generations,0.0,0.0,0.0
+generally chosen,0.0,0.0,0.0
+get hurt,0.0,0.0,0.0
+generally,0.0,0.0,0.0
+general,0.0,0.0,0.0
+gave,0.0,0.0,0.0
+gasoline,0.0,0.0,0.0
+gases,0.0,0.0,0.0
+gas emissions,0.0,0.0,0.0
+gas,0.0,0.0,0.0
+german suburb,0.0,0.0,0.0
+germany,0.0,0.0,0.0
+get advice,0.0,0.0,0.0
+get around,0.0,0.0,0.0
+get home,0.0,0.0,0.0
+get help,0.0,0.0,0.0
+get good,0.0,0.0,0.0
+get electoral,0.0,0.0,0.0
+get education,0.0,0.0,0.0
+get done,0.0,0.0,0.0
+get confused,0.0,0.0,0.0
+get close,0.0,0.0,0.0
+get choose,0.0,0.0,0.0
+get chance,0.0,0.0,0.0
+get caught,0.0,0.0,0.0
+get car,0.0,0.0,0.0
+get bored,0.0,0.0,0.0
+get better,0.0,0.0,0.0
+get back,0.0,0.0,0.0
+go back,0.0,0.0,0.0
+go get,0.0,0.0,0.0
+go home,0.0,0.0,0.0
+grades,0.0,0.0,0.0
+greater,0.0,0.0,0.0
+great way,0.0,0.0,0.0
+great thing,0.0,0.0,0.0
+great idea,0.0,0.0,0.0
+great,0.0,0.0,0.0
+graduate,0.0,0.0,0.0
+grading,0.0,0.0,0.0
+grade average,0.0,0.0,0.0
+go school,0.0,0.0,0.0
+grade,0.0,0.0,0.0
+gps,0.0,0.0,0.0
+governor prepares,0.0,0.0,0.0
+governor,0.0,0.0,0.0
+government,0.0,0.0,0.0
+goverment,0.0,0.0,0.0
+gotten,0.0,0.0,0.0
+greater experience,0.0,0.0,0.0
+greatly,0.0,0.0,0.0
+greece,0.0,0.0,0.0
+green,0.0,0.0,0.0
+guidance,0.0,0.0,0.0
+guess,0.0,0.0,0.0
+growth,0.0,0.0,0.0
+growing,0.0,0.0,0.0
+grow,0.0,0.0,0.0
+groups,0.0,0.0,0.0
+group people,0.0,0.0,0.0
+group electors,0.0,0.0,0.0
+group,0.0,0.0,0.0
+ground conditions,0.0,0.0,0.0
+ground,0.0,0.0,0.0
+grocery store,0.0,0.0,0.0
+grocery,0.0,0.0,0.0
+greenhouse gas,0.0,0.0,0.0
+greenhouse,0.0,0.0,0.0
+gore popular,0.0,0.0,0.0
+gore,0.0,0.0,0.0
+google,0.0,0.0,0.0
+gon na,0.0,0.0,0.0
+going venus,0.0,0.0,0.0
+going school,0.0,0.0,0.0
+going make,0.0,0.0,0.0
+going help,0.0,0.0,0.0
+going get,0.0,0.0,0.0
+going around,0.0,0.0,0.0
+going,0.0,0.0,0.0
+goes without,0.0,0.0,0.0
+goes,0.0,0.0,0.0
+god,0.0,0.0,0.0
+goals,0.0,0.0,0.0
+goal,0.0,0.0,0.0
+go wrong,0.0,0.0,0.0
+go vote,0.0,0.0,0.0
+go venus,0.0,0.0,0.0
+gon,0.0,0.0,0.0
+gone,0.0,0.0,0.0
+good way,0.0,0.0,0.0
+good,0.0,0.0,0.0
+good things,0.0,0.0,0.0
+good thing,0.0,0.0,0.0
+good students,0.0,0.0,0.0
+good school,0.0,0.0,0.0
+good reasons,0.0,0.0,0.0
+good reason,0.0,0.0,0.0
+good people,0.0,0.0,0.0
+good opportunity,0.0,0.0,0.0
+good job,0.0,0.0,0.0
+good idea,0.0,0.0,0.0
+good grades,0.0,0.0,0.0
+good grade,0.0,0.0,0.0
+good enough,0.0,0.0,0.0
+good bad,0.0,0.0,0.0
+good advice,0.0,0.0,0.0
+garvin,0.0,0.0,0.0
+garbage,0.0,0.0,0.0
+garages,0.0,0.0,0.0
+fellow,0.0,0.0,0.0
+fight,0.0,0.0,0.0
+field,0.0,0.0,0.0
+fiasco biggest,0.0,0.0,0.0
+fiasco,0.0,0.0,0.0
+fewer,0.0,0.0,0.0
+fencing,0.0,0.0,0.0
+felt,0.0,0.0,0.0
+fell,0.0,0.0,0.0
+first time,0.0,0.0,0.0
+feels,0.0,0.0,0.0
+feelings,0.0,0.0,0.0
+feeling simply,0.0,0.0,0.0
+feeling,0.0,0.0,0.0
+feel like,0.0,0.0,0.0
+feel good,0.0,0.0,0.0
+feel comfortable,0.0,0.0,0.0
+fights,0.0,0.0,0.0
+figure,0.0,0.0,0.0
+figured,0.0,0.0,0.0
+fill,0.0,0.0,0.0
+first monday,0.0,0.0,0.0
+finished,0.0,0.0,0.0
+finish,0.0,0.0,0.0
+fined,0.0,0.0,0.0
+fine,0.0,0.0,0.0
+finding,0.0,0.0,0.0
+find way,0.0,0.0,0.0
+find new,0.0,0.0,0.0
+find,0.0,0.0,0.0
+finally,0.0,0.0,0.0
+final reason,0.0,0.0,0.0
+final decision,0.0,0.0,0.0
+final,0.0,0.0,0.0
+film,0.0,0.0,0.0
+filled,0.0,0.0,0.0
+feel better,0.0,0.0,0.0
+feedback,0.0,0.0,0.0
+feed,0.0,0.0,0.0
+faster,0.0,0.0,0.0
+fascinated venus,0.0,0.0,0.0
+fascinated,0.0,0.0,0.0
+farm,0.0,0.0,0.0
+far extreme,0.0,0.0,0.0
+far away,0.0,0.0,0.0
+far,0.0,0.0,0.0
+fantastic,0.0,0.0,0.0
+famous,0.0,0.0,0.0
+family member,0.0,0.0,0.0
+family friends,0.0,0.0,0.0
+family,0.0,0.0,0.0
+families,0.0,0.0,0.0
+familiar features,0.0,0.0,0.0
+familiar,0.0,0.0,0.0
+false,0.0,0.0,0.0
+fast,0.0,0.0,0.0
+fate,0.0,0.0,0.0
+federal register,0.0,0.0,0.0
+father,0.0,0.0,0.0
+federal,0.0,0.0,0.0
+features valleys,0.0,0.0,0.0
+features,0.0,0.0,0.0
+feature,0.0,0.0,0.0
+fearful percent,0.0,0.0,0.0
+fearful,0.0,0.0,0.0
+fear sadness,0.0,0.0,0.0
+fear,0.0,0.0,0.0
+favorite,0.0,0.0,0.0
+favor mostly,0.0,0.0,0.0
+favor keeping,0.0,0.0,0.0
+favor,0.0,0.0,0.0
+fault,0.0,0.0,0.0
+fathers established,0.0,0.0,0.0
+fathers,0.0,0.0,0.0
+first place,0.0,0.0,0.0
+fit,0.0,0.0,0.0
+games,0.0,0.0,0.0
+free time,0.0,0.0,0.0
+friend feeling,0.0,0.0,0.0
+friend,0.0,0.0,0.0
+frequent lightning,0.0,0.0,0.0
+frequent,0.0,0.0,0.0
+french,0.0,0.0,0.0
+freedom,0.0,0.0,0.0
+free times,0.0,0.0,0.0
+free,0.0,0.0,0.0
+fits,0.0,0.0,0.0
+fray,0.0,0.0,0.0
+france,0.0,0.0,0.0
+four years,0.0,0.0,0.0
+four,0.0,0.0,0.0
+founding fathers,0.0,0.0,0.0
+founding,0.0,0.0,0.0
+found,0.0,0.0,0.0
+friend genericname,0.0,0.0,0.0
+friends,0.0,0.0,0.0
+friends family,0.0,0.0,0.0
+front,0.0,0.0,0.0
+game,0.0,0.0,0.0
+gallup poll,0.0,0.0,0.0
+gallup,0.0,0.0,0.0
+gained planet,0.0,0.0,0.0
+gained,0.0,0.0,0.0
+gain,0.0,0.0,0.0
+future,0.0,0.0,0.0
+furthermore,0.0,0.0,0.0
+functions,0.0,0.0,0.0
+function,0.0,0.0,0.0
+fun,0.0,0.0,0.0
+fully,0.0,0.0,0.0
+full,0.0,0.0,0.0
+fuel,0.0,0.0,0.0
+frown,0.0,0.0,0.0
+forward,0.0,0.0,0.0
+forth,0.0,0.0,0.0
+forms life,0.0,0.0,0.0
+focusing,0.0,0.0,0.0
+focus,0.0,0.0,0.0
+fly,0.0,0.0,0.0
+florida,0.0,0.0,0.0
+float fray,0.0,0.0,0.0
+float,0.0,0.0,0.0
+flexible,0.0,0.0,0.0
+flexibility,0.0,0.0,0.0
+flew cydonia,0.0,0.0,0.0
+flew,0.0,0.0,0.0
+flaws,0.0,0.0,0.0
+flawed,0.0,0.0,0.0
+fixed,0.0,0.0,0.0
+fix,0.0,0.0,0.0
+five reasons,0.0,0.0,0.0
+five,0.0,0.0,0.0
+focused,0.0,0.0,0.0
+focusing tight,0.0,0.0,0.0
+forms,0.0,0.0,0.0
+follow,0.0,0.0,0.0
+formed shadows,0.0,0.0,0.0
+formed,0.0,0.0,0.0
+formation resembles,0.0,0.0,0.0
+formation,0.0,0.0,0.0
+form isolated,0.0,0.0,0.0
+form,0.0,0.0,0.0
+forget,0.0,0.0,0.0
+forever,0.0,0.0,0.0
+forcing,0.0,0.0,0.0
+forces,0.0,0.0,0.0
+forced,0.0,0.0,0.0
+force,0.0,0.0,0.0
+football,0.0,0.0,0.0
+food,0.0,0.0,0.0
+following,0.0,0.0,0.0
+discourse_type_Rebuttal,0.0,0.0,0.0

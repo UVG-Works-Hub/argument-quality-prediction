@@ -8,6 +8,8 @@ import torch
 from tensorflow.keras.models import load_model
 import torch
 import torch.nn as nn
+import plotly.express as px
+import pandas as pd
 
 class NeuralNetPyTorch(nn.Module):
     def __init__(self, input_size, num_classes):
@@ -104,50 +106,79 @@ def predict(log_reg, xgb, keras_nn, pytorch_nn, le, tfidf, scaler, ohe, text_inp
 def show():
     st.title("Predicciones de Efectividad del Discurso")
 
-    # Ingresar el texto
+    # Text input for the discourse
     text_input = st.text_area("Ingresa el texto del discurso", "")
 
-    # Ingresar el tipo de discurso
-    discourse_type_options = ['Concluding Statement',
-       'Counterclaim', 'Evidence',
-       'Lead', 'Position',
-       'Rebuttal']  # Replace these with your actual discourse types
+    # Discourse type selection
+    discourse_type_options = ['Concluding Statement', 'Counterclaim', 'Evidence', 'Lead', 'Position', 'Rebuttal']
     discourse_type = st.selectbox("Selecciona el tipo de discurso", discourse_type_options)
 
     if st.button("Predecir"):
         if text_input and discourse_type:
+            # Load models
             log_reg, xgb, keras_nn, pytorch_nn, le, tfidf, scaler, ohe = load_models()
+
+            # Make predictions
             (log_reg_class, log_reg_prob_class, log_reg_probs), \
             (xgb_class, xgb_prob_class, xgb_probs), \
             (keras_class, keras_prob_class, keras_probs), \
             (pytorch_class, pytorch_prob_class, pytorch_probs) = predict(
-                log_reg, xgb, keras_nn, pytorch_nn, le, tfidf, scaler, ohe, text_input, discourse_type)
+                log_reg, xgb, keras_nn, pytorch_nn, le, tfidf, scaler, ohe, text_input, discourse_type
+            )
 
-            st.write("### Resultados de las predicciones:")
+            # Determine the overall predicted class based on majority vote
+            model_predictions = [log_reg_class, xgb_class, keras_class, pytorch_class]
+            majority_class = max(set(model_predictions), key=model_predictions.count)
+            majority_count = model_predictions.count(majority_class)
 
-            # Display predicted class and probability
-            st.write(f"1. **Regresión Logística:** {log_reg_class} (Probabilidad: {log_reg_prob_class * 100:.2f}%)")
-            st.write(f"2. **XGBoost:** {xgb_class} (Probabilidad: {xgb_prob_class * 100:.2f}%)")
-            st.write(f"3. **Red Neuronal Keras:** {keras_class} (Probabilidad: {keras_prob_class * 100:.2f}%)")
-            st.write(f"4. **Red Neuronal PyTorch:** {pytorch_class} (Probabilidad: {pytorch_prob_class * 100:.2f}%)")
+            st.markdown(f"""
+                <div style="
+                    background-color: #262730;
+                    padding: 20px;
+                    border-radius: 10px;
+                    border: 1px solid #ddd;
+                    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1)
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                ">
+                    <h3 style="color: #fafafa;">Predicción General: <span style="color: #007bff;">{majority_class}</span></h3>
+                    <p style="font-size: 18px; color: #fafafa;">{majority_count} de 4 modelos predicen esta clase</p>
+                </div>
+            """, unsafe_allow_html=True)
 
-            # Display probabilities for all classes
-            st.write("### Probabilidades para todas las clases:")
+            # Individual model predictions
+            st.write("### Resultados de las predicciones por modelo:")
+            predictions_df = pd.DataFrame({
+                'Modelo': ['Regresión Logística', 'XGBoost', 'Red Neuronal Keras', 'Red Neuronal PyTorch'],
+                'Clase Predicha': [log_reg_class, xgb_class, keras_class, pytorch_class],
+                'Probabilidad (%)': [log_reg_prob_class * 100, xgb_prob_class * 100, keras_prob_class * 100, pytorch_prob_class * 100]
+            })
+
+            fig_individual = px.bar(predictions_df, x='Modelo', y='Probabilidad (%)', color='Clase Predicha',
+                                    text='Clase Predicha', title="Clase Predicha y Probabilidad por Modelo")
+            fig_individual.update_traces(textposition='outside')
+            st.plotly_chart(fig_individual)
+
+            # Probabilities for all classes across models
+            st.write("### Probabilidades para todas las clases por modelo:")
             class_names = le.classes_
-            st.write("#### Regresión Logística:")
-            for i, prob in enumerate(log_reg_probs):
-                st.write(f"{class_names[i]}: {prob * 100:.2f}%")
+            probabilities_data = {
+                'Clase': list(class_names) * 4,
+                'Probabilidad (%)': [
+                    *[prob * 100 for prob in log_reg_probs],
+                    *[prob * 100 for prob in xgb_probs],
+                    *[prob * 100 for prob in keras_probs],
+                    *[prob * 100 for prob in pytorch_probs]
+                ],
+                'Modelo': ['Regresión Logística'] * len(class_names) + ['XGBoost'] * len(class_names) +
+                          ['Red Neuronal Keras'] * len(class_names) + ['Red Neuronal PyTorch'] * len(class_names)
+            }
+            probabilities_df = pd.DataFrame(probabilities_data)
 
-            st.write("#### XGBoost:")
-            for i, prob in enumerate(xgb_probs):
-                st.write(f"{class_names[i]}: {prob * 100:.2f}%")
+            # Displaying probabilities in a grouped bar chart
+            fig_probs = px.bar(probabilities_df, x='Clase', y='Probabilidad (%)', color='Modelo', barmode='group',
+                               title="Probabilidades para Todas las Clases por Modelo")
+            st.plotly_chart(fig_probs)
 
-            st.write("#### Red Neuronal Keras:")
-            for i, prob in enumerate(keras_probs):
-                st.write(f"{class_names[i]}: {prob * 100:.2f}%")
-
-            st.write("#### Red Neuronal PyTorch:")
-            for i, prob in enumerate(pytorch_probs):
-                st.write(f"{class_names[i]}: {prob * 100:.2f}%")
         else:
             st.warning("Por favor ingresa un texto y selecciona un tipo de discurso para realizar la predicción.")

@@ -1,5 +1,5 @@
 import streamlit as st
-from app.pages import home, metrics
+from app.pages import home, metrics, predictions
 
 def main():
     st.set_page_config(page_title="Classification Model", layout="wide")
@@ -13,8 +13,8 @@ def main():
         home.show()
     elif page == "Metrics":
         metrics.show()
-    # elif page == "Predictions":
-    #     prediction.show()
+    elif page == "Predictions":
+        predictions.show()
 
 if __name__ == "__main__":
     main()

@@ -1,9 +1,9 @@
 import streamlit as st
 
 def show():
-    st.title("Welcome to the Speech Effectiveness Prediction System")
+    st.title("Welcome to the Argument Effectiveness Prediction System")
     st.write("""
-        This application allows you to upload new text data and predict the effectiveness of speech using different machine learning models,
+        This application allows you to upload new text data and predict the effectiveness of arguments using different machine learning models,
         such as logistic regression, XGBoost, and neural networks with Keras and PyTorch.
     """)
     st.write("### Available Models:")

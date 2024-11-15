@@ -28,16 +28,16 @@ class NeuralNetPyTorch(nn.Module):
         x = self.fc3(x)
         return x
 
-# Cargar los modelos y codificadores
+# Load models and encoders
 def load_models():
     log_reg = joblib.load('saved/models/logistic_regression.pkl')
     xgb = joblib.load('saved/models/xgboost.pkl')
     keras_nn = load_model('saved/models/keras_nn_model.h5')
 
     # Recreate the PyTorch model architecture and load the weights
-    pytorch_nn = NeuralNetPyTorch(input_size=5007, num_classes=3)  # Change input_size and num_classes as needed
+    pytorch_nn = NeuralNetPyTorch(input_size=5007, num_classes=3)
     pytorch_nn.load_state_dict(torch.load('saved/models/best_pytorch_nn_model.pth'))
-    pytorch_nn.eval()  # Set the model to evaluation mode
+    pytorch_nn.eval()
 
     le = joblib.load('saved/encoders/label_encoder.pkl')
     tfidf = joblib.load('saved/encoders/tfidf_vectorizer.pkl')
@@ -46,53 +46,52 @@ def load_models():
 
     return log_reg, xgb, keras_nn, pytorch_nn, le, tfidf, scaler, ohe
 
-
 def predict(log_reg, xgb, keras_nn, pytorch_nn, le, tfidf, scaler, ohe, text_input, discourse_type):
-    # Preprocesar los datos
+    # Preprocess the data
     text_transformed = tfidf.transform([text_input])
     text_length = np.array([[len(text_input)]])
     text_length_scaled = scaler.transform(text_length)
 
-    # Codificar el discourse_type usando el OneHotEncoder
+    # Encode discourse_type using OneHotEncoder
     discourse_transformed = ohe.transform([[discourse_type]])
 
-    # Concatenar todas las características
+    # Concatenate all features
     features = np.hstack([text_transformed.toarray(), text_length_scaled, discourse_transformed.toarray()])
 
-    # Hacer predicciones y obtener las probabilidades
-    # Logistic Regression (probabilities using predict_proba)
+    # Make predictions and get probabilities
+    # Logistic Regression
     log_reg_prob = log_reg.predict_proba(features)
     log_reg_pred = log_reg.predict(features)
 
-    # XGBoost (probabilities using predict_proba)
+    # XGBoost
     xgb_prob = xgb.predict_proba(features)
     xgb_pred = xgb.predict(features)
 
-    # Keras (probabilities using model.predict)
+    # Keras
     keras_prob = keras_nn.predict(features)
     keras_pred = np.argmax(keras_prob, axis=1)
 
-    # PyTorch (probabilities using softmax)
+    # PyTorch
     pytorch_nn.eval()
     with torch.no_grad():
         inputs = torch.tensor(features, dtype=torch.float32)
         outputs = pytorch_nn(inputs)
-        pytorch_prob = torch.nn.functional.softmax(outputs, dim=1).numpy()  # Softmax to get probabilities
+        pytorch_prob = torch.nn.functional.softmax(outputs, dim=1).numpy()
         _, pytorch_pred = torch.max(outputs, 1)
 
-    # Decodificar las predicciones
+    # Decode predictions
     log_reg_class = le.inverse_transform(log_reg_pred)[0]
     xgb_class = le.inverse_transform(xgb_pred)[0]
     keras_class = le.inverse_transform(keras_pred)[0]
     pytorch_class = le.inverse_transform(pytorch_pred.numpy())[0]
 
-    # Get the probabilities for all classes
-    log_reg_probs = log_reg_prob[0]  # Probabilities for all classes
-    xgb_probs = xgb_prob[0]  # Probabilities for all classes
-    keras_probs = keras_prob[0]  # Probabilities for all classes
-    pytorch_probs = pytorch_prob[0]  # Probabilities for all classes
+    # Get probabilities for all classes
+    log_reg_probs = log_reg_prob[0]
+    xgb_probs = xgb_prob[0]
+    keras_probs = keras_prob[0]
+    pytorch_probs = pytorch_prob[0]
 
-    # Get the probability for the predicted class
+    # Get probability for the predicted class
     log_reg_prob_class = log_reg_prob[0][log_reg_pred[0]]
     xgb_prob_class = xgb_prob[0][xgb_pred[0]]
     keras_prob_class = keras_prob[0][keras_pred[0]]
@@ -104,16 +103,16 @@ def predict(log_reg, xgb, keras_nn, pytorch_nn, le, tfidf, scaler, ohe, text_inp
            (pytorch_class, pytorch_prob_class, pytorch_probs)
 
 def show():
-    st.title("Predicciones de Efectividad del Discurso")
+    st.title("Speech Effectiveness Predictions")
 
     # Text input for the discourse
-    text_input = st.text_area("Ingresa el texto del discurso", "")
+    text_input = st.text_area("Enter the text of the speech", "")
 
     # Discourse type selection
-    discourse_type_options = ['Concluding Statement', 'Counterclaim', 'Evidence', 'Lead', 'Position', 'Rebuttal']
-    discourse_type = st.selectbox("Selecciona el tipo de discurso", discourse_type_options)
+    discourse_type_options = ['Claim', 'Concluding Statement', 'Counterclaim', 'Evidence', 'Lead', 'Position', 'Rebuttal']
+    discourse_type = st.selectbox("Select the type of discourse", discourse_type_options)
 
-    if st.button("Predecir"):
+    if st.button("Predict"):
         if text_input and discourse_type:
             # Load models
             log_reg, xgb, keras_nn, pytorch_nn, le, tfidf, scaler, ohe = load_models()
@@ -141,44 +140,44 @@ def show():
                     margin-top: 20px;
                     margin-bottom: 20px;
                 ">
-                    <h3 style="color: #fafafa;">Predicción General: <span style="color: #007bff;">{majority_class}</span></h3>
-                    <p style="font-size: 18px; color: #fafafa;">{majority_count} de 4 modelos predicen esta clase</p>
+                    <h3 style="color: #fafafa;">Overall Prediction: <span style="color: #007bff;">{majority_class}</span></h3>
+                    <p style="font-size: 18px; color: #fafafa;">{majority_count} out of 4 models predict this class</p>
                 </div>
             """, unsafe_allow_html=True)
 
             # Individual model predictions
-            st.write("### Resultados de las predicciones por modelo:")
+            st.write("### Prediction Results by Model:")
             predictions_df = pd.DataFrame({
-                'Modelo': ['Regresión Logística', 'XGBoost', 'Red Neuronal Keras', 'Red Neuronal PyTorch'],
-                'Clase Predicha': [log_reg_class, xgb_class, keras_class, pytorch_class],
-                'Probabilidad (%)': [log_reg_prob_class * 100, xgb_prob_class * 100, keras_prob_class * 100, pytorch_prob_class * 100]
+                'Model': ['Logistic Regression', 'XGBoost', 'Keras Neural Network', 'PyTorch Neural Network'],
+                'Predicted Class': [log_reg_class, xgb_class, keras_class, pytorch_class],
+                'Probability (%)': [log_reg_prob_class * 100, xgb_prob_class * 100, keras_prob_class * 100, pytorch_prob_class * 100]
             })
 
-            fig_individual = px.bar(predictions_df, x='Modelo', y='Probabilidad (%)', color='Clase Predicha',
-                                    text='Clase Predicha', title="Clase Predicha y Probabilidad por Modelo")
+            fig_individual = px.bar(predictions_df, x='Model', y='Probability (%)', color='Predicted Class',
+                                    text='Predicted Class', title="Predicted Class and Probability by Model")
             fig_individual.update_traces(textposition='outside')
             st.plotly_chart(fig_individual)
 
             # Probabilities for all classes across models
-            st.write("### Probabilidades para todas las clases por modelo:")
+            st.write("### Class Probabilities by Model:")
             class_names = le.classes_
             probabilities_data = {
-                'Clase': list(class_names) * 4,
-                'Probabilidad (%)': [
+                'Class': list(class_names) * 4,
+                'Probability (%)': [
                     *[prob * 100 for prob in log_reg_probs],
                     *[prob * 100 for prob in xgb_probs],
                     *[prob * 100 for prob in keras_probs],
                     *[prob * 100 for prob in pytorch_probs]
                 ],
-                'Modelo': ['Regresión Logística'] * len(class_names) + ['XGBoost'] * len(class_names) +
-                          ['Red Neuronal Keras'] * len(class_names) + ['Red Neuronal PyTorch'] * len(class_names)
+                'Model': ['Logistic Regression'] * len(class_names) + ['XGBoost'] * len(class_names) +
+                          ['Keras Neural Network'] * len(class_names) + ['PyTorch Neural Network'] * len(class_names)
             }
             probabilities_df = pd.DataFrame(probabilities_data)
 
             # Displaying probabilities in a grouped bar chart
-            fig_probs = px.bar(probabilities_df, x='Clase', y='Probabilidad (%)', color='Modelo', barmode='group',
-                               title="Probabilidades para Todas las Clases por Modelo")
+            fig_probs = px.bar(probabilities_df, x='Class', y='Probability (%)', color='Model', barmode='group',
+                               title="Class Probabilities by Model")
             st.plotly_chart(fig_probs)
 
         else:
-            st.warning("Por favor ingresa un texto y selecciona un tipo de discurso para realizar la predicción.")
+            st.warning("Please enter a text and select a discourse type to make a prediction.")
